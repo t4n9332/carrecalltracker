@@ -7,16 +7,19 @@
 <meta name="description" content="Search U.S. vehicle safety recalls by make and model, explained in plain English. Data from NHTSA, updated daily.">
 
 <link rel="canonical" href="https://carrecalltracker.com/">
+<link rel="icon" href="/static/favicon.svg" type="image/svg+xml">
+<meta name="theme-color" content="#0b5cad">
 <link rel="stylesheet" href="/static/style.css">
 <link rel="alternate" type="application/rss+xml" title="Car Recall Tracker — new recalls" href="/feed.xml">
 <script src="/static/app.js" defer></script>
 
 </head>
 <body>
-<header class="top"><a class="brand" href="/">Car Recall Tracker</a>
+<header class="top"><a class="brand" href="/"><svg class="logo" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="7" fill="currentColor"/><path d="M16 5 7 8.5v7c0 5.6 3.8 10.4 9 12 5.2-1.6 9-6.400 9-12v-7z" fill="var(--bg)"/><path d="m11.5 16 3.2 3.2 5.8-6.400" fill="none" stroke="currentColor" stroke-width="2.600" stroke-linecap="round" stroke-linejoin="round"/></svg>Car Recall Tracker</a>
 <nav><a href="/#makes">Makes</a> <a href="/guides/">Guides</a> <a href="/do-not-drive/">Do not drive</a> <a href="/about/">About</a></nav></header>
 <main>
 
+<div class="hero">
 <h1>Is your car under recall?</h1>
 <p class="lead">2,263 safety recalls from NHTSA, sorted by make and model and explained in everyday language. Recall repairs are always free at a franchised dealer.</p>
 <section class="finder">
@@ -29,12 +32,13 @@
 <input id="vin" name="vin" maxlength="17" autocomplete="off" spellcheck="false" placeholder="17 characters">
 <button type="submit">Find my vehicle</button></form>
 <p id="vin-msg" class="meta" role="status"></p>
-<p class="meta">Your VIN is sent straight from your browser to NHTSA's public decoder to identify the year, make and model — we never receive or store it. We then show the recalls for that model year. To see which of them are still <em>unrepaired</em> on your exact car, use the <a href="https://www.nhtsa.gov/recalls" rel="nofollow">official NHTSA VIN lookup</a>.</p>
+<details class="meta"><summary>We never see your VIN — how this works</summary>Your VIN goes straight from your browser to NHTSA's public decoder to identify the year, make and model; we never receive or store it. We then show the recalls for that model year. To see which are still <em>unrepaired</em> on your exact car, use the <a href="https://www.nhtsa.gov/recalls" rel="nofollow">official NHTSA VIN lookup</a>.</details>
 </section>
-<ul class="grid hub"><li><a href="/do-not-drive/">Do-not-drive recalls</a> <small>26 advisories — stop driving until repaired</small></li>
-<li><a href="/park-outside/">Park-outside recalls</a> <small>59 advisories — fire risk while parked</small></li>
-<li><a href="/guides/">Problem guides</a> <small>312 guides: is it safe to drive, what gets fixed</small></li>
-<li><a href="/watchlist/">No-recall watchlist</a> <small>Most-complained problems without a recall</small></li></ul>
+</div>
+<ul class="grid hub"><li class="hub-stop"><a href="/do-not-drive/">Do-not-drive recalls</a> <small>26 advisories — stop driving until repaired</small></li>
+<li class="hub-fire"><a href="/park-outside/">Park-outside recalls</a> <small>59 advisories — fire risk while parked</small></li>
+<li class="hub-guide"><a href="/guides/">Problem guides</a> <small>312 guides: is it safe to drive, what gets fixed</small></li>
+<li class="hub-watch"><a href="/watchlist/">No-recall watchlist</a> <small>Most-complained problems without a recall</small></li></ul>
 <h2 id="makes">Browse by make</h2>
 <ul class="grid"><li><a href="/acura/">Acura</a> <small>10 models</small></li><li><a href="/audi/">Audi</a> <small>37 models</small></li><li><a href="/bmw/">BMW</a> <small>57 models</small></li><li><a href="/buick/">Buick</a> <small>7 models</small></li><li><a href="/cadillac/">Cadillac</a> <small>15 models</small></li><li><a href="/chevrolet/">Chevrolet</a> <small>37 models</small></li><li><a href="/chrysler/">Chrysler</a> <small>4 models</small></li><li><a href="/dodge/">Dodge</a> <small>7 models</small></li><li><a href="/ford/">Ford</a> <small>39 models</small></li><li><a href="/genesis/">Genesis</a> <small>6 models</small></li><li><a href="/gmc/">GMC</a> <small>13 models</small></li><li><a href="/honda/">Honda</a> <small>38 models</small></li><li><a href="/hyundai/">Hyundai</a> <small>29 models</small></li><li><a href="/infiniti/">Infiniti</a> <small>9 models</small></li><li><a href="/jeep/">Jeep</a> <small>12 models</small></li><li><a href="/kia/">Kia</a> <small>25 models</small></li><li><a href="/lexus/">Lexus</a> <small>16 models</small></li><li><a href="/lincoln/">Lincoln</a> <small>11 models</small></li><li><a href="/mazda/">Mazda</a> <small>10 models</small></li><li><a href="/mercedes-benz/">Mercedes-Benz</a> <small>48 models</small></li><li><a href="/mini/">MINI</a> <small>7 models</small></li><li><a href="/mitsubishi/">Mitsubishi</a> <small>6 models</small></li><li><a href="/nissan/">Nissan</a> <small>19 models</small></li><li><a href="/polestar/">Polestar</a> <small>2 models</small></li><li><a href="/porsche/">Porsche</a> <small>40 models</small></li><li><a href="/ram/">RAM</a> <small>7 models</small></li><li><a href="/rivian/">Rivian</a> <small>3 models</small></li><li><a href="/subaru/">Subaru</a> <small>11 models</small></li><li><a href="/tesla/">Tesla</a> <small>4 models</small></li><li><a href="/toyota/">Toyota</a> <small>40 models</small></li><li><a href="/volkswagen/">Volkswagen</a> <small>15 models</small></li><li><a href="/volvo/">Volvo</a> <small>17 models</small></li></ul>
 <h2>Latest recalls</h2>

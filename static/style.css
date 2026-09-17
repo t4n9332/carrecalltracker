@@ -33,3 +33,20 @@ ul.grid.hub{grid-template-columns:repeat(auto-fill,minmax(230px,1fr));margin-top
 .chips button[aria-pressed=true]{background:var(--acc);color:var(--bg);border-color:var(--acc)}
 .contact{border:1px solid var(--line);border-radius:10px;padding:12px 16px;margin:12px 0}.contact p{margin:4px 0}
 [hidden]{display:none!important}
+
+:root{--red:#b42318;--red-bg:#fef3f2;--amber:#b54708;--amber-bg:#fffaeb;--blue-bg:#eff6ff;--hero:#f3f7fc}
+@media(prefers-color-scheme:dark){:root{--red:#ff8a80;--red-bg:#2d1513;--amber:#ffb74d;--amber-bg:#2e2210;--blue-bg:#13233a;--hero:#161d27}}
+.brand{display:inline-flex;align-items:center;gap:8px}.logo{width:26px;height:26px;color:var(--acc);flex:none}
+.ico{width:1.15em;height:1.15em;flex:none;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;vertical-align:-.18em;margin-right:.4em;color:var(--acc)}
+.hero{background:var(--hero);border-radius:16px;padding:6px 20px 16px;margin-top:18px}.hero h1{font-size:2rem}.hero .finder{background:var(--bg);margin-bottom:4px}
+.finder details{margin-top:8px}.finder summary{cursor:pointer}
+ul.grid.hub li{border-left-width:4px}.hub-stop{border-left-color:var(--red)!important;background:var(--red-bg)}.hub-stop a{color:var(--red)}
+.hub-fire{border-left-color:var(--amber)!important;background:var(--amber-bg)}.hub-fire a{color:var(--amber)}
+.hub-guide{border-left-color:var(--acc)!important;background:var(--blue-bg)}.hub-watch{border-left-color:var(--mut)!important}
+.verdict{border-left:5px solid var(--mut);border-radius:8px;padding:10px 16px;margin:14px 0;background:var(--hero)}.verdict p{margin:6px 0}
+.verdict-label{font-weight:600;font-size:.9rem}.verdict-label .sev{margin:0 8px 0 0}.verdict-label a{font-weight:400;margin-left:6px;font-size:.85rem}
+.verdict-critical{border-left-color:#c00;background:var(--red-bg)}.verdict-high{border-left-color:var(--red);background:var(--red-bg)}
+.verdict-medium{border-left-color:var(--amber);background:var(--amber-bg)}
+.card{border-left-width:4px}.card-critical{border-left-color:#c00}.card-high{border-left-color:var(--red)}.card-medium{border-left-color:var(--amber)}
+details>summary{cursor:pointer;color:var(--acc);margin:8px 0}
+@media(max-width:560px){.hero{padding:2px 14px 12px;border-radius:12px}.hero h1{font-size:1.6rem}}
