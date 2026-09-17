@@ -8,6 +8,8 @@
 
 <link rel="canonical" href="https://carrecalltracker.com/bmw/x2/">
 <link rel="stylesheet" href="/static/style.css">
+<link rel="alternate" type="application/rss+xml" title="Car Recall Tracker — new recalls" href="/feed.xml">
+<script src="/static/app.js" defer></script>
 
 </head>
 <body>
@@ -18,8 +20,10 @@
 <p class="crumb"><a href="/">Home</a> › <a href="/bmw/">BMW</a> › X2</p>
 <h1>BMW X2 recalls</h1>
 <p class="lead">7 recalls covering model years 2018, 2019, 2020, 2024, 2025. To check whether <em>your</em> vehicle is affected, look up your 17-character VIN at <a href="https://www.nhtsa.gov/recalls" rel="nofollow">nhtsa.gov/recalls</a> — a recall may apply only to some vehicles of a given year.</p>
+<div class="chips" role="group" aria-label="Filter by model year"><button type="button" data-year-chip="" aria-pressed="true">All years</button><button type="button" data-year-chip="2018" aria-pressed="false">2018</button><button type="button" data-year-chip="2019" aria-pressed="false">2019</button><button type="button" data-year-chip="2020" aria-pressed="false">2020</button><button type="button" data-year-chip="2024" aria-pressed="false">2024</button><button type="button" data-year-chip="2025" aria-pressed="false">2025</button></div>
+<p id="year-count" class="meta" role="status"></p>
 
-<article class="card">
+<article class="card" data-years="2025">
 <h2><a href="/recall/26v422000/">BMW, MINI integrated brakes may fail, need inspection</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2026-07-01 · Campaign 26V422000 · Model years: 2025</p>
@@ -27,7 +31,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2025">
 <h2><a href="/recall/25v616000/">BMW and MINI front seat belts may not restrain</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2025-09-17 · Campaign 25V616000 · Model years: 2025</p>
@@ -35,7 +39,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2024">
 <h2><a href="/recall/24v697000/">BMW and MINI vehicles may lose brake assist power</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2024-09-18 · Campaign 24V697000 · Model years: 2024</p>
@@ -43,7 +47,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2024 2025">
 <h2><a href="/recall/24v104000/">BMW, MINI brake system can lose power assist</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2024-02-12 · Campaign 24V104000 · Model years: 2024, 2025</p>
@@ -51,7 +55,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2020">
 <h2><a href="/recall/20v283000/">BMW X1, X2 and MINI airbags may not deploy</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2020-05-20 · Campaign 20V283000 · Model years: 2020</p>
@@ -59,7 +63,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2019">
 <h2><a href="/recall/19v601000/">BMW and MINI steering tie rod may break</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2019-08-14 · Campaign 19V601000 · Model years: 2019</p>
@@ -67,7 +71,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018">
 <h2><a href="/recall/18v465000/">BMW and MINI crankshaft sensor fault can stall engine</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2018-07-12 · Campaign 18V465000 · Model years: 2018</p>

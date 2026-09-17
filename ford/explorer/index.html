@@ -8,6 +8,8 @@
 
 <link rel="canonical" href="https://carrecalltracker.com/ford/explorer/">
 <link rel="stylesheet" href="/static/style.css">
+<link rel="alternate" type="application/rss+xml" title="Car Recall Tracker — new recalls" href="/feed.xml">
+<script src="/static/app.js" defer></script>
 
 </head>
 <body>
@@ -18,8 +20,10 @@
 <p class="crumb"><a href="/">Home</a> › <a href="/ford/">Ford</a> › Explorer</p>
 <h1>Ford Explorer recalls</h1>
 <p class="lead">68 recalls covering model years 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025. To check whether <em>your</em> vehicle is affected, look up your 17-character VIN at <a href="https://www.nhtsa.gov/recalls" rel="nofollow">nhtsa.gov/recalls</a> — a recall may apply only to some vehicles of a given year.</p>
+<div class="chips" role="group" aria-label="Filter by model year"><button type="button" data-year-chip="" aria-pressed="true">All years</button><button type="button" data-year-chip="2018" aria-pressed="false">2018</button><button type="button" data-year-chip="2019" aria-pressed="false">2019</button><button type="button" data-year-chip="2020" aria-pressed="false">2020</button><button type="button" data-year-chip="2021" aria-pressed="false">2021</button><button type="button" data-year-chip="2022" aria-pressed="false">2022</button><button type="button" data-year-chip="2023" aria-pressed="false">2023</button><button type="button" data-year-chip="2024" aria-pressed="false">2024</button><button type="button" data-year-chip="2025" aria-pressed="false">2025</button></div>
+<p id="year-count" class="meta" role="status"></p>
 
-<article class="card">
+<article class="card" data-years="2025">
 <h2><a href="/recall/26v470000/">Ford Explorer and Lincoln Aviator driver&#39;s seat reclines unexpectedly</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2026-07-21 · Campaign 26V470000 · Model years: 2025</p>
@@ -27,7 +31,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018 2019">
 <h2><a href="/recall/26v448000/">Ford Explorer Roof Rail Covers Can Come Off</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2026-07-14 · Campaign 26V448000 · Model years: 2018, 2019</p>
@@ -35,7 +39,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2020 2021 2022 2023 2024 2025">
 <h2><a href="/recall/26v451000/">More Ford Explorer and Lincoln Aviator second-row seats may move</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2026-07-14 · Campaign 26V451000 · Model years: 2020, 2021, 2022, 2023, 2024, 2025</p>
@@ -43,7 +47,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2020 2021">
 <h2><a href="/recall/26v402000/">Ford Expedition, Explorer and Lincoln SUVs May Roll Away</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2026-06-24 · Campaign 26V402000 · Model years: 2020, 2021</p>
@@ -51,7 +55,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2024">
 <h2><a href="/recall/26v371000/">Ford Explorer may not hold in Park, risking rollaway</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2026-06-09 · Campaign 26V371000 · Model years: 2024</p>
@@ -59,7 +63,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2025">
 <h2><a href="/recall/26v343000/">Ford Explorer engine may fail, causing power loss</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2026-05-27 · Campaign 26V343000 · Model years: 2025</p>
@@ -67,7 +71,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2025">
 <h2><a href="/recall/26v165000/">Ford Explorer and Lincoln SUVs lose rearview camera</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2026-03-19 · Campaign 26V165000 · Model years: 2025</p>
@@ -75,7 +79,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2020 2021 2022 2023 2024 2025">
 <h2><a href="/recall/26v159000/">Ford Explorer and Aviator seat belt anchor bolts loose</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2026-03-17 · Campaign 26V159000 · Model years: 2020, 2021, 2022, 2023, 2024, 2025</p>
@@ -83,23 +87,7 @@
 
 </article>
 
-<article class="card">
-<h2><a href="/recall/26v123000/">Ford Escape, Explorer, Lincoln backup camera image may flip</a>
-<span class="sev sev-medium">medium</span></h2>
-<p class="meta">Reported 2026-03-03 · Campaign 26V123000 · Model years: 2020, 2021, 2022, 2023, 2024</p>
-<p>When you shift into reverse, the picture from the backup camera can show up flipped or upside down on the center screen. A reversed image makes it hard to tell what is actually behind you and which way to steer, so you could back into a person or an object. It is a software problem, and the dealer will load the correct software into the screen system at no cost.</p>
-
-</article>
-
-<article class="card">
-<h2><a href="/recall/26v121000/">Ford Explorer headlight can swivel the wrong way</a>
-<span class="sev sev-medium">medium</span></h2>
-<p class="meta">Reported 2026-03-03 · Campaign 26V121000 · Model years: 2025</p>
-<p>These Explorers have headlights that swivel to follow the road as you steer through a curve. Because of a software error, the passenger-side headlight can turn the wrong direction, pointing away from where the road is going. A beam aimed that way can shine into the eyes of oncoming drivers and people nearby, making it harder for them to see what is in front of them. The fix is a software update, done at a dealer or sent to the vehicle wirelessly.</p>
-
-</article>
-
-<article class="card">
+<article class="card" data-years="2020 2021 2022">
 <h2><a href="/recall/26v117000/">Ford Explorer, Escape and Lincoln wiper motors may quit</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2026-03-03 · Campaign 26V117000 · Model years: 2020, 2021, 2022</p>
@@ -107,7 +95,15 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2025">
+<h2><a href="/recall/26v121000/">Ford Explorer headlight can swivel the wrong way</a>
+<span class="sev sev-medium">medium</span></h2>
+<p class="meta">Reported 2026-03-03 · Campaign 26V121000 · Model years: 2025</p>
+<p>These Explorers have headlights that swivel to follow the road as you steer through a curve. Because of a software error, the passenger-side headlight can turn the wrong direction, pointing away from where the road is going. A beam aimed that way can shine into the eyes of oncoming drivers and people nearby, making it harder for them to see what is in front of them. The fix is a software update, done at a dealer or sent to the vehicle wirelessly.</p>
+
+</article>
+
+<article class="card" data-years="2025">
 <h2><a href="/recall/26v122000/">Ford Explorer, Mustang, Lincoln Nautilus can lose driving power</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2026-03-03 · Campaign 26V122000 · Model years: 2025</p>
@@ -115,7 +111,15 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2020 2021 2022 2023 2024">
+<h2><a href="/recall/26v123000/">Ford Escape, Explorer, Lincoln backup camera image may flip</a>
+<span class="sev sev-medium">medium</span></h2>
+<p class="meta">Reported 2026-03-03 · Campaign 26V123000 · Model years: 2020, 2021, 2022, 2023, 2024</p>
+<p>When you shift into reverse, the picture from the backup camera can show up flipped or upside down on the center screen. A reversed image makes it hard to tell what is actually behind you and which way to steer, so you could back into a person or an object. It is a software problem, and the dealer will load the correct software into the screen system at no cost.</p>
+
+</article>
+
+<article class="card" data-years="2018 2019">
 <h2><a href="/recall/26v101000/">Ford Explorer rear suspension toe link may break</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2026-02-20 · Campaign 26V101000 · Model years: 2018, 2019</p>
@@ -123,7 +127,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2019 2024">
 <h2><a href="/recall/26v012000/">Ford Focus and Explorer block heaters can short, causing fire</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2026-01-15 · Campaign 26V012000 · Model years: 2019, 2024</p>
@@ -131,7 +135,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2025">
 <h2><a href="/recall/25v730000/">Ford Explorer and Lincoln Windshields May Have Air Bubbles</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2025-10-24 · Campaign 25V730000 · Model years: 2025</p>
@@ -139,15 +143,7 @@
 
 </article>
 
-<article class="card">
-<h2><a href="/recall/25v687000/">Ford Explorer and Lincoln Aviator trailer hitch bolts may loosen</a>
-<span class="sev sev-high">high</span></h2>
-<p class="meta">Reported 2025-10-10 · Campaign 25V687000 · Model years: 2024, 2025</p>
-<p>The bolts that hold the trailer hitch onto your Explorer or Aviator may not be tight enough. Over time those loose bolts can let the hitch shift or work its way free. If that happens while you are pulling a trailer, the vehicle can become hard to steer and control, or the trailer can come off the back of your vehicle entirely. A dealer will check every hitch bolt and tighten it, or put in new bolts if any are damaged.</p>
-
-</article>
-
-<article class="card">
+<article class="card" data-years="2018 2020 2021 2022 2023">
 <h2><a href="/recall/25v685000/">Ford and Lincoln engine block heaters can catch fire</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2025-10-10 · Campaign 25V685000 · Model years: 2018, 2020, 2021, 2022, 2023</p>
@@ -155,7 +151,15 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2024 2025">
+<h2><a href="/recall/25v687000/">Ford Explorer and Lincoln Aviator trailer hitch bolts may loosen</a>
+<span class="sev sev-high">high</span></h2>
+<p class="meta">Reported 2025-10-10 · Campaign 25V687000 · Model years: 2024, 2025</p>
+<p>The bolts that hold the trailer hitch onto your Explorer or Aviator may not be tight enough. Over time those loose bolts can let the hitch shift or work its way free. If that happens while you are pulling a trailer, the vehicle can become hard to steer and control, or the trailer can come off the back of your vehicle entirely. A dealer will check every hitch bolt and tighten it, or put in new bolts if any are damaged.</p>
+
+</article>
+
+<article class="card" data-years="2025">
 <h2><a href="/recall/25v543000/">Ford Explorer and Lincoln Aviator trailer lights may fail</a>
 <span class="sev sev-low">low</span></h2>
 <p class="meta">Reported 2025-08-22 · Campaign 25V543000 · Model years: 2025</p>
@@ -163,7 +167,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2021 2022 2023">
 <h2><a href="/recall/25v455000/">Ford and Lincoln fuel pump failure can stall the engine</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2025-07-07 · Campaign 25V455000 · Model years: 2021, 2022, 2023</p>
@@ -171,7 +175,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2020 2021 2022 2023 2024">
 <h2><a href="/recall/25v442000/">Ford and Lincoln rearview camera image may go blank</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2025-06-27 · Campaign 25V442000 · Model years: 2020, 2021, 2022, 2023, 2024</p>
@@ -179,15 +183,7 @@
 
 </article>
 
-<article class="card">
-<h2><a href="/recall/25v344000/">Ford Explorer connecting rods may fail, causing engine stall</a>
-<span class="sev sev-high">high</span></h2>
-<p class="meta">Reported 2025-06-13 · Campaign 25V344000 · Model years: 2025</p>
-<p>Some parts deep inside the engine — the connecting rods and their bearings — may have been made wrong. Over time those flawed parts can damage the engine, and the engine can fail while you are driving. If that happens, the vehicle can lose power and stall, possibly in traffic or at highway speed. The dealer will inspect the connecting rods and, if there is a problem, replace the main engine assembly at no cost to you.</p>
-
-</article>
-
-<article class="card">
+<article class="card" data-years="2020 2021 2022 2023 2024 2025">
 <h2><a href="/recall/25v393000/">Ford Explorer and Lincoln Aviator second-row seats may shift</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2025-06-13 · Campaign 25V393000 · Model years: 2020, 2021, 2022, 2023, 2024, 2025</p>
@@ -195,7 +191,15 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2025">
+<h2><a href="/recall/25v344000/">Ford Explorer connecting rods may fail, causing engine stall</a>
+<span class="sev sev-high">high</span></h2>
+<p class="meta">Reported 2025-06-13 · Campaign 25V344000 · Model years: 2025</p>
+<p>Some parts deep inside the engine — the connecting rods and their bearings — may have been made wrong. Over time those flawed parts can damage the engine, and the engine can fail while you are driving. If that happens, the vehicle can lose power and stall, possibly in traffic or at highway speed. The dealer will inspect the connecting rods and, if there is a problem, replace the main engine assembly at no cost to you.</p>
+
+</article>
+
+<article class="card" data-years="2025">
 <h2><a href="/recall/25v371000/">Ford Explorer front brake caliper bolts may loosen</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2025-06-03 · Campaign 25V371000 · Model years: 2025</p>
@@ -203,7 +207,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2025">
 <h2><a href="/recall/25v316000/">Ford Explorer and Lincoln Aviator subframe bolt may be loose</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2025-05-09 · Campaign 25V316000 · Model years: 2025</p>
@@ -211,7 +215,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2025">
 <h2><a href="/recall/25v239000/">Ford Explorer computer glitch causes stalls and rollaway</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2025-04-11 · Campaign 25V239000 · Model years: 2025</p>
@@ -219,15 +223,7 @@
 
 </article>
 
-<article class="card">
-<h2><a href="/recall/25v164000/">Ford and Lincoln transmission may cause unexpected vehicle movement</a>
-<span class="sev sev-critical">critical</span></h2>
-<p class="meta">Reported 2025-03-14 · Campaign 25V164000 · Model years: 2025</p>
-<p>Ford is recalling certain 2024-2025 F-150 and Bronco, 2024 Ranger, and 2025 Mustang, Explorer and Aviator vehicles. A part inside the transmission that routes fluid to the gears, called the valve body, may have been machined incorrectly. Reverse gear can fail, or the vehicle can move forward unexpectedly when you have selected reverse or neutral. That kind of surprise movement can cause a crash. Dealers will replace the valve body at no cost.</p>
-
-</article>
-
-<article class="card">
+<article class="card" data-years="2020 2021 2022">
 <h2><a href="/recall/25v166000/">Ford Explorer rear axle bolt can break, dropping driveshaft</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2025-03-14 · Campaign 25V166000 · Model years: 2020, 2021, 2022</p>
@@ -235,7 +231,15 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2025">
+<h2><a href="/recall/25v164000/">Ford and Lincoln transmission may cause unexpected vehicle movement</a>
+<span class="sev sev-critical">critical</span></h2>
+<p class="meta">Reported 2025-03-14 · Campaign 25V164000 · Model years: 2025</p>
+<p>Ford is recalling certain 2024-2025 F-150 and Bronco, 2024 Ranger, and 2025 Mustang, Explorer and Aviator vehicles. A part inside the transmission that routes fluid to the gears, called the valve body, may have been machined incorrectly. Reverse gear can fail, or the vehicle can move forward unexpectedly when you have selected reverse or neutral. That kind of surprise movement can cause a crash. Dealers will replace the valve body at no cost.</p>
+
+</article>
+
+<article class="card" data-years="2020 2021 2022 2023">
 <h2><a href="/recall/25v159000/">Ford Explorer and Lincoln backup camera recall needs redo</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2025-03-14 · Campaign 25V159000 · Model years: 2020, 2021, 2022, 2023</p>
@@ -243,7 +247,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2020 2021">
 <h2><a href="/recall/25v093000/">Ford Explorer and Lincoln Aviator seat belt bolts loose</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2025-02-14 · Campaign 25V093000 · Model years: 2020, 2021</p>
@@ -251,7 +255,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2025">
 <h2><a href="/recall/25v020000/">Ford Explorer and Lincoln Aviator transmission bolts loose</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2025-01-17 · Campaign 25V020000 · Model years: 2025</p>
@@ -259,7 +263,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2020 2021 2022 2023 2024 2025">
 <h2><a href="/recall/24v852000/">Ford and Lincoln vehicles missing dashboard airbag warning label</a>
 <span class="sev sev-low">low</span></h2>
 <p class="meta">Reported 2024-11-08 · Campaign 24V852000 · Model years: 2020, 2021, 2022, 2023, 2024, 2025</p>
@@ -267,7 +271,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2025">
 <h2><a href="/recall/24v801000/">Ford Explorer and Lincoln Aviator backup camera can shut off</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2024-10-25 · Campaign 24V801000 · Model years: 2025</p>
@@ -275,7 +279,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2024">
 <h2><a href="/recall/24v685000/">Ford Explorer Hybrid battery cable can rub and spark fire</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2024-09-13 · Campaign 24V685000 · Model years: 2024</p>
@@ -283,15 +287,7 @@
 
 </article>
 
-<article class="card">
-<h2><a href="/recall/24v634000/">Ford and Lincoln fuel injectors may leak gasoline</a>
-<span class="sev sev-critical">critical</span></h2>
-<p class="meta">Reported 2024-08-23 · Campaign 24V634000 · Model years: 2025</p>
-<p>The fuel injectors spray gasoline into the engine. On these vehicles, some injectors were put together at the factory without a small support disc that helps the rubber seal hold tight. Without that disc, gasoline can leak out. If leaking fuel reaches something hot, such as the engine or exhaust, it can catch fire. Only certain vehicles built with the faulty assembly are affected. A dealer will install new seals and the missing support discs at no cost.</p>
-
-</article>
-
-<article class="card">
+<article class="card" data-years="2021 2022">
 <h2><a href="/recall/24v635000/">Ford and Lincoln EcoBoost engines can break, losing power</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2024-08-23 · Campaign 24V635000 · Model years: 2021, 2022</p>
@@ -299,7 +295,15 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2025">
+<h2><a href="/recall/24v634000/">Ford and Lincoln fuel injectors may leak gasoline</a>
+<span class="sev sev-critical">critical</span></h2>
+<p class="meta">Reported 2024-08-23 · Campaign 24V634000 · Model years: 2025</p>
+<p>The fuel injectors spray gasoline into the engine. On these vehicles, some injectors were put together at the factory without a small support disc that helps the rubber seal hold tight. Without that disc, gasoline can leak out. If leaking fuel reaches something hot, such as the engine or exhaust, it can catch fire. Only certain vehicles built with the faulty assembly are affected. A dealer will install new seals and the missing support discs at no cost.</p>
+
+</article>
+
+<article class="card" data-years="2020 2021 2022">
 <h2><a href="/recall/24v598000/">Ford Explorer Police Interceptor engine fire risk</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2024-08-10 · Campaign 24V598000 · Model years: 2020, 2021, 2022</p>
@@ -307,7 +311,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2020">
 <h2><a href="/recall/24v188000/">Ford Explorer backup camera image goes blank or scrambled</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2024-03-08 · Campaign 24V188000 · Model years: 2020</p>
@@ -315,7 +319,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2023">
 <h2><a href="/recall/24v091000/">Ford Explorer front suspension bolt may be loose or missing</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2024-02-08 · Campaign 24V091000 · Model years: 2023</p>
@@ -323,7 +327,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018 2019">
 <h2><a href="/recall/24v031000/">Ford Explorer windshield pillar trim can fall off</a>
 <span class="sev sev-low">low</span></h2>
 <p class="meta">Reported 2024-01-19 · Campaign 24V031000 · Model years: 2018, 2019</p>
@@ -331,7 +335,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2023">
 <h2><a href="/recall/23v686000/">Ford Explorer backup camera can show blank blue screen</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2023-10-13 · Campaign 23V686000 · Model years: 2023</p>
@@ -339,7 +343,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2020 2021 2022">
 <h2><a href="/recall/23v675000/">Ford Explorer bolt may break and disconnect driveshaft</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2023-10-06 · Campaign 23V675000 · Model years: 2020, 2021, 2022</p>
@@ -347,7 +351,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2020 2021 2022">
 <h2><a href="/recall/23v626000/">Ford Explorer and Lincoln Aviator plug-in hybrid battery can fail</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2023-09-08 · Campaign 23V626000 · Model years: 2020, 2021, 2022</p>
@@ -355,7 +359,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2023">
 <h2><a href="/recall/23v597000/">Ford Explorer turbo oil leak may cause engine fire</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2023-08-25 · Campaign 23V597000 · Model years: 2023</p>
@@ -363,7 +367,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2020 2021 2022 2023">
 <h2><a href="/recall/23v342000/">Ford Explorer and Lincoln SUVs: backup camera image can vanish</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2023-05-12 · Campaign 23V342000 · Model years: 2020, 2021, 2022, 2023</p>
@@ -371,7 +375,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2020 2021 2022">
 <h2><a href="/recall/23v305000/">Ford Explorer Police Interceptor backup camera may not display</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2023-04-28 · Campaign 23V305000 · Model years: 2020, 2021, 2022</p>
@@ -379,7 +383,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2020 2021 2022">
 <h2><a href="/recall/23v199000/">Ford Explorer driveshaft may disconnect and vehicle can roll away</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2023-03-24 · Campaign 23V199000 · Model years: 2020, 2021, 2022</p>
@@ -387,7 +391,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2020 2021 2022">
 <h2><a href="/recall/23v069000/">Ford Explorer may not stay in park, rolling away</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2023-02-10 · Campaign 23V069000 · Model years: 2020, 2021, 2022</p>
@@ -395,7 +399,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2022 2023">
 <h2><a href="/recall/23v070000/">Ford and Lincoln SUVs may roll away from Park</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2023-02-10 · Campaign 23V070000 · Model years: 2022, 2023</p>
@@ -403,7 +407,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2020 2021 2022 2023">
 <h2><a href="/recall/23v022000/">Ford Explorer and Lincoln SUVs may lose backup camera</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2023-01-23 · Campaign 23V022000 · Model years: 2020, 2021, 2022, 2023</p>
@@ -411,7 +415,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2022">
 <h2><a href="/recall/22v685000/">Ford Explorer and Ranger fuel line may leak gasoline</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2022-09-14 · Campaign 22V685000 · Model years: 2022</p>
@@ -419,7 +423,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2022">
 <h2><a href="/recall/22v454000/">Ford Explorer and Lincoln Aviator engine rails may be weak</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2022-06-24 · Campaign 22V454000 · Model years: 2022</p>
@@ -427,7 +431,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2022">
 <h2><a href="/recall/22v088000/">Ford Explorer, Lincoln Aviator fuel filler tube may detach</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2022-02-16 · Campaign 22V088000 · Model years: 2022</p>
@@ -435,7 +439,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2021">
 <h2><a href="/recall/21v870000/">Ford Explorer and Lincoln Aviator got wrong rear suspension parts</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2021-11-10 · Campaign 21V870000 · Model years: 2021</p>
@@ -443,7 +447,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2020 2021">
 <h2><a href="/recall/21v735000/">Ford Explorer and Lincoln SUVs lose rearview camera image</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2021-09-22 · Campaign 21V735000 · Model years: 2020, 2021</p>
@@ -451,7 +455,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2021">
 <h2><a href="/recall/21v652000/">Ford Explorer, Lincoln Aviator side airbags may fail</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2021-08-23 · Campaign 21V652000 · Model years: 2021</p>
@@ -459,7 +463,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018 2019">
 <h2><a href="/recall/21v316000/">Ford Explorer roof rail covers can come off</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2021-05-05 · Campaign 21V316000 · Model years: 2018, 2019</p>
@@ -467,7 +471,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2020">
 <h2><a href="/recall/21v154000/">Ford Explorer and Lincoln Aviator rear suspension bolts can break</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2021-03-10 · Campaign 21V154000 · Model years: 2020</p>
@@ -475,7 +479,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2020 2021">
 <h2><a href="/recall/20v788000/">Ford Explorer and Lincoln Aviator may lose power</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2020-12-17 · Campaign 20V788000 · Model years: 2020, 2021</p>
@@ -483,7 +487,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2020">
 <h2><a href="/recall/20v730000/">Ford Explorer fuel tank may leak in crash, fire risk</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2020-11-24 · Campaign 20V730000 · Model years: 2020</p>
@@ -491,7 +495,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2020">
 <h2><a href="/recall/20v693000/">Ford Explorer and Lincoln Aviator drive shaft can break</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2020-11-10 · Campaign 20V693000 · Model years: 2020</p>
@@ -499,7 +503,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2020">
 <h2><a href="/recall/20v575000/">Ford and Lincoln backup camera image may go blank</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2020-09-23 · Campaign 20V575000 · Model years: 2020</p>
@@ -507,7 +511,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2020">
 <h2><a href="/recall/20v549000/">Ford Explorer second-row center seat belt buckle may be loose</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2020-09-10 · Campaign 20V549000 · Model years: 2020</p>
@@ -515,7 +519,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2020">
 <h2><a href="/recall/20v497000/">Ford Explorer, Lincoln Aviator side airbag bolts may be loose</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2020-08-21 · Campaign 20V497000 · Model years: 2020</p>
@@ -523,7 +527,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2020">
 <h2><a href="/recall/19v859000/">Ford Explorer and Lincoln Aviator may leak fuel</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2019-12-04 · Campaign 19V859000 · Model years: 2020</p>
@@ -531,7 +535,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2020">
 <h2><a href="/recall/19v687000/">Ford Explorer wiring can rub through and cause fire</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2019-09-30 · Campaign 19V687000 · Model years: 2020</p>
@@ -539,7 +543,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018 2019 2020">
 <h2><a href="/recall/19v633000/">Ford and Lincoln seat backs may be dangerously weak</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2019-08-28 · Campaign 19V633000 · Model years: 2018, 2019, 2020</p>
@@ -547,7 +551,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2020">
 <h2><a href="/recall/19v575000/">Ford Explorer, Lincoln Aviator: missing cover risks rollaway</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2019-08-05 · Campaign 19V575000 · Model years: 2020</p>
@@ -555,7 +559,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018">
 <h2><a href="/recall/18v807000/">Ford Explorer fuel pressure sensor may leak gasoline</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2018-11-14 · Campaign 18V807000 · Model years: 2018</p>

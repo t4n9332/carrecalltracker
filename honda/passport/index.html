@@ -8,6 +8,8 @@
 
 <link rel="canonical" href="https://carrecalltracker.com/honda/passport/">
 <link rel="stylesheet" href="/static/style.css">
+<link rel="alternate" type="application/rss+xml" title="Car Recall Tracker — new recalls" href="/feed.xml">
+<script src="/static/app.js" defer></script>
 
 </head>
 <body>
@@ -18,8 +20,10 @@
 <p class="crumb"><a href="/">Home</a> › <a href="/honda/">Honda</a> › Passport</p>
 <h1>Honda Passport recalls</h1>
 <p class="lead">16 recalls covering model years 2019, 2020, 2021, 2022, 2023, 2024. To check whether <em>your</em> vehicle is affected, look up your 17-character VIN at <a href="https://www.nhtsa.gov/recalls" rel="nofollow">nhtsa.gov/recalls</a> — a recall may apply only to some vehicles of a given year.</p>
+<div class="chips" role="group" aria-label="Filter by model year"><button type="button" data-year-chip="" aria-pressed="true">All years</button><button type="button" data-year-chip="2019" aria-pressed="false">2019</button><button type="button" data-year-chip="2020" aria-pressed="false">2020</button><button type="button" data-year-chip="2021" aria-pressed="false">2021</button><button type="button" data-year-chip="2022" aria-pressed="false">2022</button><button type="button" data-year-chip="2023" aria-pressed="false">2023</button><button type="button" data-year-chip="2024" aria-pressed="false">2024</button></div>
+<p id="year-count" class="meta" role="status"></p>
 
-<article class="card">
+<article class="card" data-years="2019 2020 2021 2022 2023">
 <h2><a href="/recall/26v365000/">Honda, Acura SUVs: rear frame can rust through</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2026-06-04 · Campaign 26V365000 · Model years: 2019, 2020, 2021, 2022, 2023</p>
@@ -27,7 +31,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2019 2020 2021">
 <h2><a href="/recall/26v332000/">Honda and Acura seat sensor may cause unintended airbag deployment</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2026-05-21 · Campaign 26V332000 · Model years: 2019, 2020, 2021</p>
@@ -35,7 +39,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2023 2024">
 <h2><a href="/recall/24v900000/">Honda Pilot and Passport fuel pipe may leak gas</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2024-11-27 · Campaign 24V900000 · Model years: 2023, 2024</p>
@@ -43,7 +47,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2023">
 <h2><a href="/recall/24v184000/">Honda Passport and Ridgeline may lose steering control</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2024-03-07 · Campaign 24V184000 · Model years: 2023</p>
@@ -51,7 +55,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2020 2021">
 <h2><a href="/recall/24v064000/">Honda and Acura passenger seat sensor may crack, airbag risk</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2024-02-01 · Campaign 24V064000 · Model years: 2020, 2021</p>
@@ -59,7 +63,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2019 2020 2021">
 <h2><a href="/recall/23v858000/">Honda and Acura fuel pump can fail, stalling engine</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2023-12-18 · Campaign 23V858000 · Model years: 2019, 2020, 2021</p>
@@ -67,7 +71,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2021 2022 2023">
 <h2><a href="/recall/23v458000/">Honda Civic, Pilot and Acura MDX Brake Failure Risk</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2023-06-29 · Campaign 23V458000 · Model years: 2021, 2022, 2023</p>
@@ -75,7 +79,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2019 2020 2021 2022 2023">
 <h2><a href="/recall/23v431000/">Honda Odyssey, Pilot and Passport rearview camera may fail</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2023-06-15 · Campaign 23V431000 · Model years: 2019, 2020, 2021, 2022, 2023</p>
@@ -83,7 +87,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2020 2021 2022">
 <h2><a href="/recall/23v174000/">Honda SUVs and vans: side mirror glass can fall off</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2023-03-16 · Campaign 23V174000 · Model years: 2020, 2021, 2022</p>
@@ -91,7 +95,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2019">
 <h2><a href="/recall/21v932000/">Honda Pilot, Passport, Ridgeline hood can fly open</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2021-11-29 · Campaign 21V932000 · Model years: 2019</p>
@@ -99,7 +103,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2019">
 <h2><a href="/recall/21v215000/">Honda and Acura fuel pump can fail and stall engine</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2021-03-25 · Campaign 21V215000 · Model years: 2019</p>
@@ -107,7 +111,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2019 2020">
 <h2><a href="/recall/21v165000/">Honda Pilot and Passport tires may fail suddenly</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2021-03-11 · Campaign 21V165000 · Model years: 2019, 2020</p>
@@ -115,7 +119,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2019 2020">
 <h2><a href="/recall/20v439000/">Honda Odyssey, Passport, Pilot dashboard and backup camera go blank</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2020-07-28 · Campaign 20V439000 · Model years: 2019, 2020</p>
@@ -123,7 +127,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2019 2020">
 <h2><a href="/recall/20v440000/">Honda Pilot, Odyssey, Passport backup camera may not show</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2020-07-28 · Campaign 20V440000 · Model years: 2019, 2020</p>
@@ -131,7 +135,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2020">
 <h2><a href="/recall/20v067000/">Honda Passport and Pilot weight rating label may wipe off</a>
 <span class="sev sev-low">low</span></h2>
 <p class="meta">Reported 2020-02-06 · Campaign 20V067000 · Model years: 2020</p>
@@ -139,7 +143,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2019">
 <h2><a href="/recall/19v784000/">Honda Pilot and Passport may have missing frame welds</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2019-10-31 · Campaign 19V784000 · Model years: 2019</p>
@@ -151,7 +155,9 @@
 <p>Complaints owners have filed with NHTSA about the Honda Passport. These are unverified reports; better-selling years collect more.</p>
 <table class="data"><tr><th>Model year</th><th>Complaints</th><th>Crashes</th><th>Fires</th><th>Injuries</th></tr>
 <tr><td>2019</td><td>275</td><td>7</td><td>0</td><td>5</td></tr><tr><td>2020</td><td>100</td><td>1</td><td>0</td><td>0</td></tr><tr><td>2021</td><td>140</td><td>10</td><td>0</td><td>3</td></tr><tr><td>2022</td><td>61</td><td>1</td><td>0</td><td>2</td></tr><tr><td>2023</td><td>38</td><td>3</td><td>0</td><td>7</td></tr><tr><td>2024</td><td>16</td><td>2</td><td>0</td><td>2</td></tr></table>
-
+<h2>Buying a used Passport?</h2>
+<p>Recalls and complaint record for one model year at a time:</p>
+<ul class="tags"><li><a href="/used/honda/passport/2019/">2019 Passport</a></li><li><a href="/used/honda/passport/2020/">2020 Passport</a></li><li><a href="/used/honda/passport/2021/">2021 Passport</a></li><li><a href="/used/honda/passport/2022/">2022 Passport</a></li><li><a href="/used/honda/passport/2023/">2023 Passport</a></li></ul>
 
 </main>
 <footer>

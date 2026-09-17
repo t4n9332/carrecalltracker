@@ -8,6 +8,8 @@
 
 <link rel="canonical" href="https://carrecalltracker.com/bmw/m340i/">
 <link rel="stylesheet" href="/static/style.css">
+<link rel="alternate" type="application/rss+xml" title="Car Recall Tracker — new recalls" href="/feed.xml">
+<script src="/static/app.js" defer></script>
 
 </head>
 <body>
@@ -18,8 +20,10 @@
 <p class="crumb"><a href="/">Home</a> › <a href="/bmw/">BMW</a> › M340I</p>
 <h1>BMW M340I recalls</h1>
 <p class="lead">13 recalls covering model years 2020, 2021, 2022. To check whether <em>your</em> vehicle is affected, look up your 17-character VIN at <a href="https://www.nhtsa.gov/recalls" rel="nofollow">nhtsa.gov/recalls</a> — a recall may apply only to some vehicles of a given year.</p>
+<div class="chips" role="group" aria-label="Filter by model year"><button type="button" data-year-chip="" aria-pressed="true">All years</button><button type="button" data-year-chip="2020" aria-pressed="false">2020</button><button type="button" data-year-chip="2021" aria-pressed="false">2021</button><button type="button" data-year-chip="2022" aria-pressed="false">2022</button></div>
+<p id="year-count" class="meta" role="status"></p>
 
-<article class="card">
+<article class="card" data-years="2020">
 <h2><a href="/recall/24v576000/">BMW X5, X6, X7 and sedans risk starter motor fire</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2024-08-01 · Campaign 24V576000 · Model years: 2020</p>
@@ -27,7 +31,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2020 2021 2022">
 <h2><a href="/recall/23v584000/">BMW M340i and M440i seat belt warning chime may fail</a>
 <span class="sev sev-low">low</span></h2>
 <p class="meta">Reported 2023-08-16 · Campaign 23V584000 · Model years: 2020, 2021, 2022</p>
@@ -35,7 +39,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2020 2021">
 <h2><a href="/recall/23v211000/">BMW 3 Series, X3 and X4 seat frames poorly welded</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2023-03-29 · Campaign 23V211000 · Model years: 2020, 2021</p>
@@ -43,7 +47,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2020">
 <h2><a href="/recall/21v598000/">BMW and Toyota Supra lose power brake assist</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2021-08-02 · Campaign 21V598000 · Model years: 2020</p>
@@ -51,7 +55,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2021">
 <h2><a href="/recall/21v554000/">BMW, MINI, Toyota Supra passenger seat belt retractor fault</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2021-07-21 · Campaign 21V554000 · Model years: 2021</p>
@@ -59,7 +63,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2021">
 <h2><a href="/recall/21v298000/">BMW 3 Series and M3 seat belt bolts loose</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2021-04-28 · Campaign 21V298000 · Model years: 2021</p>
@@ -67,7 +71,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2020 2021">
 <h2><a href="/recall/21v096000/">BMW Cars and SUVs: Backup Camera Image May Fail</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2021-02-19 · Campaign 21V096000 · Model years: 2020, 2021</p>
@@ -75,7 +79,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2021">
 <h2><a href="/recall/20v761000/">BMW 48-Volt Battery Connection May Overheat and Cause Fire</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2020-12-09 · Campaign 20V761000 · Model years: 2021</p>
@@ -83,7 +87,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2020">
 <h2><a href="/recall/20v355000/">BMW and Toyota Supra steering tie rod can break</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2020-06-15 · Campaign 20V355000 · Model years: 2020</p>
@@ -91,7 +95,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2020">
 <h2><a href="/recall/20v164000/">BMW X3, X4 and 3-Series seat belt sensor fault</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2020-03-19 · Campaign 20V164000 · Model years: 2020</p>
@@ -99,7 +103,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2020">
 <h2><a href="/recall/19v755000/">BMW M340i trunk release may not open from inside</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2019-10-23 · Campaign 19V755000 · Model years: 2020</p>
@@ -107,7 +111,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2020">
 <h2><a href="/recall/19v684000/">BMW and Toyota Supra backup camera picture can vanish</a>
 <span class="sev sev-low">low</span></h2>
 <p class="meta">Reported 2019-09-27 · Campaign 19V684000 · Model years: 2020</p>
@@ -115,7 +119,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2020">
 <h2><a href="/recall/19v600000/">BMW M340i rear center headrest may fold in crash</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2019-08-14 · Campaign 19V600000 · Model years: 2020</p>

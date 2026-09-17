@@ -8,6 +8,8 @@
 
 <link rel="canonical" href="https://carrecalltracker.com/bmw/z4/">
 <link rel="stylesheet" href="/static/style.css">
+<link rel="alternate" type="application/rss+xml" title="Car Recall Tracker — new recalls" href="/feed.xml">
+<script src="/static/app.js" defer></script>
 
 </head>
 <body>
@@ -18,8 +20,10 @@
 <p class="crumb"><a href="/">Home</a> › <a href="/bmw/">BMW</a> › Z4</p>
 <h1>BMW Z4 recalls</h1>
 <p class="lead">11 recalls covering model years 2019, 2020, 2021, 2022. To check whether <em>your</em> vehicle is affected, look up your 17-character VIN at <a href="https://www.nhtsa.gov/recalls" rel="nofollow">nhtsa.gov/recalls</a> — a recall may apply only to some vehicles of a given year.</p>
+<div class="chips" role="group" aria-label="Filter by model year"><button type="button" data-year-chip="" aria-pressed="true">All years</button><button type="button" data-year-chip="2019" aria-pressed="false">2019</button><button type="button" data-year-chip="2020" aria-pressed="false">2020</button><button type="button" data-year-chip="2021" aria-pressed="false">2021</button><button type="button" data-year-chip="2022" aria-pressed="false">2022</button></div>
+<p id="year-count" class="meta" role="status"></p>
 
-<article class="card">
+<article class="card" data-years="2021 2022">
 <h2><a href="/recall/26v056000/">BMW and Toyota Supra Starter Can Overheat and Catch Fire</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2026-01-30 · Campaign 26V056000 · Model years: 2021, 2022</p>
@@ -27,7 +31,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2019 2020 2021 2022">
 <h2><a href="/recall/25v636000/">BMW X3, X4 and Z4 starter relay fire risk</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2025-09-23 · Campaign 25V636000 · Model years: 2019, 2020, 2021, 2022</p>
@@ -35,7 +39,7 @@
 <p class="warn">⚠ NHTSA advises: park outside and away from structures (fire risk).</p>
 </article>
 
-<article class="card">
+<article class="card" data-years="2022">
 <h2><a href="/recall/23v099000/">BMW 2, 8 Series and Z4: windows close without key</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2023-02-17 · Campaign 23V099000 · Model years: 2022</p>
@@ -43,7 +47,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2019 2020 2021">
 <h2><a href="/recall/21v598000/">BMW and Toyota Supra lose power brake assist</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2021-08-02 · Campaign 21V598000 · Model years: 2019, 2020, 2021</p>
@@ -51,7 +55,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2021">
 <h2><a href="/recall/21v554000/">BMW, MINI, Toyota Supra passenger seat belt retractor fault</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2021-07-21 · Campaign 21V554000 · Model years: 2021</p>
@@ -59,7 +63,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2020 2021">
 <h2><a href="/recall/20v700000/">BMW Z4 and Toyota Supra fuel tanks may leak</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2020-11-12 · Campaign 20V700000 · Model years: 2020, 2021</p>
@@ -67,7 +71,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2019 2020">
 <h2><a href="/recall/20v516000/">BMW Z4 and Toyota Supra headlights can be misaimed</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2020-08-27 · Campaign 20V516000 · Model years: 2019, 2020</p>
@@ -75,7 +79,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2019">
 <h2><a href="/recall/20v355000/">BMW and Toyota Supra steering tie rod can break</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2020-06-15 · Campaign 20V355000 · Model years: 2019</p>
@@ -83,7 +87,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2020">
 <h2><a href="/recall/19v850000/">BMW Z4 and Toyota Supra headlights can fail suddenly</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2019-11-27 · Campaign 19V850000 · Model years: 2020</p>
@@ -91,7 +95,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2019">
 <h2><a href="/recall/19v732000/">BMW Z4 engine balance shaft may come loose</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2019-10-15 · Campaign 19V732000 · Model years: 2019</p>
@@ -99,7 +103,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2019 2020">
 <h2><a href="/recall/19v684000/">BMW and Toyota Supra backup camera picture can vanish</a>
 <span class="sev sev-low">low</span></h2>
 <p class="meta">Reported 2019-09-27 · Campaign 19V684000 · Model years: 2019, 2020</p>

@@ -8,6 +8,8 @@
 
 <link rel="canonical" href="https://carrecalltracker.com/toyota/sienna/">
 <link rel="stylesheet" href="/static/style.css">
+<link rel="alternate" type="application/rss+xml" title="Car Recall Tracker — new recalls" href="/feed.xml">
+<script src="/static/app.js" defer></script>
 
 </head>
 <body>
@@ -18,8 +20,10 @@
 <p class="crumb"><a href="/">Home</a> › <a href="/toyota/">Toyota</a> › Sienna</p>
 <h1>Toyota Sienna recalls</h1>
 <p class="lead">9 recalls covering model years 2018, 2019, 2020. To check whether <em>your</em> vehicle is affected, look up your 17-character VIN at <a href="https://www.nhtsa.gov/recalls" rel="nofollow">nhtsa.gov/recalls</a> — a recall may apply only to some vehicles of a given year.</p>
+<div class="chips" role="group" aria-label="Filter by model year"><button type="button" data-year-chip="" aria-pressed="true">All years</button><button type="button" data-year-chip="2018" aria-pressed="false">2018</button><button type="button" data-year-chip="2019" aria-pressed="false">2019</button><button type="button" data-year-chip="2020" aria-pressed="false">2020</button></div>
+<p id="year-count" class="meta" role="status"></p>
 
-<article class="card">
+<article class="card" data-years="2018 2019 2020">
 <h2><a href="/recall/20v682000/">Toyota and Lexus fuel pumps can fail, stalling engine</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2020-11-04 · Campaign 20V682000 · Model years: 2018, 2019, 2020</p>
@@ -27,7 +31,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018 2019">
 <h2><a href="/recall/20v012000/">Toyota and Lexus Vehicles: Fuel Pump Can Stall Engine</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2020-01-13 · Campaign 20V012000 · Model years: 2018, 2019</p>
@@ -35,7 +39,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018">
 <h2><a href="/recall/19v553000/">Toyota Sienna wheelchair vans: rear brake hoses may rub</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2019-07-25 · Campaign 19V553000 · Model years: 2018</p>
@@ -43,7 +47,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018 2019 2020">
 <h2><a href="/recall/19v532000/">Modified Toyota Sienna steering extensions may crack and break</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2019-07-16 · Campaign 19V532000 · Model years: 2018, 2019, 2020</p>
@@ -51,7 +55,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018 2019">
 <h2><a href="/recall/19v503000/">Toyota models carry incorrect weight capacity label with floor mats</a>
 <span class="sev sev-low">low</span></h2>
 <p class="meta">Reported 2019-06-28 · Campaign 19V503000 · Model years: 2018, 2019</p>
@@ -59,7 +63,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018 2019">
 <h2><a href="/recall/19v410000/">Toyota Sienna wheelchair vans may lose rear braking power</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2019-06-04 · Campaign 19V410000 · Model years: 2018, 2019</p>
@@ -67,7 +71,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2019">
 <h2><a href="/recall/19v318000/">Toyota Sienna passenger airbags may deploy at wrong time</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2019-04-23 · Campaign 19V318000 · Model years: 2019</p>
@@ -75,7 +79,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2019">
 <h2><a href="/recall/19v244000/">Toyota load capacity label may become unreadable</a>
 <span class="sev sev-low">low</span></h2>
 <p class="meta">Reported 2019-03-27 · Campaign 19V244000 · Model years: 2019</p>
@@ -83,7 +87,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018">
 <h2><a href="/recall/18v130000/">Toyota Sienna alloy wheels can crack and come off</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2018-02-22 · Campaign 18V130000 · Model years: 2018</p>
@@ -95,7 +99,9 @@
 <p>Complaints owners have filed with NHTSA about the Toyota Sienna. These are unverified reports; better-selling years collect more.</p>
 <table class="data"><tr><th>Model year</th><th>Complaints</th><th>Crashes</th><th>Fires</th><th>Injuries</th></tr>
 <tr><td>2018</td><td>70</td><td>5</td><td>0</td><td>6</td></tr><tr><td>2019</td><td>45</td><td>2</td><td>0</td><td>4</td></tr><tr><td>2020</td><td>38</td><td>0</td><td>1</td><td>0</td></tr></table>
-
+<h2>Buying a used Sienna?</h2>
+<p>Recalls and complaint record for one model year at a time:</p>
+<ul class="tags"><li><a href="/used/toyota/sienna/2018/">2018 Sienna</a></li><li><a href="/used/toyota/sienna/2019/">2019 Sienna</a></li><li><a href="/used/toyota/sienna/2020/">2020 Sienna</a></li></ul>
 
 </main>
 <footer>

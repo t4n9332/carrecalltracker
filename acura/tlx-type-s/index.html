@@ -8,6 +8,8 @@
 
 <link rel="canonical" href="https://carrecalltracker.com/acura/tlx-type-s/">
 <link rel="stylesheet" href="/static/style.css">
+<link rel="alternate" type="application/rss+xml" title="Car Recall Tracker — new recalls" href="/feed.xml">
+<script src="/static/app.js" defer></script>
 
 </head>
 <body>
@@ -18,8 +20,10 @@
 <p class="crumb"><a href="/">Home</a> › <a href="/acura/">Acura</a> › TLX Type S</p>
 <h1>Acura TLX Type S recalls</h1>
 <p class="lead">1 recall covering model years 2021, 2022, 2023. To check whether <em>your</em> vehicle is affected, look up your 17-character VIN at <a href="https://www.nhtsa.gov/recalls" rel="nofollow">nhtsa.gov/recalls</a> — a recall may apply only to some vehicles of a given year.</p>
+<div class="chips" role="group" aria-label="Filter by model year"><button type="button" data-year-chip="" aria-pressed="true">All years</button><button type="button" data-year-chip="2021" aria-pressed="false">2021</button><button type="button" data-year-chip="2022" aria-pressed="false">2022</button><button type="button" data-year-chip="2023" aria-pressed="false">2023</button></div>
+<p id="year-count" class="meta" role="status"></p>
 
-<article class="card">
+<article class="card" data-years="2021 2022 2023">
 <h2><a href="/recall/25v031000/">Acura and Honda Pilot software glitch can stall engine</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2025-01-23 · Campaign 25V031000 · Model years: 2021, 2022, 2023</p>

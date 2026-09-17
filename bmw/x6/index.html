@@ -8,6 +8,8 @@
 
 <link rel="canonical" href="https://carrecalltracker.com/bmw/x6/">
 <link rel="stylesheet" href="/static/style.css">
+<link rel="alternate" type="application/rss+xml" title="Car Recall Tracker — new recalls" href="/feed.xml">
+<script src="/static/app.js" defer></script>
 
 </head>
 <body>
@@ -18,8 +20,10 @@
 <p class="crumb"><a href="/">Home</a> › <a href="/bmw/">BMW</a> › X6</p>
 <h1>BMW X6 recalls</h1>
 <p class="lead">26 recalls covering model years 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025. To check whether <em>your</em> vehicle is affected, look up your 17-character VIN at <a href="https://www.nhtsa.gov/recalls" rel="nofollow">nhtsa.gov/recalls</a> — a recall may apply only to some vehicles of a given year.</p>
+<div class="chips" role="group" aria-label="Filter by model year"><button type="button" data-year-chip="" aria-pressed="true">All years</button><button type="button" data-year-chip="2018" aria-pressed="false">2018</button><button type="button" data-year-chip="2019" aria-pressed="false">2019</button><button type="button" data-year-chip="2020" aria-pressed="false">2020</button><button type="button" data-year-chip="2021" aria-pressed="false">2021</button><button type="button" data-year-chip="2022" aria-pressed="false">2022</button><button type="button" data-year-chip="2023" aria-pressed="false">2023</button><button type="button" data-year-chip="2024" aria-pressed="false">2024</button><button type="button" data-year-chip="2025" aria-pressed="false">2025</button></div>
+<p id="year-count" class="meta" role="status"></p>
 
-<article class="card">
+<article class="card" data-years="2024 2025">
 <h2><a href="/recall/26v422000/">BMW, MINI integrated brakes may fail, need inspection</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2026-07-01 · Campaign 26V422000 · Model years: 2024, 2025</p>
@@ -27,7 +31,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2020">
 <h2><a href="/recall/25v644000/">BMW starter motor can overheat and cause a fire</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2025-09-25 · Campaign 25V644000 · Model years: 2020</p>
@@ -35,7 +39,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2024">
 <h2><a href="/recall/24v739000/">BMW brake module failure can weaken brakes and stability control</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2024-10-02 · Campaign 24V739000 · Model years: 2024</p>
@@ -43,7 +47,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2025">
 <h2><a href="/recall/24v697000/">BMW and MINI vehicles may lose brake assist power</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2024-09-18 · Campaign 24V697000 · Model years: 2025</p>
@@ -51,7 +55,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2020">
 <h2><a href="/recall/24v576000/">BMW X5, X6, X7 and sedans risk starter motor fire</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2024-08-01 · Campaign 24V576000 · Model years: 2020</p>
@@ -59,7 +63,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2025">
 <h2><a href="/recall/24v345000/">BMW SUVs may misread front seat belts, affecting airbags</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2024-05-15 · Campaign 24V345000 · Model years: 2025</p>
@@ -67,7 +71,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2024 2025">
 <h2><a href="/recall/24v104000/">BMW, MINI brake system can lose power assist</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2024-02-12 · Campaign 24V104000 · Model years: 2024, 2025</p>
@@ -75,7 +79,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2023">
 <h2><a href="/recall/23v821000/">BMW SUVs and Toyota Supra can lose power suddenly</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2023-12-06 · Campaign 23V821000 · Model years: 2023</p>
@@ -83,7 +87,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2024">
 <h2><a href="/recall/23v622000/">BMW X5, X6, X7, XM passenger knee airbag fault</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2023-09-07 · Campaign 23V622000 · Model years: 2024</p>
@@ -91,7 +95,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2024">
 <h2><a href="/recall/23v471000/">BMW X5, X6, X7 and XM Knee Airbags May Not Deploy</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2023-07-10 · Campaign 23V471000 · Model years: 2024</p>
@@ -99,7 +103,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2020 2021 2022">
 <h2><a href="/recall/22v267000/">BMW X5, X6 and X7 sunroof closes without key</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2022-04-20 · Campaign 22V267000 · Model years: 2020, 2021, 2022</p>
@@ -107,7 +111,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2020 2021">
 <h2><a href="/recall/21v096000/">BMW Cars and SUVs: Backup Camera Image May Fail</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2021-02-19 · Campaign 21V096000 · Model years: 2020, 2021</p>
@@ -115,7 +119,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2020 2021">
 <h2><a href="/recall/21v062000/">BMW X5, X6, X7 and M cars: brake unit failure</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2021-02-10 · Campaign 21V062000 · Model years: 2020, 2021</p>
@@ -123,7 +127,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2021">
 <h2><a href="/recall/21v031000/">BMW X5, X6 and X7 steering column bolt may loosen</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2021-01-29 · Campaign 21V031000 · Model years: 2021</p>
@@ -131,7 +135,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2021">
 <h2><a href="/recall/20v761000/">BMW 48-Volt Battery Connection May Overheat and Cause Fire</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2020-12-09 · Campaign 20V761000 · Model years: 2021</p>
@@ -139,7 +143,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2020">
 <h2><a href="/recall/20v678000/">BMW X5, X6 and X7 front suspension weld may break</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2020-11-04 · Campaign 20V678000 · Model years: 2020</p>
@@ -147,7 +151,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2020 2021">
 <h2><a href="/recall/20v528000/">BMW X5, X6, X7 headlights may shine blue light</a>
 <span class="sev sev-low">low</span></h2>
 <p class="meta">Reported 2020-09-01 · Campaign 20V528000 · Model years: 2020, 2021</p>
@@ -155,7 +159,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2020">
 <h2><a href="/recall/20v484000/">BMW X6 roof spoiler may come loose and detach</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2020-08-14 · Campaign 20V484000 · Model years: 2020</p>
@@ -163,7 +167,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2021">
 <h2><a href="/recall/20v483000/">BMW X5 and X6 Pirelli Tires Can Lose Air Suddenly</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2020-08-14 · Campaign 20V483000 · Model years: 2021</p>
@@ -171,7 +175,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2020">
 <h2><a href="/recall/20v095000/">BMW X6 rear spoiler may detach while driving</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2020-02-19 · Campaign 20V095000 · Model years: 2020</p>
@@ -179,7 +183,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018 2019">
 <h2><a href="/recall/19v823000/">BMW X6 child seat anchor bars can become damaged</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2019-11-18 · Campaign 19V823000 · Model years: 2018, 2019</p>
@@ -187,7 +191,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2019 2020">
 <h2><a href="/recall/19v684000/">BMW and Toyota Supra backup camera picture can vanish</a>
 <span class="sev sev-low">low</span></h2>
 <p class="meta">Reported 2019-09-27 · Campaign 19V684000 · Model years: 2019, 2020</p>
@@ -195,7 +199,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2019">
 <h2><a href="/recall/18v680000/">BMW X6 rear control arms may break apart</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2018-09-28 · Campaign 18V680000 · Model years: 2019</p>
@@ -203,7 +207,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018 2019">
 <h2><a href="/recall/18v614000/">BMW X6 wheel bolts may not have been tightened properly</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2018-09-12 · Campaign 18V614000 · Model years: 2018, 2019</p>
@@ -211,7 +215,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018">
 <h2><a href="/recall/18v439000/">BMW X5 and X6 front suspension arm may break</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2018-06-28 · Campaign 18V439000 · Model years: 2018</p>
@@ -219,7 +223,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018">
 <h2><a href="/recall/17v727000/">BMW X5 and X6 front suspension bolts may be loose</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2017-11-17 · Campaign 17V727000 · Model years: 2018</p>

@@ -8,6 +8,8 @@
 
 <link rel="canonical" href="https://carrecalltracker.com/jeep/grand-wagoneer/">
 <link rel="stylesheet" href="/static/style.css">
+<link rel="alternate" type="application/rss+xml" title="Car Recall Tracker — new recalls" href="/feed.xml">
+<script src="/static/app.js" defer></script>
 
 </head>
 <body>
@@ -18,8 +20,10 @@
 <p class="crumb"><a href="/">Home</a> › <a href="/jeep/">Jeep</a> › Grand Wagoneer</p>
 <h1>Jeep Grand Wagoneer recalls</h1>
 <p class="lead">12 recalls covering model years 2022, 2023, 2024, 2025. To check whether <em>your</em> vehicle is affected, look up your 17-character VIN at <a href="https://www.nhtsa.gov/recalls" rel="nofollow">nhtsa.gov/recalls</a> — a recall may apply only to some vehicles of a given year.</p>
+<div class="chips" role="group" aria-label="Filter by model year"><button type="button" data-year-chip="" aria-pressed="true">All years</button><button type="button" data-year-chip="2022" aria-pressed="false">2022</button><button type="button" data-year-chip="2023" aria-pressed="false">2023</button><button type="button" data-year-chip="2024" aria-pressed="false">2024</button><button type="button" data-year-chip="2025" aria-pressed="false">2025</button></div>
+<p id="year-count" class="meta" role="status"></p>
 
-<article class="card">
+<article class="card" data-years="2024 2025">
 <h2><a href="/recall/26v559000/">Jeep Grand Cherokee and Wagoneer Tire Warning Light May Fail</a>
 <span class="sev sev-low">low</span></h2>
 <p class="meta">Reported 2026-09-01 · Campaign 26V559000 · Model years: 2024, 2025</p>
@@ -27,7 +31,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2022 2023 2024">
 <h2><a href="/recall/25v642000/">Jeep Wagoneer quarter window trim can come off</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2025-09-25 · Campaign 25V642000 · Model years: 2022, 2023, 2024</p>
@@ -35,7 +39,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2022 2023 2024 2025">
 <h2><a href="/recall/25v593000/">Jeep Wagoneer door trim can come off while driving</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2025-09-11 · Campaign 25V593000 · Model years: 2022, 2023, 2024, 2025</p>
@@ -43,7 +47,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2024">
 <h2><a href="/recall/24v944000/">Jeep Wagoneer and Grand Cherokee backup camera may not show</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2024-12-19 · Campaign 24V944000 · Model years: 2024</p>
@@ -51,7 +55,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2022 2023">
 <h2><a href="/recall/24v436000/">Jeep, Ram, Chrysler backup camera may show nothing</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2024-06-13 · Campaign 24V436000 · Model years: 2022, 2023</p>
@@ -59,7 +63,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2023 2024">
 <h2><a href="/recall/24v199000/">Jeep, Ram and Chrysler vehicles: driver airbag may not deploy</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2024-03-14 · Campaign 24V199000 · Model years: 2023, 2024</p>
@@ -67,7 +71,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2022 2023 2024">
 <h2><a href="/recall/23v716000/">Jeep Wagoneer third-row seat belts may not fasten</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2023-10-26 · Campaign 23V716000 · Model years: 2022, 2023, 2024</p>
@@ -75,7 +79,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2022 2023 2024">
 <h2><a href="/recall/23v577000/">Jeep backup camera image may not appear in reverse</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2023-08-14 · Campaign 23V577000 · Model years: 2022, 2023, 2024</p>
@@ -83,7 +87,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2022 2023">
 <h2><a href="/recall/23v545000/">Jeep Wagoneer pillar trim can block side curtain airbag</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2023-08-03 · Campaign 23V545000 · Model years: 2022, 2023</p>
@@ -91,7 +95,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2022">
 <h2><a href="/recall/21v00a000/">Jeep Wagoneer and Grand Wagoneer backup camera may not display</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2021-12-21 · Campaign 21V00A000 · Model years: 2022</p>
@@ -99,7 +103,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2022">
 <h2><a href="/recall/21v919000/">Jeep Wagoneer center seat back may not lock</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2021-11-23 · Campaign 21V919000 · Model years: 2022</p>
@@ -107,7 +111,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2022">
 <h2><a href="/recall/21v873000/">Jeep Grand Cherokee and Wagoneer airbags may shut off</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2021-11-10 · Campaign 21V873000 · Model years: 2022</p>
@@ -119,7 +123,9 @@
 <p>Complaints owners have filed with NHTSA about the Jeep Grand Wagoneer. These are unverified reports; better-selling years collect more.</p>
 <table class="data"><tr><th>Model year</th><th>Complaints</th><th>Crashes</th><th>Fires</th><th>Injuries</th></tr>
 <tr><td>2022</td><td>59</td><td>2</td><td>1</td><td>6</td></tr><tr><td>2023</td><td>45</td><td>2</td><td>0</td><td>1</td></tr><tr><td>2024</td><td>33</td><td>1</td><td>0</td><td>0</td></tr><tr><td>2025</td><td>3</td><td>0</td><td>0</td><td>0</td></tr></table>
-
+<h2>Buying a used Grand Wagoneer?</h2>
+<p>Recalls and complaint record for one model year at a time:</p>
+<ul class="tags"><li><a href="/used/jeep/grand-wagoneer/2022/">2022 Grand Wagoneer</a></li><li><a href="/used/jeep/grand-wagoneer/2023/">2023 Grand Wagoneer</a></li><li><a href="/used/jeep/grand-wagoneer/2024/">2024 Grand Wagoneer</a></li><li><a href="/used/jeep/grand-wagoneer/2025/">2025 Grand Wagoneer</a></li></ul>
 
 </main>
 <footer>

@@ -8,6 +8,8 @@
 
 <link rel="canonical" href="https://carrecalltracker.com/chevrolet/traverse/">
 <link rel="stylesheet" href="/static/style.css">
+<link rel="alternate" type="application/rss+xml" title="Car Recall Tracker — new recalls" href="/feed.xml">
+<script src="/static/app.js" defer></script>
 
 </head>
 <body>
@@ -18,8 +20,10 @@
 <p class="crumb"><a href="/">Home</a> › <a href="/chevrolet/">Chevrolet</a> › Traverse</p>
 <h1>Chevrolet Traverse recalls</h1>
 <p class="lead">13 recalls covering model years 2018, 2019, 2020, 2021, 2022, 2023. To check whether <em>your</em> vehicle is affected, look up your 17-character VIN at <a href="https://www.nhtsa.gov/recalls" rel="nofollow">nhtsa.gov/recalls</a> — a recall may apply only to some vehicles of a given year.</p>
+<div class="chips" role="group" aria-label="Filter by model year"><button type="button" data-year-chip="" aria-pressed="true">All years</button><button type="button" data-year-chip="2018" aria-pressed="false">2018</button><button type="button" data-year-chip="2019" aria-pressed="false">2019</button><button type="button" data-year-chip="2020" aria-pressed="false">2020</button><button type="button" data-year-chip="2021" aria-pressed="false">2021</button><button type="button" data-year-chip="2022" aria-pressed="false">2022</button><button type="button" data-year-chip="2023" aria-pressed="false">2023</button></div>
+<p id="year-count" class="meta" role="status"></p>
 
-<article class="card">
+<article class="card" data-years="2023">
 <h2><a href="/recall/23v172000/">GM SUVs may lose power from faulty transmission gear</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2023-03-16 · Campaign 23V172000 · Model years: 2023</p>
@@ -27,7 +31,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2023">
 <h2><a href="/recall/23v042000/">Chevrolet Blazer and Traverse axle shaft can come apart</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2023-02-02 · Campaign 23V042000 · Model years: 2023</p>
@@ -35,7 +39,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2020 2021 2022">
 <h2><a href="/recall/22v210000/">Chevrolet Traverse and Buick Enclave roof airbags may not deploy</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2022-03-31 · Campaign 22V210000 · Model years: 2020, 2021, 2022</p>
@@ -43,7 +47,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2020 2021">
 <h2><a href="/recall/21v817000/">Chevrolet Traverse wheelchair vans can leak transmission fluid</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2021-10-18 · Campaign 21V817000 · Model years: 2020, 2021</p>
@@ -51,7 +55,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2021">
 <h2><a href="/recall/21v472000/">Chevrolet Traverse, Buick Enclave airbags may not deploy properly</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2021-06-24 · Campaign 21V472000 · Model years: 2021</p>
@@ -59,7 +63,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018 2019">
 <h2><a href="/recall/21v246000/">Chevrolet Traverse side curtain airbags may be improperly attached</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2021-04-08 · Campaign 21V246000 · Model years: 2018, 2019</p>
@@ -67,7 +71,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2020">
 <h2><a href="/recall/21v115000/">GM SUVs and trucks may have defective Continental tires</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2021-02-25 · Campaign 21V115000 · Model years: 2020</p>
@@ -75,7 +79,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2020">
 <h2><a href="/recall/20v684000/">GM trucks and SUVs may have faulty Continental tires</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2020-11-05 · Campaign 20V684000 · Model years: 2020</p>
@@ -83,7 +87,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018 2019 2020">
 <h2><a href="/recall/20v668000/">Chevy, Buick, GMC, Cadillac: Transmission Fluid Leak Risk</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2020-10-29 · Campaign 20V668000 · Model years: 2018, 2019, 2020</p>
@@ -91,7 +95,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2020">
 <h2><a href="/recall/20v639000/">Buick, Cadillac, Chevy, GMC SUVs: fuel pump can stall engine</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2020-10-15 · Campaign 20V639000 · Model years: 2020</p>
@@ -99,7 +103,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2020">
 <h2><a href="/recall/20v446000/">GM Trucks and SUVs May Have Weak Roof Airbags</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2020-07-30 · Campaign 20V446000 · Model years: 2020</p>
@@ -107,7 +111,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2020">
 <h2><a href="/recall/19v643000/">Buick Enclave and Chevrolet Traverse may have cracked frame</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2019-09-06 · Campaign 19V643000 · Model years: 2020</p>
@@ -115,7 +119,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2019">
 <h2><a href="/recall/18v774000/">Buick Encore, Chevrolet Spark, Traverse, Trax airbags may not deploy</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2018-11-01 · Campaign 18V774000 · Model years: 2019</p>

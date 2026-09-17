@@ -8,6 +8,8 @@
 
 <link rel="canonical" href="https://carrecalltracker.com/ford/f-450/">
 <link rel="stylesheet" href="/static/style.css">
+<link rel="alternate" type="application/rss+xml" title="Car Recall Tracker — new recalls" href="/feed.xml">
+<script src="/static/app.js" defer></script>
 
 </head>
 <body>
@@ -18,8 +20,10 @@
 <p class="crumb"><a href="/">Home</a> › <a href="/ford/">Ford</a> › F-450</p>
 <h1>Ford F-450 recalls</h1>
 <p class="lead">5 recalls covering model years 2018, 2019, 2020. To check whether <em>your</em> vehicle is affected, look up your 17-character VIN at <a href="https://www.nhtsa.gov/recalls" rel="nofollow">nhtsa.gov/recalls</a> — a recall may apply only to some vehicles of a given year.</p>
+<div class="chips" role="group" aria-label="Filter by model year"><button type="button" data-year-chip="" aria-pressed="true">All years</button><button type="button" data-year-chip="2018" aria-pressed="false">2018</button><button type="button" data-year-chip="2019" aria-pressed="false">2019</button><button type="button" data-year-chip="2020" aria-pressed="false">2020</button></div>
+<p id="year-count" class="meta" role="status"></p>
 
-<article class="card">
+<article class="card" data-years="2019">
 <h2><a href="/recall/21v114000/">Ford F-450 Rear Lights Shine Too Brightly</a>
 <span class="sev sev-low">low</span></h2>
 <p class="meta">Reported 2021-02-25 · Campaign 21V114000 · Model years: 2019</p>
@@ -27,7 +31,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2019 2020">
 <h2><a href="/recall/19v633000/">Ford and Lincoln seat backs may be dangerously weak</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2019-08-28 · Campaign 19V633000 · Model years: 2019, 2020</p>
@@ -35,7 +39,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018 2019">
 <h2><a href="/recall/19v398000/">LGE Coachworks Ford vehicles: back-up camera image may reverse</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2019-05-29 · Campaign 19V398000 · Model years: 2018, 2019</p>
@@ -43,7 +47,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018">
 <h2><a href="/recall/19v342000/">Ford and GMC ambulances: brake lights turn on by themselves</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2019-05-03 · Campaign 19V342000 · Model years: 2018</p>
@@ -51,7 +55,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018 2019">
 <h2><a href="/recall/18v894000/">Ford F-150 and Super Duty: Block Heater Fire Risk</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2018-12-18 · Campaign 18V894000 · Model years: 2018, 2019</p>

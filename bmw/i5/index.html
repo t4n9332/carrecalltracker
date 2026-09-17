@@ -8,6 +8,8 @@
 
 <link rel="canonical" href="https://carrecalltracker.com/bmw/i5/">
 <link rel="stylesheet" href="/static/style.css">
+<link rel="alternate" type="application/rss+xml" title="Car Recall Tracker — new recalls" href="/feed.xml">
+<script src="/static/app.js" defer></script>
 
 </head>
 <body>
@@ -18,8 +20,10 @@
 <p class="crumb"><a href="/">Home</a> › <a href="/bmw/">BMW</a> › I5</p>
 <h1>BMW I5 recalls</h1>
 <p class="lead">7 recalls covering model years 2024, 2025. To check whether <em>your</em> vehicle is affected, look up your 17-character VIN at <a href="https://www.nhtsa.gov/recalls" rel="nofollow">nhtsa.gov/recalls</a> — a recall may apply only to some vehicles of a given year.</p>
+<div class="chips" role="group" aria-label="Filter by model year"><button type="button" data-year-chip="" aria-pressed="true">All years</button><button type="button" data-year-chip="2024" aria-pressed="false">2024</button><button type="button" data-year-chip="2025" aria-pressed="false">2025</button></div>
+<p id="year-count" class="meta" role="status"></p>
 
-<article class="card">
+<article class="card" data-years="2024 2025">
 <h2><a href="/recall/26v422000/">BMW, MINI integrated brakes may fail, need inspection</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2026-07-01 · Campaign 26V422000 · Model years: 2024, 2025</p>
@@ -27,7 +31,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2024">
 <h2><a href="/recall/25v395000/">BMW i4, i5, iX electric motor software can cut power</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2025-07-23 · Campaign 25V395000 · Model years: 2024</p>
@@ -35,7 +39,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2024 2025">
 <h2><a href="/recall/24v697000/">BMW and MINI vehicles may lose brake assist power</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2024-09-18 · Campaign 24V697000 · Model years: 2024, 2025</p>
@@ -43,7 +47,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2024">
 <h2><a href="/recall/24v135000/">BMW i4 and i5 battery may overheat, fire risk</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2024-02-23 · Campaign 24V135000 · Model years: 2024</p>
@@ -51,7 +55,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2024 2025">
 <h2><a href="/recall/24v104000/">BMW, MINI brake system can lose power assist</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2024-02-12 · Campaign 24V104000 · Model years: 2024, 2025</p>
@@ -59,7 +63,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2024">
 <h2><a href="/recall/23v885000/">BMW i5 may not make pedestrian warning sound</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2023-12-22 · Campaign 23V885000 · Model years: 2024</p>
@@ -67,7 +71,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2024">
 <h2><a href="/recall/23v700000/">BMW 530i and i5 hands-on steering sensor may not work</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2023-10-18 · Campaign 23V700000 · Model years: 2024</p>

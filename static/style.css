@@ -22,3 +22,14 @@ table.data th,table.data td{text-align:left;padding:7px 8px;border-bottom:1px so
 table.data th{color:var(--mut);font-size:.8rem;text-transform:uppercase;font-weight:600}table.data .sev{margin-left:0}
 ul.grid.hub{grid-template-columns:repeat(auto-fill,minmax(230px,1fr));margin-top:18px}ul.grid.hub a{font-weight:600}
 @media(max-width:560px){header.top{flex-wrap:wrap;gap:6px}nav a{margin:0 12px 0 0}table.data{display:block;overflow-x:auto}}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+.finder{border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin:18px 0}
+.finder form{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:4px 0}.finder label:not(.sr){font-weight:600;margin-right:4px}
+.finder select,.finder input,.finder button,.chips button{font:inherit;padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--fg)}
+.finder select,.finder input{flex:1 1 140px;min-width:0}.finder input{text-transform:uppercase;letter-spacing:.04em}
+.finder button{background:var(--acc);color:var(--bg);border-color:var(--acc);font-weight:600;cursor:pointer}
+.finder .meta{margin:6px 0 0}.finder select:disabled{opacity:.6}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:14px 0 4px}.chips button{padding:4px 12px;border-radius:999px;cursor:pointer}
+.chips button[aria-pressed=true]{background:var(--acc);color:var(--bg);border-color:var(--acc)}
+.contact{border:1px solid var(--line);border-radius:10px;padding:12px 16px;margin:12px 0}.contact p{margin:4px 0}
+[hidden]{display:none!important}

@@ -8,6 +8,8 @@
 
 <link rel="canonical" href="https://carrecalltracker.com/ford/ranger/">
 <link rel="stylesheet" href="/static/style.css">
+<link rel="alternate" type="application/rss+xml" title="Car Recall Tracker — new recalls" href="/feed.xml">
+<script src="/static/app.js" defer></script>
 
 </head>
 <body>
@@ -18,8 +20,10 @@
 <p class="crumb"><a href="/">Home</a> › <a href="/ford/">Ford</a> › Ranger</p>
 <h1>Ford Ranger recalls</h1>
 <p class="lead">14 recalls covering model years 2019, 2020. To check whether <em>your</em> vehicle is affected, look up your 17-character VIN at <a href="https://www.nhtsa.gov/recalls" rel="nofollow">nhtsa.gov/recalls</a> — a recall may apply only to some vehicles of a given year.</p>
+<div class="chips" role="group" aria-label="Filter by model year"><button type="button" data-year-chip="" aria-pressed="true">All years</button><button type="button" data-year-chip="2019" aria-pressed="false">2019</button><button type="button" data-year-chip="2020" aria-pressed="false">2020</button></div>
+<p id="year-count" class="meta" role="status"></p>
 
-<article class="card">
+<article class="card" data-years="2019 2020">
 <h2><a href="/recall/25v685000/">Ford and Lincoln engine block heaters can catch fire</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2025-10-10 · Campaign 25V685000 · Model years: 2019, 2020</p>
@@ -27,7 +31,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2019">
 <h2><a href="/recall/25v572000/">Ford and Lincoln vehicles: backup camera image may fail</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2025-09-04 · Campaign 25V572000 · Model years: 2019</p>
@@ -35,7 +39,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2019 2020">
 <h2><a href="/recall/25v442000/">Ford and Lincoln rearview camera image may go blank</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2025-06-27 · Campaign 25V442000 · Model years: 2019, 2020</p>
@@ -43,7 +47,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2019 2020">
 <h2><a href="/recall/23v379000/">Ford Bronco and Ranger have wrong load capacity label</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2023-05-26 · Campaign 23V379000 · Model years: 2019, 2020</p>
@@ -51,7 +55,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2019 2020">
 <h2><a href="/recall/21v811000/">Ford Ranger Super Cab front seat belt misrouted</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2021-10-15 · Campaign 21V811000 · Model years: 2019, 2020</p>
@@ -59,7 +63,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2020">
 <h2><a href="/recall/21v765000/">Ford Ranger rear head restraints block child seat installation</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2021-09-30 · Campaign 21V765000 · Model years: 2020</p>
@@ -67,7 +71,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2020">
 <h2><a href="/recall/20v575000/">Ford and Lincoln backup camera image may go blank</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2020-09-23 · Campaign 20V575000 · Model years: 2020</p>
@@ -75,7 +79,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2020">
 <h2><a href="/recall/20v197000/">Ford F-150, Ranger, Expedition may not be in park</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2020-04-03 · Campaign 20V197000 · Model years: 2020</p>
@@ -83,7 +87,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2019">
 <h2><a href="/recall/20v137000/">Ford Ranger replacement heater fan may catch fire</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2020-03-09 · Campaign 20V137000 · Model years: 2019</p>
@@ -91,7 +95,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2019">
 <h2><a href="/recall/19v839000/">Ford Ranger tail lights may flicker or stop working</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2019-11-21 · Campaign 19V839000 · Model years: 2019</p>
@@ -99,7 +103,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2019">
 <h2><a href="/recall/19v726000/">Ford Ranger heater blower motor can short, causing fire</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2019-10-10 · Campaign 19V726000 · Model years: 2019</p>
@@ -107,7 +111,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2019">
 <h2><a href="/recall/19v518000/">Ford Ranger SuperCab front passenger seat belt wrongly assembled</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2019-07-10 · Campaign 19V518000 · Model years: 2019</p>
@@ -115,7 +119,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2019">
 <h2><a href="/recall/19v366000/">Ford Ranger may not be in the gear shown</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2019-05-13 · Campaign 19V366000 · Model years: 2019</p>
@@ -123,7 +127,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2019">
 <h2><a href="/recall/19v071000/">Ford Ranger can shift out of Park unexpectedly</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2019-02-01 · Campaign 19V071000 · Model years: 2019</p>

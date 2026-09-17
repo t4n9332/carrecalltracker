@@ -8,6 +8,8 @@
 
 <link rel="canonical" href="https://carrecalltracker.com/chevrolet/malibu/">
 <link rel="stylesheet" href="/static/style.css">
+<link rel="alternate" type="application/rss+xml" title="Car Recall Tracker — new recalls" href="/feed.xml">
+<script src="/static/app.js" defer></script>
 
 </head>
 <body>
@@ -18,8 +20,10 @@
 <p class="crumb"><a href="/">Home</a> › <a href="/chevrolet/">Chevrolet</a> › Malibu</p>
 <h1>Chevrolet Malibu recalls</h1>
 <p class="lead">10 recalls covering model years 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025. To check whether <em>your</em> vehicle is affected, look up your 17-character VIN at <a href="https://www.nhtsa.gov/recalls" rel="nofollow">nhtsa.gov/recalls</a> — a recall may apply only to some vehicles of a given year.</p>
+<div class="chips" role="group" aria-label="Filter by model year"><button type="button" data-year-chip="" aria-pressed="true">All years</button><button type="button" data-year-chip="2018" aria-pressed="false">2018</button><button type="button" data-year-chip="2019" aria-pressed="false">2019</button><button type="button" data-year-chip="2020" aria-pressed="false">2020</button><button type="button" data-year-chip="2021" aria-pressed="false">2021</button><button type="button" data-year-chip="2022" aria-pressed="false">2022</button><button type="button" data-year-chip="2023" aria-pressed="false">2023</button><button type="button" data-year-chip="2024" aria-pressed="false">2024</button><button type="button" data-year-chip="2025" aria-pressed="false">2025</button></div>
+<p id="year-count" class="meta" role="status"></p>
 
-<article class="card">
+<article class="card" data-years="2023 2024 2025">
 <h2><a href="/recall/26v212000/">Chevrolet Malibu backup camera may show blank or distorted image</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2026-04-02 · Campaign 26V212000 · Model years: 2023, 2024, 2025</p>
@@ -27,7 +31,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2024">
 <h2><a href="/recall/24v575000/">Cadillac XT4 and Chevrolet Malibu came with wrong owner&#39;s manual</a>
 <span class="sev sev-low">low</span></h2>
 <p class="meta">Reported 2024-08-01 · Campaign 24V575000 · Model years: 2024</p>
@@ -35,7 +39,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2022 2023">
 <h2><a href="/recall/22v923000/">Chevrolet Malibu front frame weld may affect crash sensors</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2022-12-14 · Campaign 22V923000 · Model years: 2022, 2023</p>
@@ -43,7 +47,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2021">
 <h2><a href="/recall/22v359000/">GM vehicles may have badly welded driver seat frame</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2022-05-19 · Campaign 22V359000 · Model years: 2021</p>
@@ -51,7 +55,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018 2019 2020 2021">
 <h2><a href="/recall/21v649000/">Chevrolet Malibu and Cadillac XT4 rear seat belt fasteners loose</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2021-08-20 · Campaign 21V649000 · Model years: 2018, 2019, 2020, 2021</p>
@@ -59,7 +63,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018">
 <h2><a href="/recall/20v668000/">Chevy, Buick, GMC, Cadillac: Transmission Fluid Leak Risk</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2020-10-29 · Campaign 20V668000 · Model years: 2018</p>
@@ -67,7 +71,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018">
 <h2><a href="/recall/19v642000/">Chevy Malibu software glitch can stall 1.5L turbo engine</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2019-09-06 · Campaign 19V642000 · Model years: 2018</p>
@@ -75,7 +79,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018">
 <h2><a href="/recall/18v576000/">GM cars, SUVs may have weak rear brakes</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2018-08-30 · Campaign 18V576000 · Model years: 2018</p>
@@ -83,7 +87,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018">
 <h2><a href="/recall/18v400000/">Chevrolet Malibu passenger airbag sensor set up wrong</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2018-06-14 · Campaign 18V400000 · Model years: 2018</p>
@@ -91,7 +95,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018">
 <h2><a href="/recall/18v358000/">Chevrolet, GMC, Buick, Cadillac fuel pump leak fire risk</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2018-05-31 · Campaign 18V358000 · Model years: 2018</p>

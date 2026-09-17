@@ -8,6 +8,8 @@
 
 <link rel="canonical" href="https://carrecalltracker.com/acura/integra/">
 <link rel="stylesheet" href="/static/style.css">
+<link rel="alternate" type="application/rss+xml" title="Car Recall Tracker — new recalls" href="/feed.xml">
+<script src="/static/app.js" defer></script>
 
 </head>
 <body>
@@ -18,8 +20,10 @@
 <p class="crumb"><a href="/">Home</a> › <a href="/acura/">Acura</a> › Integra</p>
 <h1>Acura Integra recalls</h1>
 <p class="lead">4 recalls covering model years 2023, 2024, 2025. To check whether <em>your</em> vehicle is affected, look up your 17-character VIN at <a href="https://www.nhtsa.gov/recalls" rel="nofollow">nhtsa.gov/recalls</a> — a recall may apply only to some vehicles of a given year.</p>
+<div class="chips" role="group" aria-label="Filter by model year"><button type="button" data-year-chip="" aria-pressed="true">All years</button><button type="button" data-year-chip="2023" aria-pressed="false">2023</button><button type="button" data-year-chip="2024" aria-pressed="false">2024</button><button type="button" data-year-chip="2025" aria-pressed="false">2025</button></div>
+<p id="year-count" class="meta" role="status"></p>
 
-<article class="card">
+<article class="card" data-years="2024">
 <h2><a href="/recall/26v054000/">Honda and Acura models: driver&#39;s seat may be loose</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2026-01-29 · Campaign 26V054000 · Model years: 2024</p>
@@ -27,7 +31,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2024">
 <h2><a href="/recall/24v859000/">Honda and Acura Driver&#39;s Seat May Be Loose</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2024-11-14 · Campaign 24V859000 · Model years: 2024</p>
@@ -35,7 +39,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2023 2024 2025">
 <h2><a href="/recall/24v744000/">Honda and Acura steering gearbox may make steering difficult</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2024-10-03 · Campaign 24V744000 · Model years: 2023, 2024, 2025</p>
@@ -43,7 +47,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2023">
 <h2><a href="/recall/23v430000/">Acura RDX and Integra brake unit can leak fluid</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2023-06-15 · Campaign 23V430000 · Model years: 2023</p>

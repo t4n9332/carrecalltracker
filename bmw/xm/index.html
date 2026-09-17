@@ -8,6 +8,8 @@
 
 <link rel="canonical" href="https://carrecalltracker.com/bmw/xm/">
 <link rel="stylesheet" href="/static/style.css">
+<link rel="alternate" type="application/rss+xml" title="Car Recall Tracker — new recalls" href="/feed.xml">
+<script src="/static/app.js" defer></script>
 
 </head>
 <body>
@@ -18,8 +20,10 @@
 <p class="crumb"><a href="/">Home</a> › <a href="/bmw/">BMW</a> › XM</p>
 <h1>BMW XM recalls</h1>
 <p class="lead">9 recalls covering model years 2023, 2024. To check whether <em>your</em> vehicle is affected, look up your 17-character VIN at <a href="https://www.nhtsa.gov/recalls" rel="nofollow">nhtsa.gov/recalls</a> — a recall may apply only to some vehicles of a given year.</p>
+<div class="chips" role="group" aria-label="Filter by model year"><button type="button" data-year-chip="" aria-pressed="true">All years</button><button type="button" data-year-chip="2023" aria-pressed="false">2023</button><button type="button" data-year-chip="2024" aria-pressed="false">2024</button></div>
+<p id="year-count" class="meta" role="status"></p>
 
-<article class="card">
+<article class="card" data-years="2023 2024">
 <h2><a href="/recall/26v422000/">BMW, MINI integrated brakes may fail, need inspection</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2026-07-01 · Campaign 26V422000 · Model years: 2023, 2024</p>
@@ -27,7 +31,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2023 2024">
 <h2><a href="/recall/24v739000/">BMW brake module failure can weaken brakes and stability control</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2024-10-02 · Campaign 24V739000 · Model years: 2023, 2024</p>
@@ -35,7 +39,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2024">
 <h2><a href="/recall/24v697000/">BMW and MINI vehicles may lose brake assist power</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2024-09-18 · Campaign 24V697000 · Model years: 2024</p>
@@ -43,7 +47,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2024">
 <h2><a href="/recall/24v345000/">BMW SUVs may misread front seat belts, affecting airbags</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2024-05-15 · Campaign 24V345000 · Model years: 2024</p>
@@ -51,7 +55,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2024">
 <h2><a href="/recall/24v139000/">BMW XM tailgate panel may detach from vehicle</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2024-02-23 · Campaign 24V139000 · Model years: 2024</p>
@@ -59,7 +63,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2023 2024">
 <h2><a href="/recall/24v104000/">BMW, MINI brake system can lose power assist</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2024-02-12 · Campaign 24V104000 · Model years: 2023, 2024</p>
@@ -67,7 +71,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2023">
 <h2><a href="/recall/23v622000/">BMW X5, X6, X7, XM passenger knee airbag fault</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2023-09-07 · Campaign 23V622000 · Model years: 2023</p>
@@ -75,7 +79,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2023">
 <h2><a href="/recall/23v471000/">BMW X5, X6, X7 and XM Knee Airbags May Not Deploy</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2023-07-10 · Campaign 23V471000 · Model years: 2023</p>
@@ -83,7 +87,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2023">
 <h2><a href="/recall/23v294000/">BMW X7 and XM exhaust bolts may be loose</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2023-04-26 · Campaign 23V294000 · Model years: 2023</p>

@@ -8,6 +8,8 @@
 
 <link rel="canonical" href="https://carrecalltracker.com/audi/q7/">
 <link rel="stylesheet" href="/static/style.css">
+<link rel="alternate" type="application/rss+xml" title="Car Recall Tracker — new recalls" href="/feed.xml">
+<script src="/static/app.js" defer></script>
 
 </head>
 <body>
@@ -18,8 +20,10 @@
 <p class="crumb"><a href="/">Home</a> › <a href="/audi/">Audi</a> › Q7</p>
 <h1>Audi Q7 recalls</h1>
 <p class="lead">18 recalls covering model years 2018, 2019, 2020, 2021, 2024, 2025. To check whether <em>your</em> vehicle is affected, look up your 17-character VIN at <a href="https://www.nhtsa.gov/recalls" rel="nofollow">nhtsa.gov/recalls</a> — a recall may apply only to some vehicles of a given year.</p>
+<div class="chips" role="group" aria-label="Filter by model year"><button type="button" data-year-chip="" aria-pressed="true">All years</button><button type="button" data-year-chip="2018" aria-pressed="false">2018</button><button type="button" data-year-chip="2019" aria-pressed="false">2019</button><button type="button" data-year-chip="2020" aria-pressed="false">2020</button><button type="button" data-year-chip="2021" aria-pressed="false">2021</button><button type="button" data-year-chip="2024" aria-pressed="false">2024</button><button type="button" data-year-chip="2025" aria-pressed="false">2025</button></div>
+<p id="year-count" class="meta" role="status"></p>
 
-<article class="card">
+<article class="card" data-years="2020 2021 2024 2025">
 <h2><a href="/recall/25v900000/">Audi rearview camera image may fail to display</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2025-12-19 · Campaign 25V900000 · Model years: 2020, 2021, 2024, 2025</p>
@@ -27,7 +31,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2025">
 <h2><a href="/recall/25v777000/">Audi Q7 and Q8 seat belt buckles missing rivet</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2025-11-12 · Campaign 25V777000 · Model years: 2025</p>
@@ -35,7 +39,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2021">
 <h2><a href="/recall/25v201000/">Audi Sedans and SUVs May Lose Dashboard Display</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2025-03-31 · Campaign 25V201000 · Model years: 2021</p>
@@ -43,7 +47,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2024">
 <h2><a href="/recall/24v251000/">Audi front passenger airbag may switch itself off</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2024-04-03 · Campaign 24V251000 · Model years: 2024</p>
@@ -51,7 +55,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2024">
 <h2><a href="/recall/23v868000/">Audi Q7 and Q8 driver seat airbag may be loose</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2023-12-20 · Campaign 23V868000 · Model years: 2024</p>
@@ -59,7 +63,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2020">
 <h2><a href="/recall/23v212000/">Audi Q7 windshield camera heater can overheat, risking fire</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2023-03-29 · Campaign 23V212000 · Model years: 2020</p>
@@ -67,7 +71,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2021">
 <h2><a href="/recall/22v742000/">Audi backup camera may show blank black screen</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2022-10-05 · Campaign 22V742000 · Model years: 2021</p>
@@ -75,7 +79,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2020 2021">
 <h2><a href="/recall/22v516000/">Audi Q7 and Q8 fuel pump can fail</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2022-07-20 · Campaign 22V516000 · Model years: 2020, 2021</p>
@@ -83,7 +87,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2021">
 <h2><a href="/recall/22v034000/">Audi rear axle alignment may cause uneven tire wear</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2022-01-26 · Campaign 22V034000 · Model years: 2021</p>
@@ -91,7 +95,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2021">
 <h2><a href="/recall/21v606000/">Audi and Volkswagen rear belt may not hold child seat</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2021-08-05 · Campaign 21V606000 · Model years: 2021</p>
@@ -99,7 +103,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2021">
 <h2><a href="/recall/21v295000/">Audi Cars and SUVs: Rear Suspension Nut Can Break</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2021-04-26 · Campaign 21V295000 · Model years: 2021</p>
@@ -107,7 +111,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2020 2021">
 <h2><a href="/recall/21v078000/">Audi Q7 passenger airbag may deploy too fast for children</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2021-02-17 · Campaign 21V078000 · Model years: 2020, 2021</p>
@@ -115,7 +119,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2021">
 <h2><a href="/recall/20v749000/">Audi A6 and Q7 door sensors may delay airbags</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2020-12-02 · Campaign 20V749000 · Model years: 2021</p>
@@ -123,7 +127,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018 2019 2020">
 <h2><a href="/recall/20v658000/">Audi Q7 roof pillar padding may not absorb impact</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2020-10-27 · Campaign 20V658000 · Model years: 2018, 2019, 2020</p>
@@ -131,7 +135,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018 2019">
 <h2><a href="/recall/20v149000/">Audi Q7 and Q8 may suddenly lose steering control</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2020-03-16 · Campaign 20V149000 · Model years: 2018, 2019</p>
@@ -139,7 +143,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2019">
 <h2><a href="/recall/20v093000/">Audi Q7 side curtain airbags may not inflate properly</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2020-02-19 · Campaign 20V093000 · Model years: 2019</p>
@@ -147,7 +151,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2019">
 <h2><a href="/recall/19v114000/">Audi Q7, Q8 and S5 front shock parts can crack</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2019-02-20 · Campaign 19V114000 · Model years: 2019</p>
@@ -155,7 +159,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018">
 <h2><a href="/recall/19v035000/">Audi Q7, A6 and A7 fuel rails can leak gasoline</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2019-01-16 · Campaign 19V035000 · Model years: 2018</p>

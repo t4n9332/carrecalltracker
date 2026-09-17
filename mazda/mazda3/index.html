@@ -8,6 +8,8 @@
 
 <link rel="canonical" href="https://carrecalltracker.com/mazda/mazda3/">
 <link rel="stylesheet" href="/static/style.css">
+<link rel="alternate" type="application/rss+xml" title="Car Recall Tracker — new recalls" href="/feed.xml">
+<script src="/static/app.js" defer></script>
 
 </head>
 <body>
@@ -18,8 +20,10 @@
 <p class="crumb"><a href="/">Home</a> › <a href="/mazda/">Mazda</a> › MAZDA3</p>
 <h1>Mazda MAZDA3 recalls</h1>
 <p class="lead">15 recalls covering model years 2018, 2019, 2020, 2021, 2024. To check whether <em>your</em> vehicle is affected, look up your 17-character VIN at <a href="https://www.nhtsa.gov/recalls" rel="nofollow">nhtsa.gov/recalls</a> — a recall may apply only to some vehicles of a given year.</p>
+<div class="chips" role="group" aria-label="Filter by model year"><button type="button" data-year-chip="" aria-pressed="true">All years</button><button type="button" data-year-chip="2018" aria-pressed="false">2018</button><button type="button" data-year-chip="2019" aria-pressed="false">2019</button><button type="button" data-year-chip="2020" aria-pressed="false">2020</button><button type="button" data-year-chip="2021" aria-pressed="false">2021</button><button type="button" data-year-chip="2024" aria-pressed="false">2024</button></div>
+<p id="year-count" class="meta" role="status"></p>
 
-<article class="card">
+<article class="card" data-years="2024">
 <h2><a href="/recall/25v357000/">Mazda3 and CX-30 airbags may shut themselves off</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2025-05-29 · Campaign 25V357000 · Model years: 2024</p>
@@ -27,7 +31,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2024">
 <h2><a href="/recall/24v649000/">Mazda3, CX-30 and CX-50 camera disables automatic braking</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2024-09-03 · Campaign 24V649000 · Model years: 2024</p>
@@ -35,7 +39,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2024">
 <h2><a href="/recall/23v718000/">Mazda3 and CX-90 camera views may not display</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2023-10-26 · Campaign 23V718000 · Model years: 2024</p>
@@ -43,7 +47,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018">
 <h2><a href="/recall/23v487000/">Mazda3 and CX-3 rearview camera image may flicker</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2023-07-14 · Campaign 23V487000 · Model years: 2018</p>
@@ -51,7 +55,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018">
 <h2><a href="/recall/21v875000/">Mazda fuel pump failure can stall the engine</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2021-11-12 · Campaign 21V875000 · Model years: 2018</p>
@@ -59,7 +63,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2021">
 <h2><a href="/recall/21v101000/">Mazda3 and CX-30 tire valves may leak air</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2021-02-22 · Campaign 21V101000 · Model years: 2021</p>
@@ -67,7 +71,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2020">
 <h2><a href="/recall/20v346000/">Mazda3 and CX-30 front brake parts may loosen</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2020-06-12 · Campaign 20V346000 · Model years: 2020</p>
@@ -75,7 +79,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2019 2020">
 <h2><a href="/recall/19v907000/">Mazda3 automatic braking can stop car unexpectedly</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2019-12-19 · Campaign 19V907000 · Model years: 2019, 2020</p>
@@ -83,7 +87,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2019">
 <h2><a href="/recall/19v558000/">Mazda3 Rearview Mirror Can Fall Off Its Mount</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2019-07-29 · Campaign 19V558000 · Model years: 2019</p>
@@ -91,7 +95,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2019">
 <h2><a href="/recall/19v514000/">Mazda3 front headrests may not lock in place</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2019-07-05 · Campaign 19V514000 · Model years: 2019</p>
@@ -99,7 +103,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2019">
 <h2><a href="/recall/19v497000/">Mazda3, Mazda6 and CX-5 engines can stall unexpectedly</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2019-06-27 · Campaign 19V497000 · Model years: 2019</p>
@@ -107,7 +111,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2019">
 <h2><a href="/recall/19v425000/">Mazda3 wheel lug nuts may loosen and wheel detach</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2019-06-07 · Campaign 19V425000 · Model years: 2019</p>
@@ -115,7 +119,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2019">
 <h2><a href="/recall/19v363000/">Mazda3 airbag and seat belt warning lights can fail</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2019-05-14 · Campaign 19V363000 · Model years: 2019</p>
@@ -123,7 +127,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018">
 <h2><a href="/recall/19v272000/">Mazda3 windshield wipers can quit due to faulty relay</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2019-04-04 · Campaign 19V272000 · Model years: 2018</p>
@@ -131,7 +135,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018">
 <h2><a href="/recall/17v745000/">Mazda3 wrong valve springs can cause engine stall</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2017-11-21 · Campaign 17V745000 · Model years: 2018</p>
@@ -143,7 +147,9 @@
 <p>Complaints owners have filed with NHTSA about the Mazda MAZDA3. These are unverified reports; better-selling years collect more.</p>
 <table class="data"><tr><th>Model year</th><th>Complaints</th><th>Crashes</th><th>Fires</th><th>Injuries</th></tr>
 <tr><td>2018</td><td>108</td><td>6</td><td>0</td><td>5</td></tr><tr><td>2019</td><td>74</td><td>3</td><td>0</td><td>1</td></tr><tr><td>2020</td><td>32</td><td>0</td><td>0</td><td>0</td></tr><tr><td>2021</td><td>49</td><td>2</td><td>2</td><td>1</td></tr><tr><td>2024</td><td>12</td><td>2</td><td>0</td><td>1</td></tr></table>
-
+<h2>Buying a used MAZDA3?</h2>
+<p>Recalls and complaint record for one model year at a time:</p>
+<ul class="tags"><li><a href="/used/mazda/mazda3/2018/">2018 MAZDA3</a></li><li><a href="/used/mazda/mazda3/2019/">2019 MAZDA3</a></li><li><a href="/used/mazda/mazda3/2020/">2020 MAZDA3</a></li><li><a href="/used/mazda/mazda3/2024/">2024 MAZDA3</a></li></ul>
 
 </main>
 <footer>

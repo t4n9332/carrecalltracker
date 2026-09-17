@@ -8,6 +8,8 @@
 
 <link rel="canonical" href="https://carrecalltracker.com/lincoln/nautilus/">
 <link rel="stylesheet" href="/static/style.css">
+<link rel="alternate" type="application/rss+xml" title="Car Recall Tracker — new recalls" href="/feed.xml">
+<script src="/static/app.js" defer></script>
 
 </head>
 <body>
@@ -18,8 +20,10 @@
 <p class="crumb"><a href="/">Home</a> › <a href="/lincoln/">Lincoln</a> › Nautilus</p>
 <h1>Lincoln Nautilus recalls</h1>
 <p class="lead">23 recalls covering model years 2019, 2020, 2021, 2022, 2023, 2024, 2025. To check whether <em>your</em> vehicle is affected, look up your 17-character VIN at <a href="https://www.nhtsa.gov/recalls" rel="nofollow">nhtsa.gov/recalls</a> — a recall may apply only to some vehicles of a given year.</p>
+<div class="chips" role="group" aria-label="Filter by model year"><button type="button" data-year-chip="" aria-pressed="true">All years</button><button type="button" data-year-chip="2019" aria-pressed="false">2019</button><button type="button" data-year-chip="2020" aria-pressed="false">2020</button><button type="button" data-year-chip="2021" aria-pressed="false">2021</button><button type="button" data-year-chip="2022" aria-pressed="false">2022</button><button type="button" data-year-chip="2023" aria-pressed="false">2023</button><button type="button" data-year-chip="2024" aria-pressed="false">2024</button><button type="button" data-year-chip="2025" aria-pressed="false">2025</button></div>
+<p id="year-count" class="meta" role="status"></p>
 
-<article class="card">
+<article class="card" data-years="2019">
 <h2><a href="/recall/26v377000/">Lincoln Nautilus lane-centering may miss hands-off-wheel driver warnings</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2026-06-09 · Campaign 26V377000 · Model years: 2019</p>
@@ -27,7 +31,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2019">
 <h2><a href="/recall/26v372000/">Ford and Lincoln dashboard display can go blank</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2026-06-09 · Campaign 26V372000 · Model years: 2019</p>
@@ -35,7 +39,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2024 2025">
 <h2><a href="/recall/26v165000/">Ford Explorer and Lincoln SUVs lose rearview camera</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2026-03-19 · Campaign 26V165000 · Model years: 2024, 2025</p>
@@ -43,7 +47,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2025">
 <h2><a href="/recall/26v122000/">Ford Explorer, Mustang, Lincoln Nautilus can lose driving power</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2026-03-03 · Campaign 26V122000 · Model years: 2025</p>
@@ -51,15 +55,7 @@
 
 </article>
 
-<article class="card">
-<h2><a href="/recall/25v518000/">Lincoln Nautilus power windows may not reverse when blocked</a>
-<span class="sev sev-medium">medium</span></h2>
-<p class="meta">Reported 2025-08-08 · Campaign 25V518000 · Model years: 2024, 2025</p>
-<p>These Nautilus SUVs were brought in for an earlier window recall, 24V953, and were repaired incorrectly. Power windows are supposed to sense something in the way — a hand, an arm, a child&#39;s fingers — and go back down. On these vehicles the window may not react correctly and can keep pressing with too much force before it retracts, so the vehicles do not meet the federal rule for power windows. A dealer reloads the door module software free.</p>
-
-</article>
-
-<article class="card">
+<article class="card" data-years="2025">
 <h2><a href="/recall/25v519000/">Ford Mustang and Lincoln Nautilus headlights can fail</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2025-08-08 · Campaign 25V519000 · Model years: 2025</p>
@@ -67,7 +63,15 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2024 2025">
+<h2><a href="/recall/25v518000/">Lincoln Nautilus power windows may not reverse when blocked</a>
+<span class="sev sev-medium">medium</span></h2>
+<p class="meta">Reported 2025-08-08 · Campaign 25V518000 · Model years: 2024, 2025</p>
+<p>These Nautilus SUVs were brought in for an earlier window recall, 24V953, and were repaired incorrectly. Power windows are supposed to sense something in the way — a hand, an arm, a child&#39;s fingers — and go back down. On these vehicles the window may not react correctly and can keep pressing with too much force before it retracts, so the vehicles do not meet the federal rule for power windows. A dealer reloads the door module software free.</p>
+
+</article>
+
+<article class="card" data-years="2019 2020">
 <h2><a href="/recall/25v442000/">Ford and Lincoln rearview camera image may go blank</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2025-06-27 · Campaign 25V442000 · Model years: 2019, 2020</p>
@@ -75,7 +79,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2024">
 <h2><a href="/recall/25v337000/">Lincoln Nautilus screens can go blank while driving</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2025-05-23 · Campaign 25V337000 · Model years: 2024</p>
@@ -83,7 +87,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2024 2025">
 <h2><a href="/recall/25v343000/">Ford and Lincoln engine block heaters can overheat</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2025-05-23 · Campaign 25V343000 · Model years: 2024, 2025</p>
@@ -91,7 +95,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2021 2022 2023">
 <h2><a href="/recall/25v315000/">Ford and Lincoln rearview cameras may freeze or blank</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2025-05-09 · Campaign 25V315000 · Model years: 2021, 2022, 2023</p>
@@ -99,7 +103,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2024">
 <h2><a href="/recall/25v237000/">Lincoln Nautilus power windows may not stop closing</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2025-04-11 · Campaign 25V237000 · Model years: 2024</p>
@@ -107,7 +111,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2024 2025">
 <h2><a href="/recall/24v953000/">Lincoln Nautilus: power windows may not reverse on obstruction</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2024-12-20 · Campaign 24V953000 · Model years: 2024, 2025</p>
@@ -115,7 +119,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2021 2022">
 <h2><a href="/recall/24v635000/">Ford and Lincoln EcoBoost engines can break, losing power</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2024-08-23 · Campaign 24V635000 · Model years: 2021, 2022</p>
@@ -123,7 +127,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2024">
 <h2><a href="/recall/24v597000/">Lincoln Nautilus windows may pinch before reversing when closing</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2024-08-09 · Campaign 24V597000 · Model years: 2024</p>
@@ -131,7 +135,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2023">
 <h2><a href="/recall/23v439000/">Lincoln Nautilus rear shocks may damage brake hoses</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2023-06-23 · Campaign 23V439000 · Model years: 2023</p>
@@ -139,7 +143,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2023">
 <h2><a href="/recall/23v198000/">Ford Edge and Lincoln Nautilus child seat anchor weak</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2023-03-24 · Campaign 23V198000 · Model years: 2023</p>
@@ -147,7 +151,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2020">
 <h2><a href="/recall/21v011000/">Ford and Lincoln SUVs may lose rear axle lubricant</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2021-01-15 · Campaign 21V011000 · Model years: 2020</p>
@@ -155,7 +159,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2020">
 <h2><a href="/recall/20v575000/">Ford and Lincoln backup camera image may go blank</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2020-09-23 · Campaign 20V575000 · Model years: 2020</p>
@@ -163,7 +167,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2019 2020">
 <h2><a href="/recall/20v550000/">Ford and Lincoln transmission leak creates fire risk</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2020-09-10 · Campaign 20V550000 · Model years: 2019, 2020</p>
@@ -171,7 +175,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2019 2020">
 <h2><a href="/recall/20v414000/">Lincoln MKX and Nautilus power seats can damage airbag wiring</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2020-07-17 · Campaign 20V414000 · Model years: 2019, 2020</p>
@@ -179,7 +183,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2019">
 <h2><a href="/recall/19v076000/">Ford and Lincoln gauge display may go blank</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2019-02-11 · Campaign 19V076000 · Model years: 2019</p>
@@ -187,7 +191,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2019">
 <h2><a href="/recall/19v031000/">Lincoln Nautilus lane assist may miss hands-off driver</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2019-01-14 · Campaign 19V031000 · Model years: 2019</p>
@@ -195,7 +199,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2019">
 <h2><a href="/recall/18v806000/">Lincoln Nautilus driver airbag cover may fly off</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2018-11-14 · Campaign 18V806000 · Model years: 2019</p>
@@ -207,7 +211,9 @@
 <p>Complaints owners have filed with NHTSA about the Lincoln Nautilus. These are unverified reports; better-selling years collect more.</p>
 <table class="data"><tr><th>Model year</th><th>Complaints</th><th>Crashes</th><th>Fires</th><th>Injuries</th></tr>
 <tr><td>2019</td><td>101</td><td>2</td><td>0</td><td>0</td></tr><tr><td>2020</td><td>33</td><td>2</td><td>0</td><td>1</td></tr><tr><td>2021</td><td>21</td><td>1</td><td>0</td><td>0</td></tr><tr><td>2022</td><td>13</td><td>1</td><td>0</td><td>0</td></tr><tr><td>2023</td><td>7</td><td>1</td><td>0</td><td>0</td></tr><tr><td>2024</td><td>21</td><td>2</td><td>0</td><td>1</td></tr><tr><td>2025</td><td>21</td><td>1</td><td>0</td><td>1</td></tr></table>
-
+<h2>Buying a used Nautilus?</h2>
+<p>Recalls and complaint record for one model year at a time:</p>
+<ul class="tags"><li><a href="/used/lincoln/nautilus/2019/">2019 Nautilus</a></li><li><a href="/used/lincoln/nautilus/2020/">2020 Nautilus</a></li><li><a href="/used/lincoln/nautilus/2021/">2021 Nautilus</a></li><li><a href="/used/lincoln/nautilus/2022/">2022 Nautilus</a></li><li><a href="/used/lincoln/nautilus/2023/">2023 Nautilus</a></li><li><a href="/used/lincoln/nautilus/2024/">2024 Nautilus</a></li><li><a href="/used/lincoln/nautilus/2025/">2025 Nautilus</a></li></ul>
 
 </main>
 <footer>

@@ -8,6 +8,8 @@
 
 <link rel="canonical" href="https://carrecalltracker.com/ford/transit-connect/">
 <link rel="stylesheet" href="/static/style.css">
+<link rel="alternate" type="application/rss+xml" title="Car Recall Tracker — new recalls" href="/feed.xml">
+<script src="/static/app.js" defer></script>
 
 </head>
 <body>
@@ -18,8 +20,10 @@
 <p class="crumb"><a href="/">Home</a> › <a href="/ford/">Ford</a> › Transit Connect</p>
 <h1>Ford Transit Connect recalls</h1>
 <p class="lead">12 recalls covering model years 2018, 2019, 2020, 2021. To check whether <em>your</em> vehicle is affected, look up your 17-character VIN at <a href="https://www.nhtsa.gov/recalls" rel="nofollow">nhtsa.gov/recalls</a> — a recall may apply only to some vehicles of a given year.</p>
+<div class="chips" role="group" aria-label="Filter by model year"><button type="button" data-year-chip="" aria-pressed="true">All years</button><button type="button" data-year-chip="2018" aria-pressed="false">2018</button><button type="button" data-year-chip="2019" aria-pressed="false">2019</button><button type="button" data-year-chip="2020" aria-pressed="false">2020</button><button type="button" data-year-chip="2021" aria-pressed="false">2021</button></div>
+<p id="year-count" class="meta" role="status"></p>
 
-<article class="card">
+<article class="card" data-years="2018">
 <h2><a href="/recall/25v572000/">Ford and Lincoln vehicles: backup camera image may fail</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2025-09-04 · Campaign 25V572000 · Model years: 2018</p>
@@ -27,7 +31,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018 2019 2020 2021">
 <h2><a href="/recall/25v442000/">Ford and Lincoln rearview camera image may go blank</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2025-06-27 · Campaign 25V442000 · Model years: 2018, 2019, 2020, 2021</p>
@@ -35,7 +39,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2019 2020">
 <h2><a href="/recall/25v196000/">Ford Transit Connect engine computer can let engine overheat</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2025-03-28 · Campaign 25V196000 · Model years: 2019, 2020</p>
@@ -43,7 +47,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018 2019">
 <h2><a href="/recall/24v294000/">Ford Transit Connect panoramic roof panel may detach</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2024-04-26 · Campaign 24V294000 · Model years: 2018, 2019</p>
@@ -51,7 +55,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018 2019 2020 2021">
 <h2><a href="/recall/22v413000/">Ford Escape, Edge and Transit Connect may roll from Park</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2022-06-10 · Campaign 22V413000 · Model years: 2018, 2019, 2020, 2021</p>
@@ -59,7 +63,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2020">
 <h2><a href="/recall/22v192000/">Ford Transit Connect Windshield May Detach in Crash</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2022-03-25 · Campaign 22V192000 · Model years: 2020</p>
@@ -67,7 +71,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2021">
 <h2><a href="/recall/21v592000/">Ford Transit Connect seat belt may not hold child seat</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2021-07-30 · Campaign 21V592000 · Model years: 2021</p>
@@ -75,7 +79,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018 2019 2020 2021">
 <h2><a href="/recall/21v376000/">Ford Transit Connect shifter bushing can fail, van rolls</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2021-05-24 · Campaign 21V376000 · Model years: 2018, 2019, 2020, 2021</p>
@@ -83,7 +87,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2019 2020">
 <h2><a href="/recall/20v791000/">Ford EcoSport and Transit Connect airbags may not inflate</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2020-12-17 · Campaign 20V791000 · Model years: 2019, 2020</p>
@@ -91,7 +95,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2019 2020">
 <h2><a href="/recall/20v636000/">Ford Transit Connect software may let engine overheat</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2020-10-15 · Campaign 20V636000 · Model years: 2019, 2020</p>
@@ -99,7 +103,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2019 2020">
 <h2><a href="/recall/20v550000/">Ford and Lincoln transmission leak creates fire risk</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2020-09-10 · Campaign 20V550000 · Model years: 2019, 2020</p>
@@ -107,7 +111,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018">
 <h2><a href="/recall/19v229000/">Ford Transit rear seat cushion may not lock upright</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2019-03-22 · Campaign 19V229000 · Model years: 2018</p>

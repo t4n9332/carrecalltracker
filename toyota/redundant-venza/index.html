@@ -8,6 +8,8 @@
 
 <link rel="canonical" href="https://carrecalltracker.com/toyota/redundant-venza/">
 <link rel="stylesheet" href="/static/style.css">
+<link rel="alternate" type="application/rss+xml" title="Car Recall Tracker — new recalls" href="/feed.xml">
+<script src="/static/app.js" defer></script>
 
 </head>
 <body>
@@ -18,8 +20,10 @@
 <p class="crumb"><a href="/">Home</a> › <a href="/toyota/">Toyota</a> › Redundant Venza</p>
 <h1>Toyota Redundant Venza recalls</h1>
 <p class="lead">2 recalls covering model years 2021, 2024. To check whether <em>your</em> vehicle is affected, look up your 17-character VIN at <a href="https://www.nhtsa.gov/recalls" rel="nofollow">nhtsa.gov/recalls</a> — a recall may apply only to some vehicles of a given year.</p>
+<div class="chips" role="group" aria-label="Filter by model year"><button type="button" data-year-chip="" aria-pressed="true">All years</button><button type="button" data-year-chip="2021" aria-pressed="false">2021</button><button type="button" data-year-chip="2024" aria-pressed="false">2024</button></div>
+<p id="year-count" class="meta" role="status"></p>
 
-<article class="card">
+<article class="card" data-years="2024">
 <h2><a href="/recall/25v595000/">Toyota and Lexus dashboard may not show speed or warnings</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2025-09-11 · Campaign 25V595000 · Model years: 2024</p>
@@ -27,7 +31,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2021">
 <h2><a href="/recall/22v239000/">Toyota and Lexus hybrids may lose stability control</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2022-04-13 · Campaign 22V239000 · Model years: 2021</p>

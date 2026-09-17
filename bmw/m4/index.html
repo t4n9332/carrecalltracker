@@ -8,6 +8,8 @@
 
 <link rel="canonical" href="https://carrecalltracker.com/bmw/m4/">
 <link rel="stylesheet" href="/static/style.css">
+<link rel="alternate" type="application/rss+xml" title="Car Recall Tracker — new recalls" href="/feed.xml">
+<script src="/static/app.js" defer></script>
 
 </head>
 <body>
@@ -18,8 +20,10 @@
 <p class="crumb"><a href="/">Home</a> › <a href="/bmw/">BMW</a> › M4</p>
 <h1>BMW M4 recalls</h1>
 <p class="lead">5 recalls covering model years 2018, 2020, 2021. To check whether <em>your</em> vehicle is affected, look up your 17-character VIN at <a href="https://www.nhtsa.gov/recalls" rel="nofollow">nhtsa.gov/recalls</a> — a recall may apply only to some vehicles of a given year.</p>
+<div class="chips" role="group" aria-label="Filter by model year"><button type="button" data-year-chip="" aria-pressed="true">All years</button><button type="button" data-year-chip="2018" aria-pressed="false">2018</button><button type="button" data-year-chip="2020" aria-pressed="false">2020</button><button type="button" data-year-chip="2021" aria-pressed="false">2021</button></div>
+<p id="year-count" class="meta" role="status"></p>
 
-<article class="card">
+<article class="card" data-years="2021">
 <h2><a href="/recall/21v554000/">BMW, MINI, Toyota Supra passenger seat belt retractor fault</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2021-07-21 · Campaign 21V554000 · Model years: 2021</p>
@@ -27,7 +31,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2021">
 <h2><a href="/recall/21v062000/">BMW X5, X6, X7 and M cars: brake unit failure</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2021-02-10 · Campaign 21V062000 · Model years: 2021</p>
@@ -35,7 +39,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2020">
 <h2><a href="/recall/20v666000/">BMW M2 and M4 Fuel Leak Fire Risk</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2020-10-29 · Campaign 20V666000 · Model years: 2020</p>
@@ -43,7 +47,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2020">
 <h2><a href="/recall/19v352000/">BMW M4 knee airbags may be folded incorrectly</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2019-05-09 · Campaign 19V352000 · Model years: 2020</p>
@@ -51,7 +55,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018">
 <h2><a href="/recall/17v507000/">BMW M4 front seat belts may not lock</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2017-08-16 · Campaign 17V507000 · Model years: 2018</p>

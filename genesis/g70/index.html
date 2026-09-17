@@ -8,6 +8,8 @@
 
 <link rel="canonical" href="https://carrecalltracker.com/genesis/g70/">
 <link rel="stylesheet" href="/static/style.css">
+<link rel="alternate" type="application/rss+xml" title="Car Recall Tracker — new recalls" href="/feed.xml">
+<script src="/static/app.js" defer></script>
 
 </head>
 <body>
@@ -18,8 +20,10 @@
 <p class="crumb"><a href="/">Home</a> › <a href="/genesis/">Genesis</a> › G70</p>
 <h1>Genesis G70 recalls</h1>
 <p class="lead">6 recalls covering model years 2019, 2020, 2021, 2022, 2023. To check whether <em>your</em> vehicle is affected, look up your 17-character VIN at <a href="https://www.nhtsa.gov/recalls" rel="nofollow">nhtsa.gov/recalls</a> — a recall may apply only to some vehicles of a given year.</p>
+<div class="chips" role="group" aria-label="Filter by model year"><button type="button" data-year-chip="" aria-pressed="true">All years</button><button type="button" data-year-chip="2019" aria-pressed="false">2019</button><button type="button" data-year-chip="2020" aria-pressed="false">2020</button><button type="button" data-year-chip="2021" aria-pressed="false">2021</button><button type="button" data-year-chip="2022" aria-pressed="false">2022</button><button type="button" data-year-chip="2023" aria-pressed="false">2023</button></div>
+<p id="year-count" class="meta" role="status"></p>
 
-<article class="card">
+<article class="card" data-years="2019 2020 2021 2022 2023">
 <h2><a href="/recall/24v528000/">Hyundai and Genesis performance models: fuel pump can fail</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2024-07-12 · Campaign 24V528000 · Model years: 2019, 2020, 2021, 2022, 2023</p>
@@ -27,7 +31,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2019 2020 2021 2022">
 <h2><a href="/recall/24v191000/">Genesis G70, G80 and G90 turbo oil leak fire risk</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2024-03-08 · Campaign 24V191000 · Model years: 2019, 2020, 2021, 2022</p>
@@ -35,7 +39,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2019">
 <h2><a href="/recall/24v107000/">Genesis sedans: water in starter can cause engine fire</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2024-02-13 · Campaign 24V107000 · Model years: 2019</p>
@@ -43,7 +47,7 @@
 <p class="warn">⚠ NHTSA advises: park outside and away from structures (fire risk).</p>
 </article>
 
-<article class="card">
+<article class="card" data-years="2019">
 <h2><a href="/recall/22v196000/">Hyundai Sonata and Genesis G70 trunk release may fail</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2022-03-28 · Campaign 22V196000 · Model years: 2019</p>
@@ -51,7 +55,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2019 2020 2021">
 <h2><a href="/recall/21v161000/">Genesis G70 anti-lock brake module can catch fire</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2021-03-10 · Campaign 21V161000 · Model years: 2019, 2020, 2021</p>
@@ -59,7 +63,7 @@
 <p class="warn">⚠ NHTSA advises: park outside and away from structures (fire risk).</p>
 </article>
 
-<article class="card">
+<article class="card" data-years="2021">
 <h2><a href="/recall/20v569000/">Genesis G70 fuel pump defect can stall the engine</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2020-09-21 · Campaign 20V569000 · Model years: 2021</p>

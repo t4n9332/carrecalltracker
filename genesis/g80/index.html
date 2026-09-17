@@ -8,6 +8,8 @@
 
 <link rel="canonical" href="https://carrecalltracker.com/genesis/g80/">
 <link rel="stylesheet" href="/static/style.css">
+<link rel="alternate" type="application/rss+xml" title="Car Recall Tracker — new recalls" href="/feed.xml">
+<script src="/static/app.js" defer></script>
 
 </head>
 <body>
@@ -18,8 +20,10 @@
 <p class="crumb"><a href="/">Home</a> › <a href="/genesis/">Genesis</a> › G80</p>
 <h1>Genesis G80 recalls</h1>
 <p class="lead">13 recalls covering model years 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025. To check whether <em>your</em> vehicle is affected, look up your 17-character VIN at <a href="https://www.nhtsa.gov/recalls" rel="nofollow">nhtsa.gov/recalls</a> — a recall may apply only to some vehicles of a given year.</p>
+<div class="chips" role="group" aria-label="Filter by model year"><button type="button" data-year-chip="" aria-pressed="true">All years</button><button type="button" data-year-chip="2018" aria-pressed="false">2018</button><button type="button" data-year-chip="2019" aria-pressed="false">2019</button><button type="button" data-year-chip="2020" aria-pressed="false">2020</button><button type="button" data-year-chip="2021" aria-pressed="false">2021</button><button type="button" data-year-chip="2022" aria-pressed="false">2022</button><button type="button" data-year-chip="2023" aria-pressed="false">2023</button><button type="button" data-year-chip="2024" aria-pressed="false">2024</button><button type="button" data-year-chip="2025" aria-pressed="false">2025</button></div>
+<p id="year-count" class="meta" role="status"></p>
 
-<article class="card">
+<article class="card" data-years="2021 2022 2023 2024 2025">
 <h2><a href="/recall/26v229000/">Genesis G80, G90, GV70, GV80 fuel line may leak</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2026-04-10 · Campaign 26V229000 · Model years: 2021, 2022, 2023, 2024, 2025</p>
@@ -27,7 +31,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2025">
 <h2><a href="/recall/26v019000/">Genesis G80 and GV80 dashboard display can go blank</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2026-01-16 · Campaign 26V019000 · Model years: 2025</p>
@@ -35,7 +39,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2023 2024">
 <h2><a href="/recall/25v105000/">Genesis G80, GV80 and GV70 driver display can fail</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2025-02-20 · Campaign 25V105000 · Model years: 2023, 2024</p>
@@ -43,7 +47,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2022 2023">
 <h2><a href="/recall/24v282000/">Genesis GV70, GV80, G80, G90 fuel pump failure</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2024-04-19 · Campaign 24V282000 · Model years: 2022, 2023</p>
@@ -51,7 +55,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018 2019 2020">
 <h2><a href="/recall/24v191000/">Genesis G70, G80 and G90 turbo oil leak fire risk</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2024-03-08 · Campaign 24V191000 · Model years: 2018, 2019, 2020</p>
@@ -59,7 +63,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018 2019">
 <h2><a href="/recall/24v107000/">Genesis sedans: water in starter can cause engine fire</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2024-02-13 · Campaign 24V107000 · Model years: 2018, 2019</p>
@@ -67,7 +71,7 @@
 <p class="warn">⚠ NHTSA advises: park outside and away from structures (fire risk).</p>
 </article>
 
-<article class="card">
+<article class="card" data-years="2021 2022">
 <h2><a href="/recall/23v630000/">Genesis G80, GV70 and GV80 fuel pump may fail</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2023-09-11 · Campaign 23V630000 · Model years: 2021, 2022</p>
@@ -75,7 +79,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2021 2022 2023">
 <h2><a href="/recall/23v094000/">Genesis seat belt part may explode during a crash</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2023-02-16 · Campaign 23V094000 · Model years: 2021, 2022, 2023</p>
@@ -83,7 +87,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2021">
 <h2><a href="/recall/21v208000/">Genesis G80 and GV80 fuel line may leak gasoline</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2021-03-24 · Campaign 21V208000 · Model years: 2021</p>
@@ -91,7 +95,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018 2019 2020">
 <h2><a href="/recall/21v160000/">Genesis G80 anti-lock brake module can catch fire</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2021-03-10 · Campaign 21V160000 · Model years: 2018, 2019, 2020</p>
@@ -99,7 +103,7 @@
 <p class="warn">⚠ NHTSA advises: park outside and away from structures (fire risk).</p>
 </article>
 
-<article class="card">
+<article class="card" data-years="2018">
 <h2><a href="/recall/19v538000/">Genesis G80 and G90 turbo oil leak fire risk</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2019-07-19 · Campaign 19V538000 · Model years: 2018</p>
@@ -107,7 +111,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018">
 <h2><a href="/recall/18v496000/">Genesis G80 passenger airbag sensor may misread empty seat</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2018-07-27 · Campaign 18V496000 · Model years: 2018</p>
@@ -115,7 +119,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018">
 <h2><a href="/recall/18v305000/">Genesis G80 and G90 windshield may come off</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2018-05-10 · Campaign 18V305000 · Model years: 2018</p>

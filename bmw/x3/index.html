@@ -8,6 +8,8 @@
 
 <link rel="canonical" href="https://carrecalltracker.com/bmw/x3/">
 <link rel="stylesheet" href="/static/style.css">
+<link rel="alternate" type="application/rss+xml" title="Car Recall Tracker — new recalls" href="/feed.xml">
+<script src="/static/app.js" defer></script>
 
 </head>
 <body>
@@ -18,8 +20,10 @@
 <p class="crumb"><a href="/">Home</a> › <a href="/bmw/">BMW</a> › X3</p>
 <h1>BMW X3 recalls</h1>
 <p class="lead">40 recalls covering model years 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025. To check whether <em>your</em> vehicle is affected, look up your 17-character VIN at <a href="https://www.nhtsa.gov/recalls" rel="nofollow">nhtsa.gov/recalls</a> — a recall may apply only to some vehicles of a given year.</p>
+<div class="chips" role="group" aria-label="Filter by model year"><button type="button" data-year-chip="" aria-pressed="true">All years</button><button type="button" data-year-chip="2018" aria-pressed="false">2018</button><button type="button" data-year-chip="2019" aria-pressed="false">2019</button><button type="button" data-year-chip="2020" aria-pressed="false">2020</button><button type="button" data-year-chip="2021" aria-pressed="false">2021</button><button type="button" data-year-chip="2022" aria-pressed="false">2022</button><button type="button" data-year-chip="2023" aria-pressed="false">2023</button><button type="button" data-year-chip="2024" aria-pressed="false">2024</button><button type="button" data-year-chip="2025" aria-pressed="false">2025</button></div>
+<p id="year-count" class="meta" role="status"></p>
 
-<article class="card">
+<article class="card" data-years="2024 2025">
 <h2><a href="/recall/26v524000/">BMW X3 steering shaft may be attached incorrectly</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2026-08-12 · Campaign 26V524000 · Model years: 2024, 2025</p>
@@ -27,7 +31,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2021 2022 2023">
 <h2><a href="/recall/26v056000/">BMW and Toyota Supra Starter Can Overheat and Catch Fire</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2026-01-30 · Campaign 26V056000 · Model years: 2021, 2022, 2023</p>
@@ -35,7 +39,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2025">
 <h2><a href="/recall/25v857000/">BMW X3 steering wheel may turn by itself</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2025-12-11 · Campaign 25V857000 · Model years: 2025</p>
@@ -43,7 +47,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2020 2021 2022">
 <h2><a href="/recall/25v636000/">BMW X3, X4 and Z4 starter relay fire risk</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2025-09-23 · Campaign 25V636000 · Model years: 2020, 2021, 2022</p>
@@ -51,7 +55,7 @@
 <p class="warn">⚠ NHTSA advises: park outside and away from structures (fire risk).</p>
 </article>
 
-<article class="card">
+<article class="card" data-years="2025">
 <h2><a href="/recall/25v247000/">BMW X3 front brake discs may be damaged</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2025-04-16 · Campaign 25V247000 · Model years: 2025</p>
@@ -59,7 +63,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2025">
 <h2><a href="/recall/25v202000/">BMW 330i, 430i, 530i, X3: loose starter wiring can stall</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2025-04-01 · Campaign 25V202000 · Model years: 2025</p>
@@ -67,7 +71,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2025">
 <h2><a href="/recall/25v154000/">BMW X3 rear brake hoses may leak fluid</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2025-03-12 · Campaign 25V154000 · Model years: 2025</p>
@@ -75,7 +79,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2025">
 <h2><a href="/recall/25v109000/">BMW X3 battery cable connection can overheat</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2025-02-21 · Campaign 25V109000 · Model years: 2025</p>
@@ -83,7 +87,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2022 2023 2024">
 <h2><a href="/recall/25v106000/">BMW X3 rear doors can unlock and open unexpectedly</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2025-02-20 · Campaign 25V106000 · Model years: 2022, 2023, 2024</p>
@@ -91,7 +95,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2025">
 <h2><a href="/recall/24v909000/">BMW X3 front left wheel bearing may crack</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2024-12-05 · Campaign 24V909000 · Model years: 2025</p>
@@ -99,7 +103,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2025">
 <h2><a href="/recall/24v856000/">BMW X3 side curtain airbag may be assembled wrong</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2024-11-12 · Campaign 24V856000 · Model years: 2025</p>
@@ -107,7 +111,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2025">
 <h2><a href="/recall/24v772000/">BMW X3 passenger airbag fabric damaged during shipping</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2024-10-17 · Campaign 24V772000 · Model years: 2025</p>
@@ -115,7 +119,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018 2019 2020 2021 2022">
 <h2><a href="/recall/24v764000/">BMW X3 rear cargo rail can detach in crash</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2024-10-15 · Campaign 24V764000 · Model years: 2018, 2019, 2020, 2021, 2022</p>
@@ -123,7 +127,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018 2019 2020 2021 2022 2023">
 <h2><a href="/recall/24v534000/">BMW X3 cargo rail may come loose in crash</a>
 <span class="sev sev-low">low</span></h2>
 <p class="meta">Reported 2024-07-17 · Campaign 24V534000 · Model years: 2018, 2019, 2020, 2021, 2022, 2023</p>
@@ -131,7 +135,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2023">
 <h2><a href="/recall/23v821000/">BMW SUVs and Toyota Supra can lose power suddenly</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2023-12-06 · Campaign 23V821000 · Model years: 2023</p>
@@ -139,7 +143,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2024">
 <h2><a href="/recall/23v770000/">BMW steering gear may be loose on several 2024 models</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2023-11-16 · Campaign 23V770000 · Model years: 2024</p>
@@ -147,7 +151,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2020 2021">
 <h2><a href="/recall/23v211000/">BMW 3 Series, X3 and X4 seat frames poorly welded</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2023-03-29 · Campaign 23V211000 · Model years: 2020, 2021</p>
@@ -155,7 +159,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2022">
 <h2><a href="/recall/22v513000/">BMW X1, X3 and 228i fuel rail can crack</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2022-07-20 · Campaign 22V513000 · Model years: 2022</p>
@@ -163,7 +167,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2022">
 <h2><a href="/recall/22v070000/">BMW X3 and X4 transmission fault can cause rollaway</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2022-02-09 · Campaign 22V070000 · Model years: 2022</p>
@@ -171,7 +175,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2020">
 <h2><a href="/recall/21v598000/">BMW and Toyota Supra lose power brake assist</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2021-08-02 · Campaign 21V598000 · Model years: 2020</p>
@@ -179,7 +183,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018 2019">
 <h2><a href="/recall/21v521000/">BMW X3 and X4 passenger airbag may not deploy</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2021-07-08 · Campaign 21V521000 · Model years: 2018, 2019</p>
@@ -187,7 +191,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2021">
 <h2><a href="/recall/21v199000/">BMW X3 and X4 fuel filler pipe can leak</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2021-03-24 · Campaign 21V199000 · Model years: 2021</p>
@@ -195,7 +199,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2019 2020 2021">
 <h2><a href="/recall/21v096000/">BMW Cars and SUVs: Backup Camera Image May Fail</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2021-02-19 · Campaign 21V096000 · Model years: 2019, 2020, 2021</p>
@@ -203,15 +207,7 @@
 
 </article>
 
-<article class="card">
-<h2><a href="/recall/20v598000/">BMW X3, X4 and 5 Series backup camera partly blocked</a>
-<span class="sev sev-low">low</span></h2>
-<p class="meta">Reported 2020-09-30 · Campaign 20V598000 · Model years: 2020, 2021</p>
-<p>On these BMWs, a small part of the picture from the backup camera may be slightly blocked, so you do not see everything behind the car that you should. The rest of the camera view still works. If you back up using only the screen and do not also look over your shoulder or check your mirrors, you could miss a person or object in the hidden area. A dealer will check the camera and load updated software if needed.</p>
-
-</article>
-
-<article class="card">
+<article class="card" data-years="2020 2021">
 <h2><a href="/recall/20v601000/">BMW and MINI plug-in hybrid batteries may catch fire</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2020-09-30 · Campaign 20V601000 · Model years: 2020, 2021</p>
@@ -219,7 +215,15 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2020 2021">
+<h2><a href="/recall/20v598000/">BMW X3, X4 and 5 Series backup camera partly blocked</a>
+<span class="sev sev-low">low</span></h2>
+<p class="meta">Reported 2020-09-30 · Campaign 20V598000 · Model years: 2020, 2021</p>
+<p>On these BMWs, a small part of the picture from the backup camera may be slightly blocked, so you do not see everything behind the car that you should. The rest of the camera view still works. If you back up using only the screen and do not also look over your shoulder or check your mirrors, you could miss a person or object in the hidden area. A dealer will check the camera and load updated software if needed.</p>
+
+</article>
+
+<article class="card" data-years="2020 2021">
 <h2><a href="/recall/20v490000/">BMW and MINI Hybrid Battery May Short and Catch Fire</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2020-08-18 · Campaign 20V490000 · Model years: 2020, 2021</p>
@@ -227,7 +231,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2020">
 <h2><a href="/recall/20v443000/">BMW X3 Backup Camera Shows No Image in Reverse</a>
 <span class="sev sev-low">low</span></h2>
 <p class="meta">Reported 2020-07-29 · Campaign 20V443000 · Model years: 2020</p>
@@ -235,7 +239,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2020">
 <h2><a href="/recall/20v355000/">BMW and Toyota Supra steering tie rod can break</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2020-06-15 · Campaign 20V355000 · Model years: 2020</p>
@@ -243,7 +247,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2020">
 <h2><a href="/recall/20v164000/">BMW X3, X4 and 3-Series seat belt sensor fault</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2020-03-19 · Campaign 20V164000 · Model years: 2020</p>
@@ -251,7 +255,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018 2019 2020">
 <h2><a href="/recall/20v152000/">BMW X3 and X4 Dashboard Panel May Break in Crash</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2020-03-18 · Campaign 20V152000 · Model years: 2018, 2019, 2020</p>
@@ -259,7 +263,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2020">
 <h2><a href="/recall/19v738000/">BMW X3 M40i and X4 M40i may lose steering control</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2019-10-16 · Campaign 19V738000 · Model years: 2020</p>
@@ -267,7 +271,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018 2019 2020">
 <h2><a href="/recall/19v684000/">BMW and Toyota Supra backup camera picture can vanish</a>
 <span class="sev sev-low">low</span></h2>
 <p class="meta">Reported 2019-09-27 · Campaign 19V684000 · Model years: 2018, 2019, 2020</p>
@@ -275,7 +279,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2020">
 <h2><a href="/recall/19v678000/">BMW X3 and X4 front suspension parts may break</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2019-09-25 · Campaign 19V678000 · Model years: 2020</p>
@@ -283,7 +287,7 @@
 <p class="warn">⚠ NHTSA advises: do not drive this vehicle until repaired. </p>
 </article>
 
-<article class="card">
+<article class="card" data-years="2018 2019">
 <h2><a href="/recall/19v563000/">BMW X3 and X4 front seatbacks may fold unexpectedly</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2019-07-31 · Campaign 19V563000 · Model years: 2018, 2019</p>
@@ -291,7 +295,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2019">
 <h2><a href="/recall/19v291000/">BMW X3 and X4 passenger airbag may not deploy</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2019-04-10 · Campaign 19V291000 · Model years: 2019</p>
@@ -299,7 +303,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018 2019">
 <h2><a href="/recall/18v453000/">BMW X3 and X4 rear brakes may lose stopping power</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2018-07-06 · Campaign 18V453000 · Model years: 2018, 2019</p>
@@ -307,7 +311,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018">
 <h2><a href="/recall/18v431000/">BMW X3 rear turn signals flash wrong color</a>
 <span class="sev sev-low">low</span></h2>
 <p class="meta">Reported 2018-06-21 · Campaign 18V431000 · Model years: 2018</p>
@@ -315,7 +319,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018 2019">
 <h2><a href="/recall/18v374000/">BMW X3 lane keeping assist may miss hands-off driver</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2018-06-06 · Campaign 18V374000 · Model years: 2018, 2019</p>
@@ -323,7 +327,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018">
 <h2><a href="/recall/18v154000/">BMW X3 rear spoiler may detach while driving</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2018-03-07 · Campaign 18V154000 · Model years: 2018</p>
@@ -331,7 +335,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018">
 <h2><a href="/recall/17v719000/">BMW 2-Series and X3 instrument display may not light up</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2017-11-15 · Campaign 17V719000 · Model years: 2018</p>

@@ -8,6 +8,8 @@
 
 <link rel="canonical" href="https://carrecalltracker.com/lincoln/mkz/">
 <link rel="stylesheet" href="/static/style.css">
+<link rel="alternate" type="application/rss+xml" title="Car Recall Tracker — new recalls" href="/feed.xml">
+<script src="/static/app.js" defer></script>
 
 </head>
 <body>
@@ -18,8 +20,10 @@
 <p class="crumb"><a href="/">Home</a> › <a href="/lincoln/">Lincoln</a> › MKZ</p>
 <h1>Lincoln MKZ recalls</h1>
 <p class="lead">3 recalls covering model years 2018, 2019, 2020. To check whether <em>your</em> vehicle is affected, look up your 17-character VIN at <a href="https://www.nhtsa.gov/recalls" rel="nofollow">nhtsa.gov/recalls</a> — a recall may apply only to some vehicles of a given year.</p>
+<div class="chips" role="group" aria-label="Filter by model year"><button type="button" data-year-chip="" aria-pressed="true">All years</button><button type="button" data-year-chip="2018" aria-pressed="false">2018</button><button type="button" data-year-chip="2019" aria-pressed="false">2019</button><button type="button" data-year-chip="2020" aria-pressed="false">2020</button></div>
+<p id="year-count" class="meta" role="status"></p>
 
-<article class="card">
+<article class="card" data-years="2019 2020">
 <h2><a href="/recall/25v442000/">Ford and Lincoln rearview camera image may go blank</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2025-06-27 · Campaign 25V442000 · Model years: 2019, 2020</p>
@@ -27,7 +31,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018">
 <h2><a href="/recall/23v162000/">Ford Fusion and Lincoln MKZ front brake hoses can leak</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2023-03-10 · Campaign 23V162000 · Model years: 2018</p>
@@ -35,7 +39,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018">
 <h2><a href="/recall/18v167000/">Ford Fusion and Lincoln MKZ steering wheels may detach</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2018-03-12 · Campaign 18V167000 · Model years: 2018</p>
@@ -47,7 +51,9 @@
 <p>Complaints owners have filed with NHTSA about the Lincoln MKZ. These are unverified reports; better-selling years collect more.</p>
 <table class="data"><tr><th>Model year</th><th>Complaints</th><th>Crashes</th><th>Fires</th><th>Injuries</th></tr>
 <tr><td>2018</td><td>33</td><td>1</td><td>0</td><td>1</td></tr><tr><td>2019</td><td>20</td><td>2</td><td>0</td><td>1</td></tr><tr><td>2020</td><td>2</td><td>0</td><td>0</td><td>0</td></tr></table>
-
+<h2>Buying a used MKZ?</h2>
+<p>Recalls and complaint record for one model year at a time:</p>
+<ul class="tags"><li><a href="/used/lincoln/mkz/2018/">2018 MKZ</a></li></ul>
 
 </main>
 <footer>

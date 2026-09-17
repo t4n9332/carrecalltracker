@@ -8,6 +8,8 @@
 
 <link rel="canonical" href="https://carrecalltracker.com/audi/e-tron-sportback/">
 <link rel="stylesheet" href="/static/style.css">
+<link rel="alternate" type="application/rss+xml" title="Car Recall Tracker — new recalls" href="/feed.xml">
+<script src="/static/app.js" defer></script>
 
 </head>
 <body>
@@ -18,8 +20,10 @@
 <p class="crumb"><a href="/">Home</a> › <a href="/audi/">Audi</a> › E-TRON Sportback</p>
 <h1>Audi E-TRON Sportback recalls</h1>
 <p class="lead">2 recalls covering model years 2020, 2021. To check whether <em>your</em> vehicle is affected, look up your 17-character VIN at <a href="https://www.nhtsa.gov/recalls" rel="nofollow">nhtsa.gov/recalls</a> — a recall may apply only to some vehicles of a given year.</p>
+<div class="chips" role="group" aria-label="Filter by model year"><button type="button" data-year-chip="" aria-pressed="true">All years</button><button type="button" data-year-chip="2020" aria-pressed="false">2020</button><button type="button" data-year-chip="2021" aria-pressed="false">2021</button></div>
+<p id="year-count" class="meta" role="status"></p>
 
-<article class="card">
+<article class="card" data-years="2020 2021">
 <h2><a href="/recall/26v240000/">Audi e-tron brake pedal can detach from brake booster</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2026-04-15 · Campaign 26V240000 · Model years: 2020, 2021</p>
@@ -27,7 +31,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2020 2021">
 <h2><a href="/recall/25v900000/">Audi rearview camera image may fail to display</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2025-12-19 · Campaign 25V900000 · Model years: 2020, 2021</p>

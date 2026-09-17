@@ -8,6 +8,8 @@
 
 <link rel="canonical" href="https://carrecalltracker.com/hyundai/elantra-hybrid/">
 <link rel="stylesheet" href="/static/style.css">
+<link rel="alternate" type="application/rss+xml" title="Car Recall Tracker — new recalls" href="/feed.xml">
+<script src="/static/app.js" defer></script>
 
 </head>
 <body>
@@ -18,8 +20,10 @@
 <p class="crumb"><a href="/">Home</a> › <a href="/hyundai/">Hyundai</a> › Elantra Hybrid</p>
 <h1>Hyundai Elantra Hybrid recalls</h1>
 <p class="lead">2 recalls covering model years 2021, 2022, 2025. To check whether <em>your</em> vehicle is affected, look up your 17-character VIN at <a href="https://www.nhtsa.gov/recalls" rel="nofollow">nhtsa.gov/recalls</a> — a recall may apply only to some vehicles of a given year.</p>
+<div class="chips" role="group" aria-label="Filter by model year"><button type="button" data-year-chip="" aria-pressed="true">All years</button><button type="button" data-year-chip="2021" aria-pressed="false">2021</button><button type="button" data-year-chip="2022" aria-pressed="false">2022</button><button type="button" data-year-chip="2025" aria-pressed="false">2025</button></div>
+<p id="year-count" class="meta" role="status"></p>
 
-<article class="card">
+<article class="card" data-years="2025">
 <h2><a href="/recall/26v308000/">Hyundai Elantra Hybrid power unit can overheat, fire risk</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2026-05-15 · Campaign 26V308000 · Model years: 2025</p>
@@ -27,7 +31,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2021 2022">
 <h2><a href="/recall/24v879000/">Hyundai Elantra and Santa Fe: rearview camera may not display</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2024-11-21 · Campaign 24V879000 · Model years: 2021, 2022</p>

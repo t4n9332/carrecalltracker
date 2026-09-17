@@ -8,6 +8,8 @@
 
 <link rel="canonical" href="https://carrecalltracker.com/mercedes-benz/glb-250-4matic/">
 <link rel="stylesheet" href="/static/style.css">
+<link rel="alternate" type="application/rss+xml" title="Car Recall Tracker — new recalls" href="/feed.xml">
+<script src="/static/app.js" defer></script>
 
 </head>
 <body>
@@ -18,8 +20,10 @@
 <p class="crumb"><a href="/">Home</a> › <a href="/mercedes-benz/">Mercedes-Benz</a> › GLB 250 4MATIC</p>
 <h1>Mercedes-Benz GLB 250 4MATIC recalls</h1>
 <p class="lead">1 recall covering model years 2022, 2024. To check whether <em>your</em> vehicle is affected, look up your 17-character VIN at <a href="https://www.nhtsa.gov/recalls" rel="nofollow">nhtsa.gov/recalls</a> — a recall may apply only to some vehicles of a given year.</p>
+<div class="chips" role="group" aria-label="Filter by model year"><button type="button" data-year-chip="" aria-pressed="true">All years</button><button type="button" data-year-chip="2022" aria-pressed="false">2022</button><button type="button" data-year-chip="2024" aria-pressed="false">2024</button></div>
+<p id="year-count" class="meta" role="status"></p>
 
-<article class="card">
+<article class="card" data-years="2022 2024">
 <h2><a href="/recall/26v481000/">Mercedes-Benz door lock switch may let vehicle roll away</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2026-07-24 · Campaign 26V481000 · Model years: 2022, 2024</p>

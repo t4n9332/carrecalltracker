@@ -8,6 +8,8 @@
 
 <link rel="canonical" href="https://carrecalltracker.com/chevrolet/blazer-ev/">
 <link rel="stylesheet" href="/static/style.css">
+<link rel="alternate" type="application/rss+xml" title="Car Recall Tracker — new recalls" href="/feed.xml">
+<script src="/static/app.js" defer></script>
 
 </head>
 <body>
@@ -18,8 +20,10 @@
 <p class="crumb"><a href="/">Home</a> › <a href="/chevrolet/">Chevrolet</a> › Blazer EV</p>
 <h1>Chevrolet Blazer EV recalls</h1>
 <p class="lead">6 recalls covering model years 2024, 2025. To check whether <em>your</em> vehicle is affected, look up your 17-character VIN at <a href="https://www.nhtsa.gov/recalls" rel="nofollow">nhtsa.gov/recalls</a> — a recall may apply only to some vehicles of a given year.</p>
+<div class="chips" role="group" aria-label="Filter by model year"><button type="button" data-year-chip="" aria-pressed="true">All years</button><button type="button" data-year-chip="2024" aria-pressed="false">2024</button><button type="button" data-year-chip="2025" aria-pressed="false">2025</button></div>
+<p id="year-count" class="meta" role="status"></p>
 
-<article class="card">
+<article class="card" data-years="2024 2025">
 <h2><a href="/recall/26v031000/">Chevrolet Blazer EV parking brake wiring may fail</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2026-01-22 · Campaign 26V031000 · Model years: 2024, 2025</p>
@@ -27,7 +31,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2024 2025">
 <h2><a href="/recall/25v433000/">Chevrolet Blazer EV parking brake wiring can fail</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2025-06-25 · Campaign 25V433000 · Model years: 2024, 2025</p>
@@ -35,7 +39,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2025">
 <h2><a href="/recall/24v737000/">Chevrolet Blazer and Equinox doors may unlatch and open</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2024-10-02 · Campaign 24V737000 · Model years: 2025</p>
@@ -43,7 +47,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2024">
 <h2><a href="/recall/24v487000/">Chevrolet Blazer EV Front Control Arm May Break</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2024-06-28 · Campaign 24V487000 · Model years: 2024</p>
@@ -51,7 +55,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2024">
 <h2><a href="/recall/24v320000/">Cadillac Lyriq and Other GM EVs Can Lose Power</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2024-05-09 · Campaign 24V320000 · Model years: 2024</p>
@@ -59,7 +63,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2024">
 <h2><a href="/recall/23v869000/">Chevrolet and GMC door strikers can break unexpectedly</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2023-12-21 · Campaign 23V869000 · Model years: 2024</p>

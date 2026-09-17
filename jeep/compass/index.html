@@ -8,6 +8,8 @@
 
 <link rel="canonical" href="https://carrecalltracker.com/jeep/compass/">
 <link rel="stylesheet" href="/static/style.css">
+<link rel="alternate" type="application/rss+xml" title="Car Recall Tracker — new recalls" href="/feed.xml">
+<script src="/static/app.js" defer></script>
 
 </head>
 <body>
@@ -18,8 +20,10 @@
 <p class="crumb"><a href="/">Home</a> › <a href="/jeep/">Jeep</a> › Compass</p>
 <h1>Jeep Compass recalls</h1>
 <p class="lead">11 recalls covering model years 2018, 2019, 2020, 2022, 2023. To check whether <em>your</em> vehicle is affected, look up your 17-character VIN at <a href="https://www.nhtsa.gov/recalls" rel="nofollow">nhtsa.gov/recalls</a> — a recall may apply only to some vehicles of a given year.</p>
+<div class="chips" role="group" aria-label="Filter by model year"><button type="button" data-year-chip="" aria-pressed="true">All years</button><button type="button" data-year-chip="2018" aria-pressed="false">2018</button><button type="button" data-year-chip="2019" aria-pressed="false">2019</button><button type="button" data-year-chip="2020" aria-pressed="false">2020</button><button type="button" data-year-chip="2022" aria-pressed="false">2022</button><button type="button" data-year-chip="2023" aria-pressed="false">2023</button></div>
+<p id="year-count" class="meta" role="status"></p>
 
-<article class="card">
+<article class="card" data-years="2022 2023">
 <h2><a href="/recall/24v436000/">Jeep, Ram, Chrysler backup camera may show nothing</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2024-06-13 · Campaign 24V436000 · Model years: 2022, 2023</p>
@@ -27,7 +31,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2022 2023">
 <h2><a href="/recall/23v576000/">Jeep Compass Dashboard Display Brightness Cannot Be Adjusted</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2023-08-14 · Campaign 23V576000 · Model years: 2022, 2023</p>
@@ -35,7 +39,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2022">
 <h2><a href="/recall/23v058000/">Jeep Compass dashboard display may be too dim</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2023-02-09 · Campaign 23V058000 · Model years: 2022</p>
@@ -43,7 +47,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2022">
 <h2><a href="/recall/22v248000/">Jeep Compass front headrests were not welded properly</a>
 <span class="sev sev-low">low</span></h2>
 <p class="meta">Reported 2022-04-14 · Campaign 22V248000 · Model years: 2022</p>
@@ -51,7 +55,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2019 2020">
 <h2><a href="/recall/20v208000/">Ram and Jeep Compass windshield wiper arms may loosen</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2020-04-09 · Campaign 20V208000 · Model years: 2019, 2020</p>
@@ -59,7 +63,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018">
 <h2><a href="/recall/18v524000/">Jeep, Ram, Dodge, Chrysler engine computer may cause stalling</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2018-08-09 · Campaign 18V524000 · Model years: 2018</p>
@@ -67,7 +71,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018 2019">
 <h2><a href="/recall/18v523000/">Dodge and Jeep rear brake calipers may weaken braking</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2018-08-09 · Campaign 18V523000 · Model years: 2018, 2019</p>
@@ -75,7 +79,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018">
 <h2><a href="/recall/18v279000/">Jeep Compass front control arm may break apart</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2018-05-01 · Campaign 18V279000 · Model years: 2018</p>
@@ -83,7 +87,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018">
 <h2><a href="/recall/17v732000/">Jeep Compass passenger airbag has loose inflator nuts inside</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2017-11-21 · Campaign 17V732000 · Model years: 2018</p>
@@ -91,7 +95,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018">
 <h2><a href="/recall/17v740000/">Jeep Compass dashboard lights cannot be dimmed at night</a>
 <span class="sev sev-low">low</span></h2>
 <p class="meta">Reported 2017-11-21 · Campaign 17V740000 · Model years: 2018</p>
@@ -99,7 +103,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018">
 <h2><a href="/recall/17v670000/">Jeep Cherokee and Compass oil pump may fail, stalling engine</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2017-10-24 · Campaign 17V670000 · Model years: 2018</p>
@@ -111,7 +115,9 @@
 <p>Complaints owners have filed with NHTSA about the Jeep Compass. These are unverified reports; better-selling years collect more.</p>
 <table class="data"><tr><th>Model year</th><th>Complaints</th><th>Crashes</th><th>Fires</th><th>Injuries</th></tr>
 <tr><td>2018</td><td>937</td><td>28</td><td>5</td><td>18</td></tr><tr><td>2019</td><td>329</td><td>13</td><td>2</td><td>5</td></tr><tr><td>2020</td><td>139</td><td>3</td><td>2</td><td>3</td></tr><tr><td>2022</td><td>221</td><td>11</td><td>0</td><td>6</td></tr><tr><td>2023</td><td>45</td><td>2</td><td>0</td><td>1</td></tr></table>
-
+<h2>Buying a used Compass?</h2>
+<p>Recalls and complaint record for one model year at a time:</p>
+<ul class="tags"><li><a href="/used/jeep/compass/2018/">2018 Compass</a></li><li><a href="/used/jeep/compass/2019/">2019 Compass</a></li><li><a href="/used/jeep/compass/2022/">2022 Compass</a></li><li><a href="/used/jeep/compass/2023/">2023 Compass</a></li></ul>
 
 </main>
 <footer>

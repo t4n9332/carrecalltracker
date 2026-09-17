@@ -8,6 +8,8 @@
 
 <link rel="canonical" href="https://carrecalltracker.com/jeep/renegade/">
 <link rel="stylesheet" href="/static/style.css">
+<link rel="alternate" type="application/rss+xml" title="Car Recall Tracker — new recalls" href="/feed.xml">
+<script src="/static/app.js" defer></script>
 
 </head>
 <body>
@@ -18,8 +20,10 @@
 <p class="crumb"><a href="/">Home</a> › <a href="/jeep/">Jeep</a> › Renegade</p>
 <h1>Jeep Renegade recalls</h1>
 <p class="lead">8 recalls covering model years 2018, 2019, 2020, 2021, 2022, 2023. To check whether <em>your</em> vehicle is affected, look up your 17-character VIN at <a href="https://www.nhtsa.gov/recalls" rel="nofollow">nhtsa.gov/recalls</a> — a recall may apply only to some vehicles of a given year.</p>
+<div class="chips" role="group" aria-label="Filter by model year"><button type="button" data-year-chip="" aria-pressed="true">All years</button><button type="button" data-year-chip="2018" aria-pressed="false">2018</button><button type="button" data-year-chip="2019" aria-pressed="false">2019</button><button type="button" data-year-chip="2020" aria-pressed="false">2020</button><button type="button" data-year-chip="2021" aria-pressed="false">2021</button><button type="button" data-year-chip="2022" aria-pressed="false">2022</button><button type="button" data-year-chip="2023" aria-pressed="false">2023</button></div>
+<p id="year-count" class="meta" role="status"></p>
 
-<article class="card">
+<article class="card" data-years="2021 2022 2023">
 <h2><a href="/recall/24v918000/">Jeep Renegade may have wrong reverse light assembly</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2024-12-10 · Campaign 24V918000 · Model years: 2021, 2022, 2023</p>
@@ -27,7 +31,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2019 2020 2021 2022 2023">
 <h2><a href="/recall/24v510000/">Jeep Renegade front airbag may not deploy in crash</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2024-07-03 · Campaign 24V510000 · Model years: 2019, 2020, 2021, 2022, 2023</p>
@@ -35,7 +39,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2019 2020">
 <h2><a href="/recall/20v191000/">Jeep, Ram, Chrysler backup camera image stays on screen</a>
 <span class="sev sev-low">low</span></h2>
 <p class="meta">Reported 2020-09-10 · Campaign 20V191000 · Model years: 2019, 2020</p>
@@ -43,7 +47,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2020">
 <h2><a href="/recall/19v909000/">Jeep Renegade and Fiat 500X rear brake caliper may crack</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2019-12-19 · Campaign 19V909000 · Model years: 2020</p>
@@ -51,7 +55,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2019">
 <h2><a href="/recall/19v438000/">Jeep Renegade airbag computer set up incorrectly</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2019-06-11 · Campaign 19V438000 · Model years: 2019</p>
@@ -59,7 +63,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2019">
 <h2><a href="/recall/19v287000/">Jeep Renegade software may switch off crash safety features</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2019-04-10 · Campaign 19V287000 · Model years: 2019</p>
@@ -67,7 +71,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018">
 <h2><a href="/recall/18v731000/">Jeep Renegade fuel pump flaw can stall engine</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2018-10-17 · Campaign 18V731000 · Model years: 2018</p>
@@ -75,7 +79,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018">
 <h2><a href="/recall/18v524000/">Jeep, Ram, Dodge, Chrysler engine computer may cause stalling</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2018-08-09 · Campaign 18V524000 · Model years: 2018</p>
@@ -87,7 +91,9 @@
 <p>Complaints owners have filed with NHTSA about the Jeep Renegade. These are unverified reports; better-selling years collect more.</p>
 <table class="data"><tr><th>Model year</th><th>Complaints</th><th>Crashes</th><th>Fires</th><th>Injuries</th></tr>
 <tr><td>2018</td><td>442</td><td>16</td><td>8</td><td>13</td></tr><tr><td>2019</td><td>79</td><td>9</td><td>1</td><td>5</td></tr><tr><td>2020</td><td>62</td><td>10</td><td>1</td><td>10</td></tr><tr><td>2021</td><td>66</td><td>3</td><td>1</td><td>2</td></tr><tr><td>2022</td><td>26</td><td>1</td><td>0</td><td>0</td></tr><tr><td>2023</td><td>20</td><td>0</td><td>0</td><td>0</td></tr></table>
-
+<h2>Buying a used Renegade?</h2>
+<p>Recalls and complaint record for one model year at a time:</p>
+<ul class="tags"><li><a href="/used/jeep/renegade/2018/">2018 Renegade</a></li><li><a href="/used/jeep/renegade/2019/">2019 Renegade</a></li><li><a href="/used/jeep/renegade/2020/">2020 Renegade</a></li><li><a href="/used/jeep/renegade/2021/">2021 Renegade</a></li><li><a href="/used/jeep/renegade/2022/">2022 Renegade</a></li><li><a href="/used/jeep/renegade/2023/">2023 Renegade</a></li></ul>
 
 </main>
 <footer>

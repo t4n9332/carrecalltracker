@@ -8,6 +8,8 @@
 
 <link rel="canonical" href="https://carrecalltracker.com/chevrolet/trailblazer/">
 <link rel="stylesheet" href="/static/style.css">
+<link rel="alternate" type="application/rss+xml" title="Car Recall Tracker — new recalls" href="/feed.xml">
+<script src="/static/app.js" defer></script>
 
 </head>
 <body>
@@ -18,8 +20,10 @@
 <p class="crumb"><a href="/">Home</a> › <a href="/chevrolet/">Chevrolet</a> › Trailblazer</p>
 <h1>Chevrolet Trailblazer recalls</h1>
 <p class="lead">4 recalls covering model years 2021, 2022. To check whether <em>your</em> vehicle is affected, look up your 17-character VIN at <a href="https://www.nhtsa.gov/recalls" rel="nofollow">nhtsa.gov/recalls</a> — a recall may apply only to some vehicles of a given year.</p>
+<div class="chips" role="group" aria-label="Filter by model year"><button type="button" data-year-chip="" aria-pressed="true">All years</button><button type="button" data-year-chip="2021" aria-pressed="false">2021</button><button type="button" data-year-chip="2022" aria-pressed="false">2022</button></div>
+<p id="year-count" class="meta" role="status"></p>
 
-<article class="card">
+<article class="card" data-years="2021 2022">
 <h2><a href="/recall/21v440000/">Buick Encore GX and Chevrolet Trailblazer Jack Can Break</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2021-06-10 · Campaign 21V440000 · Model years: 2021, 2022</p>
@@ -27,7 +31,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2021">
 <h2><a href="/recall/20v588000/">GM Brake Assist Can Fail on Corvette, Trailblazer, Cadillacs</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2020-09-24 · Campaign 20V588000 · Model years: 2021</p>
@@ -35,7 +39,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2021">
 <h2><a href="/recall/20v537000/">Buick Encore GX and Chevrolet Trailblazer missing front seat bolts</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2020-09-03 · Campaign 20V537000 · Model years: 2021</p>
@@ -43,7 +47,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2021">
 <h2><a href="/recall/20v295000/">Chevrolet Trailblazer label missing tire size and pressure</a>
 <span class="sev sev-low">low</span></h2>
 <p class="meta">Reported 2020-05-21 · Campaign 20V295000 · Model years: 2021</p>

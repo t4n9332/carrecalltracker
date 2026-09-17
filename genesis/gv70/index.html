@@ -8,6 +8,8 @@
 
 <link rel="canonical" href="https://carrecalltracker.com/genesis/gv70/">
 <link rel="stylesheet" href="/static/style.css">
+<link rel="alternate" type="application/rss+xml" title="Car Recall Tracker — new recalls" href="/feed.xml">
+<script src="/static/app.js" defer></script>
 
 </head>
 <body>
@@ -18,8 +20,10 @@
 <p class="crumb"><a href="/">Home</a> › <a href="/genesis/">Genesis</a> › GV70</p>
 <h1>Genesis GV70 recalls</h1>
 <p class="lead">7 recalls covering model years 2022, 2023, 2024, 2025. To check whether <em>your</em> vehicle is affected, look up your 17-character VIN at <a href="https://www.nhtsa.gov/recalls" rel="nofollow">nhtsa.gov/recalls</a> — a recall may apply only to some vehicles of a given year.</p>
+<div class="chips" role="group" aria-label="Filter by model year"><button type="button" data-year-chip="" aria-pressed="true">All years</button><button type="button" data-year-chip="2022" aria-pressed="false">2022</button><button type="button" data-year-chip="2023" aria-pressed="false">2023</button><button type="button" data-year-chip="2024" aria-pressed="false">2024</button><button type="button" data-year-chip="2025" aria-pressed="false">2025</button></div>
+<p id="year-count" class="meta" role="status"></p>
 
-<article class="card">
+<article class="card" data-years="2022 2023 2024 2025">
 <h2><a href="/recall/26v229000/">Genesis G80, G90, GV70, GV80 fuel line may leak</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2026-04-10 · Campaign 26V229000 · Model years: 2022, 2023, 2024, 2025</p>
@@ -27,7 +31,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2025">
 <h2><a href="/recall/25v105000/">Genesis G80, GV80 and GV70 driver display can fail</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2025-02-20 · Campaign 25V105000 · Model years: 2025</p>
@@ -35,7 +39,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2022 2023">
 <h2><a href="/recall/24v282000/">Genesis GV70, GV80, G80, G90 fuel pump failure</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2024-04-19 · Campaign 24V282000 · Model years: 2022, 2023</p>
@@ -43,7 +47,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2024">
 <h2><a href="/recall/24v205000/">Genesis GV70 can slip out of Park and roll</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2024-03-15 · Campaign 24V205000 · Model years: 2024</p>
@@ -51,7 +55,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2022">
 <h2><a href="/recall/23v630000/">Genesis G80, GV70 and GV80 fuel pump may fail</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2023-09-11 · Campaign 23V630000 · Model years: 2022</p>
@@ -59,7 +63,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2022 2023">
 <h2><a href="/recall/23v094000/">Genesis seat belt part may explode during a crash</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2023-02-16 · Campaign 23V094000 · Model years: 2022, 2023</p>
@@ -67,7 +71,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2022">
 <h2><a href="/recall/21v796000/">Hyundai and Genesis seat belt pretensioners can explode in crash</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2021-10-13 · Campaign 21V796000 · Model years: 2022</p>

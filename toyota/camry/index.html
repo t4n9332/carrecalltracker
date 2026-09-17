@@ -8,6 +8,8 @@
 
 <link rel="canonical" href="https://carrecalltracker.com/toyota/camry/">
 <link rel="stylesheet" href="/static/style.css">
+<link rel="alternate" type="application/rss+xml" title="Car Recall Tracker — new recalls" href="/feed.xml">
+<script src="/static/app.js" defer></script>
 
 </head>
 <body>
@@ -18,8 +20,10 @@
 <p class="crumb"><a href="/">Home</a> › <a href="/toyota/">Toyota</a> › Camry</p>
 <h1>Toyota Camry recalls</h1>
 <p class="lead">14 recalls covering model years 2018, 2019, 2020, 2021, 2022, 2023, 2024. To check whether <em>your</em> vehicle is affected, look up your 17-character VIN at <a href="https://www.nhtsa.gov/recalls" rel="nofollow">nhtsa.gov/recalls</a> — a recall may apply only to some vehicles of a given year.</p>
+<div class="chips" role="group" aria-label="Filter by model year"><button type="button" data-year-chip="" aria-pressed="true">All years</button><button type="button" data-year-chip="2018" aria-pressed="false">2018</button><button type="button" data-year-chip="2019" aria-pressed="false">2019</button><button type="button" data-year-chip="2020" aria-pressed="false">2020</button><button type="button" data-year-chip="2021" aria-pressed="false">2021</button><button type="button" data-year-chip="2022" aria-pressed="false">2022</button><button type="button" data-year-chip="2023" aria-pressed="false">2023</button><button type="button" data-year-chip="2024" aria-pressed="false">2024</button></div>
+<p id="year-count" class="meta" role="status"></p>
 
-<article class="card">
+<article class="card" data-years="2018">
 <h2><a href="/recall/25v028000/">Toyota Camry and Lexus fuel pumps may stall engine</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2025-01-22 · Campaign 25V028000 · Model years: 2018</p>
@@ -27,7 +31,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2023 2024">
 <h2><a href="/recall/24v128000/">Toyota Camry second-row headrest brackets poorly welded</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2024-02-21 · Campaign 24V128000 · Model years: 2023, 2024</p>
@@ -35,7 +39,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2020 2021 2022">
 <h2><a href="/recall/23v865000/">Toyota and Lexus front passenger airbag may not inflate</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2023-12-20 · Campaign 23V865000 · Model years: 2020, 2021, 2022</p>
@@ -43,7 +47,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2023">
 <h2><a href="/recall/23v432000/">Toyota Camry lug nuts may loosen and wheel detach</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2023-06-15 · Campaign 23V432000 · Model years: 2023</p>
@@ -51,7 +55,7 @@
 <p class="warn">⚠ NHTSA advises: do not drive this vehicle until repaired. </p>
 </article>
 
-<article class="card">
+<article class="card" data-years="2018 2019">
 <h2><a href="/recall/21v890000/">Toyota Camry pump failure can cut brake power assist</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2021-11-17 · Campaign 21V890000 · Model years: 2018, 2019</p>
@@ -59,7 +63,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018 2019 2020">
 <h2><a href="/recall/20v682000/">Toyota and Lexus fuel pumps can fail, stalling engine</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2020-11-04 · Campaign 20V682000 · Model years: 2018, 2019, 2020</p>
@@ -67,7 +71,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2020">
 <h2><a href="/recall/20v064000/">Toyota Camry and RAV4 engine cracks can leak coolant</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2020-02-06 · Campaign 20V064000 · Model years: 2020</p>
@@ -75,7 +79,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018 2019">
 <h2><a href="/recall/20v012000/">Toyota and Lexus Vehicles: Fuel Pump Can Stall Engine</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2020-01-13 · Campaign 20V012000 · Model years: 2018, 2019</p>
@@ -83,7 +87,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2019">
 <h2><a href="/recall/19v567000/">Toyota Camry passenger airbag sensor set up wrong</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2019-08-01 · Campaign 19V567000 · Model years: 2019</p>
@@ -91,7 +95,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018 2019">
 <h2><a href="/recall/19v503000/">Toyota models carry incorrect weight capacity label with floor mats</a>
 <span class="sev sev-low">low</span></h2>
 <p class="meta">Reported 2019-06-28 · Campaign 19V503000 · Model years: 2018, 2019</p>
@@ -99,7 +103,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2019">
 <h2><a href="/recall/19v244000/">Toyota load capacity label may become unreadable</a>
 <span class="sev sev-low">low</span></h2>
 <p class="meta">Reported 2019-03-27 · Campaign 19V244000 · Model years: 2019</p>
@@ -107,7 +111,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018">
 <h2><a href="/recall/18v211000/">Toyota Camry and Highlander May Lose Brake Assist</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2018-04-03 · Campaign 18V211000 · Model years: 2018</p>
@@ -115,7 +119,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018">
 <h2><a href="/recall/18v200000/">Toyota Camry engines may stall from oversized pistons</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2018-03-28 · Campaign 18V200000 · Model years: 2018</p>
@@ -123,7 +127,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018">
 <h2><a href="/recall/18v108000/">Toyota Camry V6 fuel line may leak gasoline</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2018-02-14 · Campaign 18V108000 · Model years: 2018</p>
@@ -135,7 +139,9 @@
 <p>Complaints owners have filed with NHTSA about the Toyota Camry. These are unverified reports; better-selling years collect more.</p>
 <table class="data"><tr><th>Model year</th><th>Complaints</th><th>Crashes</th><th>Fires</th><th>Injuries</th></tr>
 <tr><td>2018</td><td>737</td><td>46</td><td>4</td><td>45</td></tr><tr><td>2019</td><td>394</td><td>22</td><td>1</td><td>18</td></tr><tr><td>2020</td><td>271</td><td>14</td><td>2</td><td>22</td></tr><tr><td>2021</td><td>156</td><td>21</td><td>2</td><td>16</td></tr><tr><td>2022</td><td>60</td><td>12</td><td>1</td><td>9</td></tr><tr><td>2023</td><td>64</td><td>9</td><td>2</td><td>7</td></tr><tr><td>2024</td><td>50</td><td>4</td><td>0</td><td>2</td></tr></table>
-
+<h2>Buying a used Camry?</h2>
+<p>Recalls and complaint record for one model year at a time:</p>
+<ul class="tags"><li><a href="/used/toyota/camry/2018/">2018 Camry</a></li><li><a href="/used/toyota/camry/2019/">2019 Camry</a></li><li><a href="/used/toyota/camry/2020/">2020 Camry</a></li><li><a href="/used/toyota/camry/2023/">2023 Camry</a></li></ul>
 
 </main>
 <footer>

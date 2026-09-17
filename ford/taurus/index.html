@@ -8,6 +8,8 @@
 
 <link rel="canonical" href="https://carrecalltracker.com/ford/taurus/">
 <link rel="stylesheet" href="/static/style.css">
+<link rel="alternate" type="application/rss+xml" title="Car Recall Tracker — new recalls" href="/feed.xml">
+<script src="/static/app.js" defer></script>
 
 </head>
 <body>
@@ -18,8 +20,10 @@
 <p class="crumb"><a href="/">Home</a> › <a href="/ford/">Ford</a> › Taurus</p>
 <h1>Ford Taurus recalls</h1>
 <p class="lead">4 recalls covering model years 2018, 2019. To check whether <em>your</em> vehicle is affected, look up your 17-character VIN at <a href="https://www.nhtsa.gov/recalls" rel="nofollow">nhtsa.gov/recalls</a> — a recall may apply only to some vehicles of a given year.</p>
+<div class="chips" role="group" aria-label="Filter by model year"><button type="button" data-year-chip="" aria-pressed="true">All years</button><button type="button" data-year-chip="2018" aria-pressed="false">2018</button><button type="button" data-year-chip="2019" aria-pressed="false">2019</button></div>
+<p id="year-count" class="meta" role="status"></p>
 
-<article class="card">
+<article class="card" data-years="2018 2019">
 <h2><a href="/recall/25v695000/">Ford and Lincoln rearview camera image may fail</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2025-10-13 · Campaign 25V695000 · Model years: 2018, 2019</p>
@@ -27,7 +31,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018 2019">
 <h2><a href="/recall/25v611000/">Ford Taurus door pillar trim can fall off</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2025-09-12 · Campaign 25V611000 · Model years: 2018, 2019</p>
@@ -35,7 +39,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018">
 <h2><a href="/recall/20v072000/">Ford and Lincoln rear suspension links can break</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2020-02-10 · Campaign 20V072000 · Model years: 2018</p>
@@ -43,7 +47,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018">
 <h2><a href="/recall/18v141000/">Ford Taurus key can come out of ignition</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2018-03-01 · Campaign 18V141000 · Model years: 2018</p>

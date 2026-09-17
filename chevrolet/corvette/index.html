@@ -8,6 +8,8 @@
 
 <link rel="canonical" href="https://carrecalltracker.com/chevrolet/corvette/">
 <link rel="stylesheet" href="/static/style.css">
+<link rel="alternate" type="application/rss+xml" title="Car Recall Tracker — new recalls" href="/feed.xml">
+<script src="/static/app.js" defer></script>
 
 </head>
 <body>
@@ -18,8 +20,10 @@
 <p class="crumb"><a href="/">Home</a> › <a href="/chevrolet/">Chevrolet</a> › Corvette</p>
 <h1>Chevrolet Corvette recalls</h1>
 <p class="lead">10 recalls covering model years 2018, 2019, 2020, 2021, 2022, 2023, 2024. To check whether <em>your</em> vehicle is affected, look up your 17-character VIN at <a href="https://www.nhtsa.gov/recalls" rel="nofollow">nhtsa.gov/recalls</a> — a recall may apply only to some vehicles of a given year.</p>
+<div class="chips" role="group" aria-label="Filter by model year"><button type="button" data-year-chip="" aria-pressed="true">All years</button><button type="button" data-year-chip="2018" aria-pressed="false">2018</button><button type="button" data-year-chip="2019" aria-pressed="false">2019</button><button type="button" data-year-chip="2020" aria-pressed="false">2020</button><button type="button" data-year-chip="2021" aria-pressed="false">2021</button><button type="button" data-year-chip="2022" aria-pressed="false">2022</button><button type="button" data-year-chip="2023" aria-pressed="false">2023</button><button type="button" data-year-chip="2024" aria-pressed="false">2024</button></div>
+<p id="year-count" class="meta" role="status"></p>
 
-<article class="card">
+<article class="card" data-years="2023 2024">
 <h2><a href="/recall/25v536000/">Chevrolet Corvette can leak fuel while refueling, risking fire</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2025-08-21 · Campaign 25V536000 · Model years: 2023, 2024</p>
@@ -27,7 +31,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018">
 <h2><a href="/recall/25v175000/">GM cars may lose electric power steering assist</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2025-03-20 · Campaign 25V175000 · Model years: 2018</p>
@@ -35,7 +39,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2024">
 <h2><a href="/recall/24v418000/">Chevy Corvette front seat belts can lock up</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2024-06-06 · Campaign 24V418000 · Model years: 2024</p>
@@ -43,7 +47,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2021 2022">
 <h2><a href="/recall/22v091000/">Chevrolet Corvette half-shafts can fail, causing loss of drive power</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2022-02-17 · Campaign 22V091000 · Model years: 2021, 2022</p>
@@ -51,7 +55,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2021">
 <h2><a href="/recall/21v421000/">GM SUVs and cars: airbag warning light may not work</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2021-06-10 · Campaign 21V421000 · Model years: 2021</p>
@@ -59,15 +63,7 @@
 
 </article>
 
-<article class="card">
-<h2><a href="/recall/20v581000/">Chevy Corvette driver&#39;s seat belt may not lock in crash</a>
-<span class="sev sev-high">high</span></h2>
-<p class="meta">Reported 2020-09-24 · Campaign 20V581000 · Model years: 2020</p>
-<p>The driver&#39;s seat belt has a part inside that is supposed to lock up and hold you in place during a crash. On some 2020 Corvettes, that locking part may not grab the way it should. You would not notice anything wrong in normal driving; the belt still buckles and pulls across you, but in a crash it could let out extra slack and fail to hold the driver back.</p>
-
-</article>
-
-<article class="card">
+<article class="card" data-years="2020">
 <h2><a href="/recall/20v588000/">GM Brake Assist Can Fail on Corvette, Trailblazer, Cadillacs</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2020-09-24 · Campaign 20V588000 · Model years: 2020</p>
@@ -75,7 +71,15 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2020">
+<h2><a href="/recall/20v581000/">Chevy Corvette driver&#39;s seat belt may not lock in crash</a>
+<span class="sev sev-high">high</span></h2>
+<p class="meta">Reported 2020-09-24 · Campaign 20V581000 · Model years: 2020</p>
+<p>The driver&#39;s seat belt has a part inside that is supposed to lock up and hold you in place during a crash. On some 2020 Corvettes, that locking part may not grab the way it should. You would not notice anything wrong in normal driving; the belt still buckles and pulls across you, but in a crash it could let out extra slack and fail to hold the driver back.</p>
+
+</article>
+
+<article class="card" data-years="2020">
 <h2><a href="/recall/20v489000/">Chevrolet Corvette can be driven with front hood unlatched</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2020-08-18 · Campaign 20V489000 · Model years: 2020</p>
@@ -83,7 +87,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2020">
 <h2><a href="/recall/20v461000/">Chevy Corvette front trunk release button may stop working</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2020-08-06 · Campaign 20V461000 · Model years: 2020</p>
@@ -91,7 +95,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2019">
 <h2><a href="/recall/18v360000/">Chevrolet Corvette ZR1 airbags can stop working entirely</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2018-05-31 · Campaign 18V360000 · Model years: 2019</p>

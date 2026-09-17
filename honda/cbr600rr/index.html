@@ -8,6 +8,8 @@
 
 <link rel="canonical" href="https://carrecalltracker.com/honda/cbr600rr/">
 <link rel="stylesheet" href="/static/style.css">
+<link rel="alternate" type="application/rss+xml" title="Car Recall Tracker — new recalls" href="/feed.xml">
+<script src="/static/app.js" defer></script>
 
 </head>
 <body>
@@ -18,8 +20,10 @@
 <p class="crumb"><a href="/">Home</a> › <a href="/honda/">Honda</a> › Cbr600rr</p>
 <h1>Honda Cbr600rr recalls</h1>
 <p class="lead">2 recalls covering model years 2019, 2025, 2026. To check whether <em>your</em> vehicle is affected, look up your 17-character VIN at <a href="https://www.nhtsa.gov/recalls" rel="nofollow">nhtsa.gov/recalls</a> — a recall may apply only to some vehicles of a given year.</p>
+<div class="chips" role="group" aria-label="Filter by model year"><button type="button" data-year-chip="" aria-pressed="true">All years</button><button type="button" data-year-chip="2019" aria-pressed="false">2019</button><button type="button" data-year-chip="2025" aria-pressed="false">2025</button><button type="button" data-year-chip="2026" aria-pressed="false">2026</button></div>
+<p id="year-count" class="meta" role="status"></p>
 
-<article class="card">
+<article class="card" data-years="2025 2026">
 <h2><a href="/recall/25v891000/">Honda CBR600RR engine flaw can lock rear wheel</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2025-12-18 · Campaign 25V891000 · Model years: 2025, 2026</p>
@@ -27,7 +31,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2019">
 <h2><a href="/recall/24v113000/">Honda Goldwing, CBR fuel pumps can fail and stall</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2024-02-15 · Campaign 24V113000 · Model years: 2019</p>

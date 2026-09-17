@@ -8,6 +8,8 @@
 
 <link rel="canonical" href="https://carrecalltracker.com/buick/lacrosse/">
 <link rel="stylesheet" href="/static/style.css">
+<link rel="alternate" type="application/rss+xml" title="Car Recall Tracker — new recalls" href="/feed.xml">
+<script src="/static/app.js" defer></script>
 
 </head>
 <body>
@@ -18,8 +20,10 @@
 <p class="crumb"><a href="/">Home</a> › <a href="/buick/">Buick</a> › Lacrosse</p>
 <h1>Buick Lacrosse recalls</h1>
 <p class="lead">3 recalls covering model years 2018, 2019. To check whether <em>your</em> vehicle is affected, look up your 17-character VIN at <a href="https://www.nhtsa.gov/recalls" rel="nofollow">nhtsa.gov/recalls</a> — a recall may apply only to some vehicles of a given year.</p>
+<div class="chips" role="group" aria-label="Filter by model year"><button type="button" data-year-chip="" aria-pressed="true">All years</button><button type="button" data-year-chip="2018" aria-pressed="false">2018</button><button type="button" data-year-chip="2019" aria-pressed="false">2019</button></div>
+<p id="year-count" class="meta" role="status"></p>
 
-<article class="card">
+<article class="card" data-years="2018 2019">
 <h2><a href="/recall/20v668000/">Chevy, Buick, GMC, Cadillac: Transmission Fluid Leak Risk</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2020-10-29 · Campaign 20V668000 · Model years: 2018, 2019</p>
@@ -27,7 +31,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018 2019">
 <h2><a href="/recall/18v576000/">GM cars, SUVs may have weak rear brakes</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2018-08-30 · Campaign 18V576000 · Model years: 2018, 2019</p>
@@ -35,7 +39,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018">
 <h2><a href="/recall/18v358000/">Chevrolet, GMC, Buick, Cadillac fuel pump leak fire risk</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2018-05-31 · Campaign 18V358000 · Model years: 2018</p>

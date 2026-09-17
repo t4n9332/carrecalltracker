@@ -8,6 +8,8 @@
 
 <link rel="canonical" href="https://carrecalltracker.com/porsche/911-carrera-s/">
 <link rel="stylesheet" href="/static/style.css">
+<link rel="alternate" type="application/rss+xml" title="Car Recall Tracker — new recalls" href="/feed.xml">
+<script src="/static/app.js" defer></script>
 
 </head>
 <body>
@@ -18,8 +20,10 @@
 <p class="crumb"><a href="/">Home</a> › <a href="/porsche/">Porsche</a> › 911 Carrera S</p>
 <h1>Porsche 911 Carrera S recalls</h1>
 <p class="lead">2 recalls covering model years 2020, 2023. To check whether <em>your</em> vehicle is affected, look up your 17-character VIN at <a href="https://www.nhtsa.gov/recalls" rel="nofollow">nhtsa.gov/recalls</a> — a recall may apply only to some vehicles of a given year.</p>
+<div class="chips" role="group" aria-label="Filter by model year"><button type="button" data-year-chip="" aria-pressed="true">All years</button><button type="button" data-year-chip="2020" aria-pressed="false">2020</button><button type="button" data-year-chip="2023" aria-pressed="false">2023</button></div>
+<p id="year-count" class="meta" role="status"></p>
 
-<article class="card">
+<article class="card" data-years="2023">
 <h2><a href="/recall/24v123000/">Porsche 911: rear seat belt may not hold child seat</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2024-02-20 · Campaign 24V123000 · Model years: 2023</p>
@@ -27,7 +31,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2020">
 <h2><a href="/recall/23v313000/">Porsche 911 Bodies May Be Missing Factory Welds</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2023-05-03 · Campaign 23V313000 · Model years: 2020</p>

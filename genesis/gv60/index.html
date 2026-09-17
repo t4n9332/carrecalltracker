@@ -8,6 +8,8 @@
 
 <link rel="canonical" href="https://carrecalltracker.com/genesis/gv60/">
 <link rel="stylesheet" href="/static/style.css">
+<link rel="alternate" type="application/rss+xml" title="Car Recall Tracker — new recalls" href="/feed.xml">
+<script src="/static/app.js" defer></script>
 
 </head>
 <body>
@@ -18,8 +20,10 @@
 <p class="crumb"><a href="/">Home</a> › <a href="/genesis/">Genesis</a> › GV60</p>
 <h1>Genesis GV60 recalls</h1>
 <p class="lead">9 recalls covering model years 2023, 2024, 2025. To check whether <em>your</em> vehicle is affected, look up your 17-character VIN at <a href="https://www.nhtsa.gov/recalls" rel="nofollow">nhtsa.gov/recalls</a> — a recall may apply only to some vehicles of a given year.</p>
+<div class="chips" role="group" aria-label="Filter by model year"><button type="button" data-year-chip="" aria-pressed="true">All years</button><button type="button" data-year-chip="2023" aria-pressed="false">2023</button><button type="button" data-year-chip="2024" aria-pressed="false">2024</button><button type="button" data-year-chip="2025" aria-pressed="false">2025</button></div>
+<p id="year-count" class="meta" role="status"></p>
 
-<article class="card">
+<article class="card" data-years="2023 2024 2025">
 <h2><a href="/recall/25v624000/">Genesis GV60 windshield trim can detach onto the road</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2025-09-19 · Campaign 25V624000 · Model years: 2023, 2024, 2025</p>
@@ -27,7 +31,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2023 2024 2025">
 <h2><a href="/recall/25v474000/">Genesis G90 and GV60 dashboard display may go blank</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2025-07-17 · Campaign 25V474000 · Model years: 2023, 2024, 2025</p>
@@ -35,7 +39,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2023 2024 2025">
 <h2><a href="/recall/24v868000/">Hyundai and Genesis EVs can lose power from charging unit</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2024-11-18 · Campaign 24V868000 · Model years: 2023, 2024, 2025</p>
@@ -43,7 +47,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2024 2025">
 <h2><a href="/recall/24v584000/">Genesis GV60 and GV80 backup camera may shut off</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2024-08-07 · Campaign 24V584000 · Model years: 2024, 2025</p>
@@ -51,7 +55,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2023 2024">
 <h2><a href="/recall/24v204000/">Hyundai IONIQ and Genesis EVs may lose drive power</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2024-03-15 · Campaign 24V204000 · Model years: 2023, 2024</p>
@@ -59,7 +63,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2023">
 <h2><a href="/recall/24v065000/">Hyundai IONIQ 5, IONIQ 6, Genesis GV60: driveshaft can break</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2024-02-01 · Campaign 24V065000 · Model years: 2023</p>
@@ -67,7 +71,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2023">
 <h2><a href="/recall/23v557000/">Genesis GV60 front passenger seat belt may not fasten</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2023-08-04 · Campaign 23V557000 · Model years: 2023</p>
@@ -75,7 +79,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2023">
 <h2><a href="/recall/23v300000/">Genesis GV60 rear driveshafts may break, losing power</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2023-04-26 · Campaign 23V300000 · Model years: 2023</p>
@@ -83,7 +87,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2023">
 <h2><a href="/recall/23v094000/">Genesis seat belt part may explode during a crash</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2023-02-16 · Campaign 23V094000 · Model years: 2023</p>

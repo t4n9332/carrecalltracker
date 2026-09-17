@@ -8,6 +8,8 @@
 
 <link rel="canonical" href="https://carrecalltracker.com/acura/ilx/">
 <link rel="stylesheet" href="/static/style.css">
+<link rel="alternate" type="application/rss+xml" title="Car Recall Tracker — new recalls" href="/feed.xml">
+<script src="/static/app.js" defer></script>
 
 </head>
 <body>
@@ -18,8 +20,10 @@
 <p class="crumb"><a href="/">Home</a> › <a href="/acura/">Acura</a> › ILX</p>
 <h1>Acura ILX recalls</h1>
 <p class="lead">5 recalls covering model years 2018, 2019, 2020. To check whether <em>your</em> vehicle is affected, look up your 17-character VIN at <a href="https://www.nhtsa.gov/recalls" rel="nofollow">nhtsa.gov/recalls</a> — a recall may apply only to some vehicles of a given year.</p>
+<div class="chips" role="group" aria-label="Filter by model year"><button type="button" data-year-chip="" aria-pressed="true">All years</button><button type="button" data-year-chip="2018" aria-pressed="false">2018</button><button type="button" data-year-chip="2019" aria-pressed="false">2019</button><button type="button" data-year-chip="2020" aria-pressed="false">2020</button></div>
+<p id="year-count" class="meta" role="status"></p>
 
-<article class="card">
+<article class="card" data-years="2018 2019 2020">
 <h2><a href="/recall/25v859000/">Acura ILX brakes can weaken from an internal leak</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2025-12-11 · Campaign 25V859000 · Model years: 2018, 2019, 2020</p>
@@ -27,7 +31,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018 2019 2020">
 <h2><a href="/recall/23v858000/">Honda and Acura fuel pump can fail, stalling engine</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2023-12-18 · Campaign 23V858000 · Model years: 2018, 2019, 2020</p>
@@ -35,7 +39,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2019">
 <h2><a href="/recall/21v215000/">Honda and Acura fuel pump can fail and stall engine</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2021-03-25 · Campaign 21V215000 · Model years: 2019</p>
@@ -43,7 +47,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018 2019">
 <h2><a href="/recall/19v424000/">Acura ILX driveshaft can separate and roll away</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2019-06-06 · Campaign 19V424000 · Model years: 2018, 2019</p>
@@ -51,7 +55,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018 2019">
 <h2><a href="/recall/19v052000/">Acura ILX fuel gauge may show wrong gas level</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2019-01-24 · Campaign 19V052000 · Model years: 2018, 2019</p>

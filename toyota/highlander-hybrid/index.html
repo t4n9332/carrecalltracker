@@ -8,6 +8,8 @@
 
 <link rel="canonical" href="https://carrecalltracker.com/toyota/highlander-hybrid/">
 <link rel="stylesheet" href="/static/style.css">
+<link rel="alternate" type="application/rss+xml" title="Car Recall Tracker — new recalls" href="/feed.xml">
+<script src="/static/app.js" defer></script>
 
 </head>
 <body>
@@ -18,8 +20,10 @@
 <p class="crumb"><a href="/">Home</a> › <a href="/toyota/">Toyota</a> › Highlander Hybrid</p>
 <h1>Toyota Highlander Hybrid recalls</h1>
 <p class="lead">10 recalls covering model years 2020, 2021, 2022, 2023. To check whether <em>your</em> vehicle is affected, look up your 17-character VIN at <a href="https://www.nhtsa.gov/recalls" rel="nofollow">nhtsa.gov/recalls</a> — a recall may apply only to some vehicles of a given year.</p>
+<div class="chips" role="group" aria-label="Filter by model year"><button type="button" data-year-chip="" aria-pressed="true">All years</button><button type="button" data-year-chip="2020" aria-pressed="false">2020</button><button type="button" data-year-chip="2021" aria-pressed="false">2021</button><button type="button" data-year-chip="2022" aria-pressed="false">2022</button><button type="button" data-year-chip="2023" aria-pressed="false">2023</button></div>
+<p id="year-count" class="meta" role="status"></p>
 
-<article class="card">
+<article class="card" data-years="2021 2022 2023">
 <h2><a href="/recall/26v128000/">Toyota Highlander second-row seat backs may not lock</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2026-03-05 · Campaign 26V128000 · Model years: 2021, 2022, 2023</p>
@@ -27,7 +31,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2023">
 <h2><a href="/recall/25v744000/">Toyota, Lexus and Subaru Solterra rearview cameras may freeze</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2025-10-30 · Campaign 25V744000 · Model years: 2023</p>
@@ -35,7 +39,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2023">
 <h2><a href="/recall/25v040000/">Toyota and Lexus vehicles may have disabled driver&#39;s airbag</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2025-01-29 · Campaign 25V040000 · Model years: 2023</p>
@@ -43,7 +47,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2023">
 <h2><a href="/recall/24v548000/">Gulf States Toyota vehicles have wrong weight capacity labels</a>
 <span class="sev sev-low">low</span></h2>
 <p class="meta">Reported 2024-07-23 · Campaign 24V548000 · Model years: 2023</p>
@@ -51,7 +55,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2020 2021">
 <h2><a href="/recall/23v865000/">Toyota and Lexus front passenger airbag may not inflate</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2023-12-20 · Campaign 23V865000 · Model years: 2020, 2021</p>
@@ -59,7 +63,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2020 2021 2022 2023">
 <h2><a href="/recall/23v720000/">Toyota Highlander front bumper cover can loosen or fall off</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2023-10-26 · Campaign 23V720000 · Model years: 2020, 2021, 2022, 2023</p>
@@ -67,7 +71,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2023">
 <h2><a href="/recall/23v480000/">Toyota and Lexus steering wiring can disable driver&#39;s airbag</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2023-07-12 · Campaign 23V480000 · Model years: 2023</p>
@@ -75,7 +79,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2022">
 <h2><a href="/recall/22v310000/">Toyota 4Runner, Tacoma, Highlander weight labels can fade</a>
 <span class="sev sev-low">low</span></h2>
 <p class="meta">Reported 2022-05-06 · Campaign 22V310000 · Model years: 2022</p>
@@ -83,7 +87,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2020 2021 2022">
 <h2><a href="/recall/22v239000/">Toyota and Lexus hybrids may lose stability control</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2022-04-13 · Campaign 22V239000 · Model years: 2020, 2021, 2022</p>
@@ -91,7 +95,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2020">
 <h2><a href="/recall/20v633000/">Toyota Highlander Wrong Seat Covers Block Side Airbags</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2020-10-14 · Campaign 20V633000 · Model years: 2020</p>
@@ -103,7 +107,9 @@
 <p>Complaints owners have filed with NHTSA about the Toyota Highlander Hybrid. These are unverified reports; better-selling years collect more.</p>
 <table class="data"><tr><th>Model year</th><th>Complaints</th><th>Crashes</th><th>Fires</th><th>Injuries</th></tr>
 <tr><td>2020</td><td>9</td><td>0</td><td>0</td><td>0</td></tr><tr><td>2021</td><td>15</td><td>0</td><td>0</td><td>0</td></tr><tr><td>2022</td><td>6</td><td>0</td><td>0</td><td>0</td></tr><tr><td>2023</td><td>9</td><td>0</td><td>0</td><td>0</td></tr></table>
-
+<h2>Buying a used Highlander Hybrid?</h2>
+<p>Recalls and complaint record for one model year at a time:</p>
+<ul class="tags"><li><a href="/used/toyota/highlander-hybrid/2020/">2020 Highlander Hybrid</a></li><li><a href="/used/toyota/highlander-hybrid/2021/">2021 Highlander Hybrid</a></li><li><a href="/used/toyota/highlander-hybrid/2022/">2022 Highlander Hybrid</a></li><li><a href="/used/toyota/highlander-hybrid/2023/">2023 Highlander Hybrid</a></li></ul>
 
 </main>
 <footer>

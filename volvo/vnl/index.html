@@ -8,6 +8,8 @@
 
 <link rel="canonical" href="https://carrecalltracker.com/volvo/vnl/">
 <link rel="stylesheet" href="/static/style.css">
+<link rel="alternate" type="application/rss+xml" title="Car Recall Tracker — new recalls" href="/feed.xml">
+<script src="/static/app.js" defer></script>
 
 </head>
 <body>
@@ -18,8 +20,10 @@
 <p class="crumb"><a href="/">Home</a> › <a href="/volvo/">Volvo</a> › VNL</p>
 <h1>Volvo VNL recalls</h1>
 <p class="lead">15 recalls covering model years 2018, 2019, 2022, 2023. To check whether <em>your</em> vehicle is affected, look up your 17-character VIN at <a href="https://www.nhtsa.gov/recalls" rel="nofollow">nhtsa.gov/recalls</a> — a recall may apply only to some vehicles of a given year.</p>
+<div class="chips" role="group" aria-label="Filter by model year"><button type="button" data-year-chip="" aria-pressed="true">All years</button><button type="button" data-year-chip="2018" aria-pressed="false">2018</button><button type="button" data-year-chip="2019" aria-pressed="false">2019</button><button type="button" data-year-chip="2022" aria-pressed="false">2022</button><button type="button" data-year-chip="2023" aria-pressed="false">2023</button></div>
+<p id="year-count" class="meta" role="status"></p>
 
-<article class="card">
+<article class="card" data-years="2022 2023">
 <h2><a href="/recall/23v511000/">Volvo trucks&#39; windshield wiper motor can quit working</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2023-07-24 · Campaign 23V511000 · Model years: 2022, 2023</p>
@@ -27,7 +31,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2022 2023">
 <h2><a href="/recall/23v403000/">Volvo VNL and VHD trucks have non-working side airbag</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2023-06-04 · Campaign 23V403000 · Model years: 2022, 2023</p>
@@ -35,7 +39,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2022 2023">
 <h2><a href="/recall/22v896000/">Volvo VNL air tank bolts may break, dropping tank</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2022-12-06 · Campaign 22V896000 · Model years: 2022, 2023</p>
@@ -43,7 +47,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2022">
 <h2><a href="/recall/21v781000/">Volvo VNL trucks may shift into neutral unexpectedly</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2021-10-06 · Campaign 21V781000 · Model years: 2022</p>
@@ -51,7 +55,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2022">
 <h2><a href="/recall/21v417000/">Volvo VNL and VNR trucks can lose a hubcap</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2021-06-02 · Campaign 21V417000 · Model years: 2022</p>
@@ -59,7 +63,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2022">
 <h2><a href="/recall/21v098000/">Volvo VNL trucks may have wheels that bend or break</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2021-02-19 · Campaign 21V098000 · Model years: 2022</p>
@@ -67,7 +71,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2022">
 <h2><a href="/recall/21v065000/">Volvo VNL flywheel bolts may be loose, can detach</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2021-02-11 · Campaign 21V065000 · Model years: 2022</p>
@@ -75,7 +79,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018 2019">
 <h2><a href="/recall/20v384000/">Volvo VNL and VNR weight label overstates axle rating</a>
 <span class="sev sev-low">low</span></h2>
 <p class="meta">Reported 2020-07-01 · Campaign 20V384000 · Model years: 2018, 2019</p>
@@ -83,15 +87,7 @@
 
 </article>
 
-<article class="card">
-<h2><a href="/recall/19v510000/">Volvo VNL trucks: air tank strap bolts may loosen</a>
-<span class="sev sev-high">high</span></h2>
-<p class="meta">Reported 2019-07-02 · Campaign 19V510000 · Model years: 2019</p>
-<p>These trucks have an extra air tank for the transmission, held on by metal straps. The bolts clamping those straps were tightened too much at the factory, which can bend the strap where the bolt anchors. A bent strap can let the bolt pull loose. If that happens, the tank can fall off the truck and onto the road, where it becomes a hazard for other drivers.</p>
-
-</article>
-
-<article class="card">
+<article class="card" data-years="2018 2019">
 <h2><a href="/recall/19v509000/">Volvo heavy trucks may lose transmission shifting from blown fuse</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2019-07-02 · Campaign 19V509000 · Model years: 2018, 2019</p>
@@ -99,7 +95,15 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2019">
+<h2><a href="/recall/19v510000/">Volvo VNL trucks: air tank strap bolts may loosen</a>
+<span class="sev sev-high">high</span></h2>
+<p class="meta">Reported 2019-07-02 · Campaign 19V510000 · Model years: 2019</p>
+<p>These trucks have an extra air tank for the transmission, held on by metal straps. The bolts clamping those straps were tightened too much at the factory, which can bend the strap where the bolt anchors. A bent strap can let the bolt pull loose. If that happens, the tank can fall off the truck and onto the road, where it becomes a hazard for other drivers.</p>
+
+</article>
+
+<article class="card" data-years="2018 2019">
 <h2><a href="/recall/19v208000/">Volvo VNL and VNX sleeper bunk window may fall off</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2019-03-18 · Campaign 19V208000 · Model years: 2018, 2019</p>
@@ -107,7 +111,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018 2019">
 <h2><a href="/recall/19v032000/">Volvo VNL trucks may move without driver input</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2019-01-14 · Campaign 19V032000 · Model years: 2018, 2019</p>
@@ -115,7 +119,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2019">
 <h2><a href="/recall/18v811000/">Volvo VNL truck tires may lose air suddenly</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2018-11-15 · Campaign 18V811000 · Model years: 2019</p>
@@ -123,7 +127,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018 2019">
 <h2><a href="/recall/18v668000/">Volvo VNL trucks: fuel line can burst, engine stalls</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2018-09-25 · Campaign 18V668000 · Model years: 2018, 2019</p>
@@ -131,7 +135,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2019">
 <h2><a href="/recall/18v542000/">Volvo VNL trucks: fifth wheel may release trailer</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2018-08-16 · Campaign 18V542000 · Model years: 2019</p>
@@ -143,7 +147,9 @@
 <p>Complaints owners have filed with NHTSA about the Volvo VNL. These are unverified reports; better-selling years collect more.</p>
 <table class="data"><tr><th>Model year</th><th>Complaints</th><th>Crashes</th><th>Fires</th><th>Injuries</th></tr>
 <tr><td>2018</td><td>8</td><td>1</td><td>0</td><td>1</td></tr><tr><td>2019</td><td>4</td><td>0</td><td>1</td><td>0</td></tr><tr><td>2022</td><td>2</td><td>0</td><td>0</td><td>0</td></tr><tr><td>2023</td><td>1</td><td>0</td><td>0</td><td>0</td></tr></table>
-
+<h2>Buying a used VNL?</h2>
+<p>Recalls and complaint record for one model year at a time:</p>
+<ul class="tags"><li><a href="/used/volvo/vnl/2018/">2018 VNL</a></li><li><a href="/used/volvo/vnl/2019/">2019 VNL</a></li><li><a href="/used/volvo/vnl/2022/">2022 VNL</a></li><li><a href="/used/volvo/vnl/2023/">2023 VNL</a></li></ul>
 
 </main>
 <footer>

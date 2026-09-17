@@ -8,6 +8,8 @@
 
 <link rel="canonical" href="https://carrecalltracker.com/volvo/vnr/">
 <link rel="stylesheet" href="/static/style.css">
+<link rel="alternate" type="application/rss+xml" title="Car Recall Tracker — new recalls" href="/feed.xml">
+<script src="/static/app.js" defer></script>
 
 </head>
 <body>
@@ -18,8 +20,10 @@
 <p class="crumb"><a href="/">Home</a> › <a href="/volvo/">Volvo</a> › VNR</p>
 <h1>Volvo VNR recalls</h1>
 <p class="lead">9 recalls covering model years 2021, 2023. To check whether <em>your</em> vehicle is affected, look up your 17-character VIN at <a href="https://www.nhtsa.gov/recalls" rel="nofollow">nhtsa.gov/recalls</a> — a recall may apply only to some vehicles of a given year.</p>
+<div class="chips" role="group" aria-label="Filter by model year"><button type="button" data-year-chip="" aria-pressed="true">All years</button><button type="button" data-year-chip="2021" aria-pressed="false">2021</button><button type="button" data-year-chip="2023" aria-pressed="false">2023</button></div>
+<p id="year-count" class="meta" role="status"></p>
 
-<article class="card">
+<article class="card" data-years="2023">
 <h2><a href="/recall/23v511000/">Volvo trucks&#39; windshield wiper motor can quit working</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2023-07-24 · Campaign 23V511000 · Model years: 2023</p>
@@ -27,7 +31,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2021 2023">
 <h2><a href="/recall/23v280000/">Volvo VNR Electric battery coolant leak can cause fire</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2023-04-19 · Campaign 23V280000 · Model years: 2021, 2023</p>
@@ -35,7 +39,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2021 2023">
 <h2><a href="/recall/23v255000/">Volvo VNR Electric trucks brake too hard on their own</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2023-04-07 · Campaign 23V255000 · Model years: 2021, 2023</p>
@@ -43,7 +47,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2021">
 <h2><a href="/recall/21v417000/">Volvo VNL and VNR trucks can lose a hubcap</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2021-06-02 · Campaign 21V417000 · Model years: 2021</p>
@@ -51,7 +55,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2021">
 <h2><a href="/recall/20v782000/">Volvo trucks may apply parking brakes without warning</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2020-12-15 · Campaign 20V782000 · Model years: 2021</p>
@@ -59,7 +63,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2021">
 <h2><a href="/recall/20v536000/">Volvo VNR and other trucks: brake pedal may break off</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2020-09-02 · Campaign 20V536000 · Model years: 2021</p>
@@ -67,7 +71,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2021">
 <h2><a href="/recall/20v535000/">Volvo trucks may have loose or missing front axle nut</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2020-09-02 · Campaign 20V535000 · Model years: 2021</p>
@@ -75,7 +79,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2021">
 <h2><a href="/recall/20v384000/">Volvo VNL and VNR weight label overstates axle rating</a>
 <span class="sev sev-low">low</span></h2>
 <p class="meta">Reported 2020-07-01 · Campaign 20V384000 · Model years: 2021</p>
@@ -83,7 +87,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2021">
 <h2><a href="/recall/20v241000/">Volvo VNR truck steering bolts may be loose</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2020-04-29 · Campaign 20V241000 · Model years: 2021</p>
@@ -95,7 +99,9 @@
 <p>Complaints owners have filed with NHTSA about the Volvo VNR. These are unverified reports; better-selling years collect more.</p>
 <table class="data"><tr><th>Model year</th><th>Complaints</th><th>Crashes</th><th>Fires</th><th>Injuries</th></tr>
 <tr><td>2021</td><td>1</td><td>0</td><td>0</td><td>0</td></tr><tr><td>2023</td><td>1</td><td>0</td><td>0</td><td>0</td></tr></table>
-
+<h2>Buying a used VNR?</h2>
+<p>Recalls and complaint record for one model year at a time:</p>
+<ul class="tags"><li><a href="/used/volvo/vnr/2021/">2021 VNR</a></li><li><a href="/used/volvo/vnr/2023/">2023 VNR</a></li></ul>
 
 </main>
 <footer>

@@ -8,6 +8,8 @@
 
 <link rel="canonical" href="https://carrecalltracker.com/bmw/ix/">
 <link rel="stylesheet" href="/static/style.css">
+<link rel="alternate" type="application/rss+xml" title="Car Recall Tracker — new recalls" href="/feed.xml">
+<script src="/static/app.js" defer></script>
 
 </head>
 <body>
@@ -18,8 +20,10 @@
 <p class="crumb"><a href="/">Home</a> › <a href="/bmw/">BMW</a> › IX</p>
 <h1>BMW IX recalls</h1>
 <p class="lead">12 recalls covering model years 2022, 2023, 2024, 2025. To check whether <em>your</em> vehicle is affected, look up your 17-character VIN at <a href="https://www.nhtsa.gov/recalls" rel="nofollow">nhtsa.gov/recalls</a> — a recall may apply only to some vehicles of a given year.</p>
+<div class="chips" role="group" aria-label="Filter by model year"><button type="button" data-year-chip="" aria-pressed="true">All years</button><button type="button" data-year-chip="2022" aria-pressed="false">2022</button><button type="button" data-year-chip="2023" aria-pressed="false">2023</button><button type="button" data-year-chip="2024" aria-pressed="false">2024</button><button type="button" data-year-chip="2025" aria-pressed="false">2025</button></div>
+<p id="year-count" class="meta" role="status"></p>
 
-<article class="card">
+<article class="card" data-years="2022 2023 2024">
 <h2><a href="/recall/25v395000/">BMW i4, i5, iX electric motor software can cut power</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2025-07-23 · Campaign 25V395000 · Model years: 2022, 2023, 2024</p>
@@ -27,7 +31,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2022 2023 2024 2025">
 <h2><a href="/recall/25v470000/">BMW i4, iX and i7 battery modules can fail</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2025-07-16 · Campaign 25V470000 · Model years: 2022, 2023, 2024, 2025</p>
@@ -35,7 +39,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2022 2023">
 <h2><a href="/recall/23v449000/">BMW i4 and iX may lose power while driving</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2023-06-28 · Campaign 23V449000 · Model years: 2022, 2023</p>
@@ -43,7 +47,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2022 2023 2024">
 <h2><a href="/recall/23v409000/">BMW iX cruise control can turn itself back on</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2023-06-07 · Campaign 23V409000 · Model years: 2022, 2023, 2024</p>
@@ -51,7 +55,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2022 2023 2024">
 <h2><a href="/recall/23v295000/">BMW iX and i4 battery wiring can cause stalling</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2023-04-26 · Campaign 23V295000 · Model years: 2022, 2023, 2024</p>
@@ -59,7 +63,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2022 2023">
 <h2><a href="/recall/23v079000/">BMW iX and X1 driver airbag may not deploy</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2023-02-14 · Campaign 23V079000 · Model years: 2022, 2023</p>
@@ -67,7 +71,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2022 2023">
 <h2><a href="/recall/23v026000/">BMW i4 and iX may lose pedestrian warning sound</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2023-01-25 · Campaign 23V026000 · Model years: 2022, 2023</p>
@@ -75,7 +79,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2022 2023">
 <h2><a href="/recall/22v944000/">BMW i4, iX and i7 can lose drive power suddenly</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2022-12-20 · Campaign 22V944000 · Model years: 2022, 2023</p>
@@ -83,7 +87,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2023">
 <h2><a href="/recall/22v741000/">BMW iX M60 drive gear weld could break, rollaway risk</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2022-10-05 · Campaign 22V741000 · Model years: 2023</p>
@@ -91,7 +95,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2022 2023">
 <h2><a href="/recall/22v541000/">BMW i4 and iX battery fire risk: don&#39;t drive</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2022-07-27 · Campaign 22V541000 · Model years: 2022, 2023</p>
@@ -99,7 +103,7 @@
 <p class="warn">⚠ NHTSA advises: do not drive this vehicle until repaired. park outside and away from structures (fire risk).</p>
 </article>
 
-<article class="card">
+<article class="card" data-years="2022 2023">
 <h2><a href="/recall/22v483000/">BMW i4 and iX valet mode hides warning lights</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2022-07-07 · Campaign 22V483000 · Model years: 2022, 2023</p>
@@ -107,7 +111,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2022 2023">
 <h2><a href="/recall/22v240000/">BMW iX airbag warning light may not come on</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2022-04-13 · Campaign 22V240000 · Model years: 2022, 2023</p>

@@ -8,6 +8,8 @@
 
 <link rel="canonical" href="https://carrecalltracker.com/chevrolet/colorado/">
 <link rel="stylesheet" href="/static/style.css">
+<link rel="alternate" type="application/rss+xml" title="Car Recall Tracker — new recalls" href="/feed.xml">
+<script src="/static/app.js" defer></script>
 
 </head>
 <body>
@@ -18,8 +20,10 @@
 <p class="crumb"><a href="/">Home</a> › <a href="/chevrolet/">Chevrolet</a> › Colorado</p>
 <h1>Chevrolet Colorado recalls</h1>
 <p class="lead">9 recalls covering model years 2018, 2021, 2022, 2023, 2024, 2025. To check whether <em>your</em> vehicle is affected, look up your 17-character VIN at <a href="https://www.nhtsa.gov/recalls" rel="nofollow">nhtsa.gov/recalls</a> — a recall may apply only to some vehicles of a given year.</p>
+<div class="chips" role="group" aria-label="Filter by model year"><button type="button" data-year-chip="" aria-pressed="true">All years</button><button type="button" data-year-chip="2018" aria-pressed="false">2018</button><button type="button" data-year-chip="2021" aria-pressed="false">2021</button><button type="button" data-year-chip="2022" aria-pressed="false">2022</button><button type="button" data-year-chip="2023" aria-pressed="false">2023</button><button type="button" data-year-chip="2024" aria-pressed="false">2024</button><button type="button" data-year-chip="2025" aria-pressed="false">2025</button></div>
+<p id="year-count" class="meta" role="status"></p>
 
-<article class="card">
+<article class="card" data-years="2025">
 <h2><a href="/recall/26v114000/">GM and Cadillac vehicles missing electronic owner&#39;s manual download</a>
 <span class="sev sev-low">low</span></h2>
 <p class="meta">Reported 2026-02-26 · Campaign 26V114000 · Model years: 2025</p>
@@ -27,7 +31,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2023 2024">
 <h2><a href="/recall/24v703000/">Chevrolet Colorado and GMC Canyon loose seat belt bolts</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2024-09-19 · Campaign 24V703000 · Model years: 2023, 2024</p>
@@ -35,7 +39,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2024">
 <h2><a href="/recall/24v491000/">Chevrolet Colorado and GMC Canyon fuel tank ring may leak</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2024-06-28 · Campaign 24V491000 · Model years: 2024</p>
@@ -43,7 +47,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2024">
 <h2><a href="/recall/24v366000/">Chevrolet Colorado may have wrong tires and faulty pressure warnings</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2024-05-23 · Campaign 24V366000 · Model years: 2024</p>
@@ -51,7 +55,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2023">
 <h2><a href="/recall/24v237000/">Chevrolet Colorado and GMC Canyon front wheel bolts may break</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2024-03-28 · Campaign 24V237000 · Model years: 2023</p>
@@ -59,7 +63,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2023">
 <h2><a href="/recall/24v133000/">Chevrolet Colorado and GMC Canyon brake on their own</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2024-02-22 · Campaign 24V133000 · Model years: 2023</p>
@@ -67,7 +71,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2022">
 <h2><a href="/recall/22v375000/">Chevy Colorado and GMC Canyon passenger seat weld problem</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2022-05-26 · Campaign 22V375000 · Model years: 2022</p>
@@ -75,7 +79,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2021">
 <h2><a href="/recall/20v811000/">GM cars and trucks may have wrong seat belt bolts</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2020-12-23 · Campaign 20V811000 · Model years: 2021</p>
@@ -83,7 +87,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018">
 <h2><a href="/recall/18v358000/">Chevrolet, GMC, Buick, Cadillac fuel pump leak fire risk</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2018-05-31 · Campaign 18V358000 · Model years: 2018</p>

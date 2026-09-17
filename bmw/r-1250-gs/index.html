@@ -8,6 +8,8 @@
 
 <link rel="canonical" href="https://carrecalltracker.com/bmw/r-1250-gs/">
 <link rel="stylesheet" href="/static/style.css">
+<link rel="alternate" type="application/rss+xml" title="Car Recall Tracker — new recalls" href="/feed.xml">
+<script src="/static/app.js" defer></script>
 
 </head>
 <body>
@@ -18,8 +20,10 @@
 <p class="crumb"><a href="/">Home</a> › <a href="/bmw/">BMW</a> › R 1250 GS</p>
 <h1>BMW R 1250 GS recalls</h1>
 <p class="lead">7 recalls covering model years 2019, 2020, 2021, 2022, 2023. To check whether <em>your</em> vehicle is affected, look up your 17-character VIN at <a href="https://www.nhtsa.gov/recalls" rel="nofollow">nhtsa.gov/recalls</a> — a recall may apply only to some vehicles of a given year.</p>
+<div class="chips" role="group" aria-label="Filter by model year"><button type="button" data-year-chip="" aria-pressed="true">All years</button><button type="button" data-year-chip="2019" aria-pressed="false">2019</button><button type="button" data-year-chip="2020" aria-pressed="false">2020</button><button type="button" data-year-chip="2021" aria-pressed="false">2021</button><button type="button" data-year-chip="2022" aria-pressed="false">2022</button><button type="button" data-year-chip="2023" aria-pressed="false">2023</button></div>
+<p id="year-count" class="meta" role="status"></p>
 
-<article class="card">
+<article class="card" data-years="2019 2020 2021 2022 2023">
 <h2><a href="/recall/23v011000/">BMW R 1250 motorcycles: gearbox shaft can break</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2023-01-18 · Campaign 23V011000 · Model years: 2019, 2020, 2021, 2022, 2023</p>
@@ -27,7 +31,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2021">
 <h2><a href="/recall/20v495000/">BMW R 1250 motorcycle tire pressure label falls off</a>
 <span class="sev sev-low">low</span></h2>
 <p class="meta">Reported 2020-08-20 · Campaign 20V495000 · Model years: 2021</p>
@@ -35,7 +39,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2019 2020">
 <h2><a href="/recall/20v476000/">BMW motorcycles: front brake calipers can leak brake fluid</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2020-08-13 · Campaign 20V476000 · Model years: 2019, 2020</p>
@@ -43,23 +47,7 @@
 
 </article>
 
-<article class="card">
-<h2><a href="/recall/20v166000/">BMW Motorcycles: Brake Fluid Cap Missing Correct Instructions</a>
-<span class="sev sev-low">low</span></h2>
-<p class="meta">Reported 2020-03-19 · Campaign 20V166000 · Model years: 2019, 2020</p>
-<p>The cap on the brake fluid reservoir is supposed to state clearly which type of brake fluid the bike takes and how to fill it. On these motorcycles that labeling is missing or unclear, which does not meet the federal rule for motorcycle brakes. Without it, someone servicing the bike could use the wrong fluid or fill it the wrong way, which could hurt braking performance. A dealer will replace the reservoir cap free of charge.</p>
-
-</article>
-
-<article class="card">
-<h2><a href="/recall/20e013000/">BMW Accessory Brake Reservoir Covers Lack Fluid Instructions</a>
-<span class="sev sev-low">low</span></h2>
-<p class="meta">Reported 2020-03-19 · Campaign 20E013000 · Model years: 2019, 2020</p>
-<p>This recall covers accessory brake fluid reservoir covers sold for certain BMW R 1250 and RnineT motorcycles, listed by part number. The cover does not clearly state which brake fluid to use or how to fill the reservoir, so it fails the federal rule for motorcycle brakes. Anyone topping up the fluid could use the wrong kind or do it incorrectly, which could weaken braking. BMW dealers will replace the cap free of charge.</p>
-
-</article>
-
-<article class="card">
+<article class="card" data-years="2020">
 <h2><a href="/recall/20v165000/">BMW R1250GS and R1250RT rear drive pin may loosen</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2020-03-19 · Campaign 20V165000 · Model years: 2020</p>
@@ -67,7 +55,23 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2019 2020">
+<h2><a href="/recall/20e013000/">BMW Accessory Brake Reservoir Covers Lack Fluid Instructions</a>
+<span class="sev sev-low">low</span></h2>
+<p class="meta">Reported 2020-03-19 · Campaign 20E013000 · Model years: 2019, 2020</p>
+<p>This recall covers accessory brake fluid reservoir covers sold for certain BMW R 1250 and RnineT motorcycles, listed by part number. The cover does not clearly state which brake fluid to use or how to fill the reservoir, so it fails the federal rule for motorcycle brakes. Anyone topping up the fluid could use the wrong kind or do it incorrectly, which could weaken braking. BMW dealers will replace the cap free of charge.</p>
+
+</article>
+
+<article class="card" data-years="2019 2020">
+<h2><a href="/recall/20v166000/">BMW Motorcycles: Brake Fluid Cap Missing Correct Instructions</a>
+<span class="sev sev-low">low</span></h2>
+<p class="meta">Reported 2020-03-19 · Campaign 20V166000 · Model years: 2019, 2020</p>
+<p>The cap on the brake fluid reservoir is supposed to state clearly which type of brake fluid the bike takes and how to fill it. On these motorcycles that labeling is missing or unclear, which does not meet the federal rule for motorcycle brakes. Without it, someone servicing the bike could use the wrong fluid or fill it the wrong way, which could hurt braking performance. A dealer will replace the reservoir cap free of charge.</p>
+
+</article>
+
+<article class="card" data-years="2020">
 <h2><a href="/recall/20v146000/">BMW Motorcycle Brake Light Flashes During Emergency Braking</a>
 <span class="sev sev-low">low</span></h2>
 <p class="meta">Reported 2020-03-12 · Campaign 20V146000 · Model years: 2020</p>

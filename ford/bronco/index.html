@@ -8,6 +8,8 @@
 
 <link rel="canonical" href="https://carrecalltracker.com/ford/bronco/">
 <link rel="stylesheet" href="/static/style.css">
+<link rel="alternate" type="application/rss+xml" title="Car Recall Tracker — new recalls" href="/feed.xml">
+<script src="/static/app.js" defer></script>
 
 </head>
 <body>
@@ -18,8 +20,10 @@
 <p class="crumb"><a href="/">Home</a> › <a href="/ford/">Ford</a> › Bronco</p>
 <h1>Ford Bronco recalls</h1>
 <p class="lead">37 recalls covering model years 2021, 2022, 2023, 2024. To check whether <em>your</em> vehicle is affected, look up your 17-character VIN at <a href="https://www.nhtsa.gov/recalls" rel="nofollow">nhtsa.gov/recalls</a> — a recall may apply only to some vehicles of a given year.</p>
+<div class="chips" role="group" aria-label="Filter by model year"><button type="button" data-year-chip="" aria-pressed="true">All years</button><button type="button" data-year-chip="2021" aria-pressed="false">2021</button><button type="button" data-year-chip="2022" aria-pressed="false">2022</button><button type="button" data-year-chip="2023" aria-pressed="false">2023</button><button type="button" data-year-chip="2024" aria-pressed="false">2024</button></div>
+<p id="year-count" class="meta" role="status"></p>
 
-<article class="card">
+<article class="card" data-years="2021 2022 2023 2024">
 <h2><a href="/recall/26v468000/">Ford Bronco engine wiring can short and cause fire</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2026-07-20 · Campaign 26V468000 · Model years: 2021, 2022, 2023, 2024</p>
@@ -27,7 +31,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2022 2023 2024">
 <h2><a href="/recall/26v403000/">Ford Bronco fender flares can fall off while driving</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2026-06-24 · Campaign 26V403000 · Model years: 2022, 2023, 2024</p>
@@ -35,7 +39,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2021 2022">
 <h2><a href="/recall/26v299000/">Ford Bronco hardtop roof panels can come apart</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2026-05-12 · Campaign 26V299000 · Model years: 2021, 2022</p>
@@ -43,7 +47,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2024">
 <h2><a href="/recall/26v268000/">Ford Bronco and Ranger front seat bolts may loosen</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2026-04-28 · Campaign 26V268000 · Model years: 2024</p>
@@ -51,7 +55,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2021 2022 2023 2024">
 <h2><a href="/recall/26v236000/">Ford Bronco may lose power or roll away</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2026-04-14 · Campaign 26V236000 · Model years: 2021, 2022, 2023, 2024</p>
@@ -59,7 +63,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2021 2022 2023 2024">
 <h2><a href="/recall/26v124000/">Ford Bronco and Edge rearview camera image may not appear</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2026-03-03 · Campaign 26V124000 · Model years: 2021, 2022, 2023, 2024</p>
@@ -67,7 +71,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2021 2022">
 <h2><a href="/recall/25v888000/">Ford Bronco backup camera image stays on screen</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2025-12-18 · Campaign 25V888000 · Model years: 2021, 2022</p>
@@ -75,7 +79,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2021 2022 2023">
 <h2><a href="/recall/25v721000/">Ford Bronco front seat bolt may be loose</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2025-10-23 · Campaign 25V721000 · Model years: 2021, 2022, 2023</p>
@@ -83,7 +87,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2021 2022 2023 2024">
 <h2><a href="/recall/25v685000/">Ford and Lincoln engine block heaters can catch fire</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2025-10-10 · Campaign 25V685000 · Model years: 2021, 2022, 2023, 2024</p>
@@ -91,7 +95,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2024">
 <h2><a href="/recall/25v597000/">Ford Bronco fuel pump bolts may leak gas</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2025-09-11 · Campaign 25V597000 · Model years: 2024</p>
@@ -99,7 +103,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2021 2022 2023">
 <h2><a href="/recall/25v455000/">Ford and Lincoln fuel pump failure can stall the engine</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2025-07-07 · Campaign 25V455000 · Model years: 2021, 2022, 2023</p>
@@ -107,7 +111,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2022 2023">
 <h2><a href="/recall/25v273000/">Ford Bronco 360 camera may show no reverse image</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2025-05-14 · Campaign 25V273000 · Model years: 2022, 2023</p>
@@ -115,15 +119,7 @@
 
 </article>
 
-<article class="card">
-<h2><a href="/recall/25v310000/">Ford Bronco and Ranger front suspension bolt may fail</a>
-<span class="sev sev-critical">critical</span></h2>
-<p class="meta">Reported 2025-05-09 · Campaign 25V310000 · Model years: 2024</p>
-<p>A bolt in the front suspension may be missing or not tightened properly on some Broncos and Rangers. That bolt holds an upper suspension arm to the wheel assembly. If it works loose or falls out, the arm can separate from the wheel, and you could lose the ability to steer the vehicle. Ford mailed owner letters in May 2025. The dealer will check the bolt and tighten it, or replace it if it is damaged.</p>
-
-</article>
-
-<article class="card">
+<article class="card" data-years="2024">
 <h2><a href="/recall/25v303000/">Ford Bronco rear door opens despite child lock</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2025-05-09 · Campaign 25V303000 · Model years: 2024</p>
@@ -131,23 +127,15 @@
 
 </article>
 
-<article class="card">
-<h2><a href="/recall/25v308000/">Ford Bronco front suspension arm can come apart</a>
+<article class="card" data-years="2024">
+<h2><a href="/recall/25v310000/">Ford Bronco and Ranger front suspension bolt may fail</a>
 <span class="sev sev-critical">critical</span></h2>
-<p class="meta">Reported 2025-05-09 · Campaign 25V308000 · Model years: 2024</p>
-<p>On some 2024-2025 Broncos, the fasteners holding the lower front suspension arm to the frame may not have been tightened properly. That can let the arm come apart from the frame while you are driving, and if it does you can lose steering and control of the truck. Ford says not to drive these vehicles until they are fixed. A dealer will check the fasteners and replace any that are loose or missing, at no charge.</p>
-<p class="warn">⚠ NHTSA advises: do not drive this vehicle until repaired. </p>
-</article>
-
-<article class="card">
-<h2><a href="/recall/25v315000/">Ford and Lincoln rearview cameras may freeze or blank</a>
-<span class="sev sev-medium">medium</span></h2>
-<p class="meta">Reported 2025-05-09 · Campaign 25V315000 · Model years: 2021, 2022, 2023, 2024</p>
-<p>A software error in the module that runs the screen can make the backup camera image lag, freeze, or not appear at all when you put the vehicle in reverse. You could back into something or someone you cannot see. The fix is a software update to that module, done free at a dealer or, on some vehicles, sent to the vehicle over the air. Ford is doing this in phases, so timing depends on your model and year.</p>
+<p class="meta">Reported 2025-05-09 · Campaign 25V310000 · Model years: 2024</p>
+<p>A bolt in the front suspension may be missing or not tightened properly on some Broncos and Rangers. That bolt holds an upper suspension arm to the wheel assembly. If it works loose or falls out, the arm can separate from the wheel, and you could lose the ability to steer the vehicle. Ford mailed owner letters in May 2025. The dealer will check the bolt and tighten it, or replace it if it is damaged.</p>
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2021 2022">
 <h2><a href="/recall/25v312000/">Ford Bronco rearview camera image stays on after backing</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2025-05-09 · Campaign 25V312000 · Model years: 2021, 2022</p>
@@ -155,7 +143,23 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2024">
+<h2><a href="/recall/25v308000/">Ford Bronco front suspension arm can come apart</a>
+<span class="sev sev-critical">critical</span></h2>
+<p class="meta">Reported 2025-05-09 · Campaign 25V308000 · Model years: 2024</p>
+<p>On some 2024-2025 Broncos, the fasteners holding the lower front suspension arm to the frame may not have been tightened properly. That can let the arm come apart from the frame while you are driving, and if it does you can lose steering and control of the truck. Ford says not to drive these vehicles until they are fixed. A dealer will check the fasteners and replace any that are loose or missing, at no charge.</p>
+<p class="warn">⚠ NHTSA advises: do not drive this vehicle until repaired. </p>
+</article>
+
+<article class="card" data-years="2021 2022 2023 2024">
+<h2><a href="/recall/25v315000/">Ford and Lincoln rearview cameras may freeze or blank</a>
+<span class="sev sev-medium">medium</span></h2>
+<p class="meta">Reported 2025-05-09 · Campaign 25V315000 · Model years: 2021, 2022, 2023, 2024</p>
+<p>A software error in the module that runs the screen can make the backup camera image lag, freeze, or not appear at all when you put the vehicle in reverse. You could back into something or someone you cannot see. The fix is a software update to that module, done free at a dealer or, on some vehicles, sent to the vehicle over the air. Ford is doing this in phases, so timing depends on your model and year.</p>
+
+</article>
+
+<article class="card" data-years="2024">
 <h2><a href="/recall/25v164000/">Ford and Lincoln transmission may cause unexpected vehicle movement</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2025-03-14 · Campaign 25V164000 · Model years: 2024</p>
@@ -163,7 +167,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2021 2022 2023 2024">
 <h2><a href="/recall/25v025000/">Ford Bronco rear shocks can corrode and shed parts</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2025-01-17 · Campaign 25V025000 · Model years: 2021, 2022, 2023, 2024</p>
@@ -171,7 +175,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2024">
 <h2><a href="/recall/24v770000/">Ford Bronco and Ranger: front suspension part can detach</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2024-10-16 · Campaign 24V770000 · Model years: 2024</p>
@@ -179,7 +183,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2021 2022">
 <h2><a href="/recall/24v635000/">Ford and Lincoln EcoBoost engines can break, losing power</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2024-08-23 · Campaign 24V635000 · Model years: 2021, 2022</p>
@@ -187,7 +191,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2023 2024">
 <h2><a href="/recall/24v189000/">Ford Bronco child safety lock may not hold rear door</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2024-03-08 · Campaign 24V189000 · Model years: 2023, 2024</p>
@@ -195,7 +199,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2023 2024">
 <h2><a href="/recall/24v142000/">Ford Bronco rear glass panels may fall off</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2024-02-23 · Campaign 24V142000 · Model years: 2023, 2024</p>
@@ -203,7 +207,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2021">
 <h2><a href="/recall/23v598000/">Ford Bronco and Lincoln SUVs: backup camera may go blank</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2023-08-25 · Campaign 23V598000 · Model years: 2021</p>
@@ -211,7 +215,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2023">
 <h2><a href="/recall/23v546000/">Ford Bronco may roll away when parked</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2023-08-03 · Campaign 23V546000 · Model years: 2023</p>
@@ -219,7 +223,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2022 2023">
 <h2><a href="/recall/23v379000/">Ford Bronco and Ranger have wrong load capacity label</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2023-05-26 · Campaign 23V379000 · Model years: 2022, 2023</p>
@@ -227,7 +231,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2021 2022 2023">
 <h2><a href="/recall/23v358000/">Ford Bronco 5-Door: hard-to-reach front seat belt latches</a>
 <span class="sev sev-low">low</span></h2>
 <p class="meta">Reported 2023-05-18 · Campaign 23V358000 · Model years: 2021, 2022, 2023</p>
@@ -235,7 +239,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2023">
 <h2><a href="/recall/23v283000/">Ford Bronco and Ranger wheels may have loose lug nuts</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2023-04-20 · Campaign 23V283000 · Model years: 2023</p>
@@ -243,7 +247,7 @@
 <p class="warn">⚠ NHTSA advises: do not drive this vehicle until repaired. </p>
 </article>
 
-<article class="card">
+<article class="card" data-years="2021 2022">
 <h2><a href="/recall/23v165000/">Ford Bronco backup camera image stays on screen too long</a>
 <span class="sev sev-low">low</span></h2>
 <p class="meta">Reported 2023-03-10 · Campaign 23V165000 · Model years: 2021, 2022</p>
@@ -251,7 +255,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2022 2023">
 <h2><a href="/recall/23v155000/">Ford Bronco steering can lock up completely while driving</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2023-03-08 · Campaign 23V155000 · Model years: 2022, 2023</p>
@@ -259,7 +263,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2022 2023">
 <h2><a href="/recall/23v070000/">Ford and Lincoln SUVs may roll away from Park</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2023-02-10 · Campaign 23V070000 · Model years: 2022, 2023</p>
@@ -267,7 +271,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2021 2022">
 <h2><a href="/recall/22v928000/">Ford Bronco loose side crash sensors may misfire airbags</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2022-12-14 · Campaign 22V928000 · Model years: 2021, 2022</p>
@@ -275,7 +279,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2021 2022">
 <h2><a href="/recall/22v825000/">Ford Bronco backup camera image stays on screen</a>
 <span class="sev sev-low">low</span></h2>
 <p class="meta">Reported 2022-11-03 · Campaign 22V825000 · Model years: 2021, 2022</p>
@@ -283,7 +287,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2022">
 <h2><a href="/recall/22v451000/">Ford Bronco and Ranger Windshields May Come Loose</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2022-06-24 · Campaign 22V451000 · Model years: 2022</p>
@@ -291,7 +295,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2021 2022">
 <h2><a href="/recall/22v411000/">Ford Bronco rear child safety lock may not work</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2022-06-10 · Campaign 22V411000 · Model years: 2021, 2022</p>
@@ -299,7 +303,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2021">
 <h2><a href="/recall/21v982000/">Ford Bronco and Ranger: crash-avoidance radar aimed wrong</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2021-12-16 · Campaign 21V982000 · Model years: 2021</p>
@@ -307,7 +311,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2021">
 <h2><a href="/recall/21v770000/">Ford Bronco passenger airbag may deploy improperly</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2021-10-01 · Campaign 21V770000 · Model years: 2021</p>

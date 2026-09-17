@@ -8,6 +8,8 @@
 
 <link rel="canonical" href="https://carrecalltracker.com/ford/f-650-sd/">
 <link rel="stylesheet" href="/static/style.css">
+<link rel="alternate" type="application/rss+xml" title="Car Recall Tracker — new recalls" href="/feed.xml">
+<script src="/static/app.js" defer></script>
 
 </head>
 <body>
@@ -18,8 +20,10 @@
 <p class="crumb"><a href="/">Home</a> › <a href="/ford/">Ford</a> › F-650 SD</p>
 <h1>Ford F-650 SD recalls</h1>
 <p class="lead">5 recalls covering model years 2021, 2023, 2025. To check whether <em>your</em> vehicle is affected, look up your 17-character VIN at <a href="https://www.nhtsa.gov/recalls" rel="nofollow">nhtsa.gov/recalls</a> — a recall may apply only to some vehicles of a given year.</p>
+<div class="chips" role="group" aria-label="Filter by model year"><button type="button" data-year-chip="" aria-pressed="true">All years</button><button type="button" data-year-chip="2021" aria-pressed="false">2021</button><button type="button" data-year-chip="2023" aria-pressed="false">2023</button><button type="button" data-year-chip="2025" aria-pressed="false">2025</button></div>
+<p id="year-count" class="meta" role="status"></p>
 
-<article class="card">
+<article class="card" data-years="2025">
 <h2><a href="/recall/26v568000/">Ford F-650 liftgate platform can fall from broken pins</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2026-08-20 · Campaign 26V568000 · Model years: 2025</p>
@@ -27,7 +31,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2025">
 <h2><a href="/recall/24v494000/">Ford F-650 and F-750 Trucks May Lose Steering</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2024-06-28 · Campaign 24V494000 · Model years: 2025</p>
@@ -35,7 +39,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2023">
 <h2><a href="/recall/24v143000/">Ford F-650 parking brake may release without warning</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2024-02-23 · Campaign 24V143000 · Model years: 2023</p>
@@ -43,7 +47,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2025">
 <h2><a href="/recall/23v625000/">Ford E-350 and F-650 trucks can roll away in Park</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2023-09-08 · Campaign 23V625000 · Model years: 2025</p>
@@ -51,7 +55,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2021">
 <h2><a href="/recall/20v413000/">Ford F-650, F-750 missing heat shields can burn skin</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2020-07-17 · Campaign 20V413000 · Model years: 2021</p>

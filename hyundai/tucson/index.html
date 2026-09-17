@@ -8,6 +8,8 @@
 
 <link rel="canonical" href="https://carrecalltracker.com/hyundai/tucson/">
 <link rel="stylesheet" href="/static/style.css">
+<link rel="alternate" type="application/rss+xml" title="Car Recall Tracker — new recalls" href="/feed.xml">
+<script src="/static/app.js" defer></script>
 
 </head>
 <body>
@@ -18,8 +20,10 @@
 <p class="crumb"><a href="/">Home</a> › <a href="/hyundai/">Hyundai</a> › Tucson</p>
 <h1>Hyundai Tucson recalls</h1>
 <p class="lead">13 recalls covering model years 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025. To check whether <em>your</em> vehicle is affected, look up your 17-character VIN at <a href="https://www.nhtsa.gov/recalls" rel="nofollow">nhtsa.gov/recalls</a> — a recall may apply only to some vehicles of a given year.</p>
+<div class="chips" role="group" aria-label="Filter by model year"><button type="button" data-year-chip="" aria-pressed="true">All years</button><button type="button" data-year-chip="2018" aria-pressed="false">2018</button><button type="button" data-year-chip="2019" aria-pressed="false">2019</button><button type="button" data-year-chip="2020" aria-pressed="false">2020</button><button type="button" data-year-chip="2021" aria-pressed="false">2021</button><button type="button" data-year-chip="2022" aria-pressed="false">2022</button><button type="button" data-year-chip="2023" aria-pressed="false">2023</button><button type="button" data-year-chip="2024" aria-pressed="false">2024</button><button type="button" data-year-chip="2025" aria-pressed="false">2025</button></div>
+<p id="year-count" class="meta" role="status"></p>
 
-<article class="card">
+<article class="card" data-years="2025">
 <h2><a href="/recall/26v400000/">Hyundai Tucson dashboard display can go completely blank</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2026-06-24 · Campaign 26V400000 · Model years: 2025</p>
@@ -27,7 +31,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2025">
 <h2><a href="/recall/26v316000/">Hyundai Tucson and Santa Cruz may brake unexpectedly</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2026-05-19 · Campaign 26V316000 · Model years: 2025</p>
@@ -35,7 +39,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2022 2023 2024">
 <h2><a href="/recall/25v893000/">Hyundai Tucson tow hitch wiring lets water in</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2025-12-19 · Campaign 25V893000 · Model years: 2022, 2023, 2024</p>
@@ -43,7 +47,7 @@
 <p class="warn">⚠ NHTSA advises: park outside and away from structures (fire risk).</p>
 </article>
 
-<article class="card">
+<article class="card" data-years="2025">
 <h2><a href="/recall/25v809000/">Hyundai SUVs: side curtain airbags may be installed wrong</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2025-11-21 · Campaign 25V809000 · Model years: 2025</p>
@@ -51,7 +55,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2025">
 <h2><a href="/recall/25v549000/">Hyundai Tucson, Santa Fe engine bolts improperly tightened</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2025-08-26 · Campaign 25V549000 · Model years: 2025</p>
@@ -59,7 +63,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2025">
 <h2><a href="/recall/24v877000/">Hyundai Tucson, Santa Cruz can shift out of Park</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2024-11-20 · Campaign 24V877000 · Model years: 2025</p>
@@ -67,7 +71,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2025">
 <h2><a href="/recall/24v691000/">Hyundai Tucson missing glove box airbag warning label</a>
 <span class="sev sev-low">low</span></h2>
 <p class="meta">Reported 2024-09-13 · Campaign 24V691000 · Model years: 2025</p>
@@ -75,7 +79,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2024">
 <h2><a href="/recall/24v412000/">Hyundai Tucson and Santa Cruz can lose power steering</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2024-06-05 · Campaign 24V412000 · Model years: 2024</p>
@@ -83,7 +87,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2024">
 <h2><a href="/recall/23v556000/">Hyundai Tucson tire label wrongly lists a spare tire</a>
 <span class="sev sev-low">low</span></h2>
 <p class="meta">Reported 2023-08-04 · Campaign 23V556000 · Model years: 2024</p>
@@ -91,7 +95,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2023 2024">
 <h2><a href="/recall/23v526000/">Hyundai SUVs and sedans: oil pump controller can overheat</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2023-07-27 · Campaign 23V526000 · Model years: 2023, 2024</p>
@@ -99,7 +103,7 @@
 <p class="warn">⚠ NHTSA advises: park outside and away from structures (fire risk).</p>
 </article>
 
-<article class="card">
+<article class="card" data-years="2022">
 <h2><a href="/recall/23v038000/">Hyundai Tucson and Santa Cruz roof trim can fly off</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2023-01-31 · Campaign 23V038000 · Model years: 2022</p>
@@ -107,7 +111,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2022">
 <h2><a href="/recall/21v938000/">Hyundai Tucson software problem may disable headlights and taillights</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2021-12-02 · Campaign 21V938000 · Model years: 2022</p>
@@ -115,7 +119,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018 2019 2020 2021">
 <h2><a href="/recall/20v543000/">Hyundai Tucson brake control unit can corrode and cause fire</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2020-09-04 · Campaign 20V543000 · Model years: 2018, 2019, 2020, 2021</p>
@@ -127,7 +131,9 @@
 <p>Complaints owners have filed with NHTSA about the Hyundai Tucson. These are unverified reports; better-selling years collect more.</p>
 <table class="data"><tr><th>Model year</th><th>Complaints</th><th>Crashes</th><th>Fires</th><th>Injuries</th></tr>
 <tr><td>2018</td><td>393</td><td>13</td><td>9</td><td>10</td></tr><tr><td>2019</td><td>378</td><td>15</td><td>11</td><td>10</td></tr><tr><td>2020</td><td>176</td><td>5</td><td>2</td><td>5</td></tr><tr><td>2021</td><td>78</td><td>2</td><td>3</td><td>7</td></tr><tr><td>2022</td><td>381</td><td>25</td><td>4</td><td>54</td></tr><tr><td>2023</td><td>132</td><td>12</td><td>1</td><td>5</td></tr><tr><td>2024</td><td>95</td><td>12</td><td>0</td><td>6</td></tr><tr><td>2025</td><td>279</td><td>32</td><td>1</td><td>19</td></tr></table>
-
+<h2>Buying a used Tucson?</h2>
+<p>Recalls and complaint record for one model year at a time:</p>
+<ul class="tags"><li><a href="/used/hyundai/tucson/2022/">2022 Tucson</a></li><li><a href="/used/hyundai/tucson/2023/">2023 Tucson</a></li><li><a href="/used/hyundai/tucson/2024/">2024 Tucson</a></li><li><a href="/used/hyundai/tucson/2025/">2025 Tucson</a></li></ul>
 
 </main>
 <footer>

@@ -8,6 +8,8 @@
 
 <link rel="canonical" href="https://carrecalltracker.com/mazda/cx-30/">
 <link rel="stylesheet" href="/static/style.css">
+<link rel="alternate" type="application/rss+xml" title="Car Recall Tracker — new recalls" href="/feed.xml">
+<script src="/static/app.js" defer></script>
 
 </head>
 <body>
@@ -18,8 +20,10 @@
 <p class="crumb"><a href="/">Home</a> › <a href="/mazda/">Mazda</a> › CX-30</p>
 <h1>Mazda CX-30 recalls</h1>
 <p class="lead">7 recalls covering model years 2020, 2021, 2022, 2023, 2024, 2025. To check whether <em>your</em> vehicle is affected, look up your 17-character VIN at <a href="https://www.nhtsa.gov/recalls" rel="nofollow">nhtsa.gov/recalls</a> — a recall may apply only to some vehicles of a given year.</p>
+<div class="chips" role="group" aria-label="Filter by model year"><button type="button" data-year-chip="" aria-pressed="true">All years</button><button type="button" data-year-chip="2020" aria-pressed="false">2020</button><button type="button" data-year-chip="2021" aria-pressed="false">2021</button><button type="button" data-year-chip="2022" aria-pressed="false">2022</button><button type="button" data-year-chip="2023" aria-pressed="false">2023</button><button type="button" data-year-chip="2024" aria-pressed="false">2024</button><button type="button" data-year-chip="2025" aria-pressed="false">2025</button></div>
+<p id="year-count" class="meta" role="status"></p>
 
-<article class="card">
+<article class="card" data-years="2024 2025">
 <h2><a href="/recall/25v357000/">Mazda3 and CX-30 airbags may shut themselves off</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2025-05-29 · Campaign 25V357000 · Model years: 2024, 2025</p>
@@ -27,7 +31,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2024">
 <h2><a href="/recall/24v649000/">Mazda3, CX-30 and CX-50 camera disables automatic braking</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2024-09-03 · Campaign 24V649000 · Model years: 2024</p>
@@ -35,7 +39,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2022 2023">
 <h2><a href="/recall/23v275000/">Mazda CX-30 and CX-50 may have reduced braking</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2023-04-18 · Campaign 23V275000 · Model years: 2022, 2023</p>
@@ -43,7 +47,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2021">
 <h2><a href="/recall/21v101000/">Mazda3 and CX-30 tire valves may leak air</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2021-02-22 · Campaign 21V101000 · Model years: 2021</p>
@@ -51,7 +55,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2020 2021">
 <h2><a href="/recall/21v086000/">Mazda CX-30 power liftgate can lower unexpectedly</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2021-02-18 · Campaign 21V086000 · Model years: 2020, 2021</p>
@@ -59,15 +63,7 @@
 
 </article>
 
-<article class="card">
-<h2><a href="/recall/20v347000/">Mazda CX-30 all-wheel drive may leak fuel</a>
-<span class="sev sev-high">high</span></h2>
-<p class="meta">Reported 2020-06-12 · Campaign 20V347000 · Model years: 2020</p>
-<p>Some 2020 CX-30 vehicles with all-wheel drive have a vent hose on the fuel tank that may be disconnected. When that hose comes loose, fuel can leak out of the vent at the back of the vehicle. Leaking fuel near anything hot or sparking can start a fire, and the engine can also stall while you are driving. Mazda dealers will check the hose, reconnect it if needed, and replace the charcoal canister and some related parts free of charge.</p>
-
-</article>
-
-<article class="card">
+<article class="card" data-years="2020">
 <h2><a href="/recall/20v346000/">Mazda3 and CX-30 front brake parts may loosen</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2020-06-12 · Campaign 20V346000 · Model years: 2020</p>
@@ -75,11 +71,21 @@
 
 </article>
 
+<article class="card" data-years="2020">
+<h2><a href="/recall/20v347000/">Mazda CX-30 all-wheel drive may leak fuel</a>
+<span class="sev sev-high">high</span></h2>
+<p class="meta">Reported 2020-06-12 · Campaign 20V347000 · Model years: 2020</p>
+<p>Some 2020 CX-30 vehicles with all-wheel drive have a vent hose on the fuel tank that may be disconnected. When that hose comes loose, fuel can leak out of the vent at the back of the vehicle. Leaking fuel near anything hot or sparking can start a fire, and the engine can also stall while you are driving. Mazda dealers will check the hose, reconnect it if needed, and replace the charcoal canister and some related parts free of charge.</p>
+
+</article>
+
 <h2>Owner complaints by model year</h2>
 <p>Complaints owners have filed with NHTSA about the Mazda CX-30. These are unverified reports; better-selling years collect more.</p>
 <table class="data"><tr><th>Model year</th><th>Complaints</th><th>Crashes</th><th>Fires</th><th>Injuries</th></tr>
 <tr><td>2020</td><td>33</td><td>1</td><td>0</td><td>0</td></tr><tr><td>2021</td><td>100</td><td>10</td><td>0</td><td>13</td></tr><tr><td>2022</td><td>33</td><td>4</td><td>0</td><td>3</td></tr><tr><td>2023</td><td>24</td><td>5</td><td>0</td><td>2</td></tr><tr><td>2024</td><td>31</td><td>2</td><td>1</td><td>3</td></tr><tr><td>2025</td><td>26</td><td>2</td><td>0</td><td>0</td></tr></table>
-
+<h2>Buying a used CX-30?</h2>
+<p>Recalls and complaint record for one model year at a time:</p>
+<ul class="tags"><li><a href="/used/mazda/cx-30/2020/">2020 CX-30</a></li><li><a href="/used/mazda/cx-30/2021/">2021 CX-30</a></li><li><a href="/used/mazda/cx-30/2024/">2024 CX-30</a></li></ul>
 
 </main>
 <footer>

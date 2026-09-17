@@ -8,6 +8,8 @@
 
 <link rel="canonical" href="https://carrecalltracker.com/ford/maverick/">
 <link rel="stylesheet" href="/static/style.css">
+<link rel="alternate" type="application/rss+xml" title="Car Recall Tracker — new recalls" href="/feed.xml">
+<script src="/static/app.js" defer></script>
 
 </head>
 <body>
@@ -18,8 +20,10 @@
 <p class="crumb"><a href="/">Home</a> › <a href="/ford/">Ford</a> › Maverick</p>
 <h1>Ford Maverick recalls</h1>
 <p class="lead">34 recalls covering model years 2022, 2023, 2024. To check whether <em>your</em> vehicle is affected, look up your 17-character VIN at <a href="https://www.nhtsa.gov/recalls" rel="nofollow">nhtsa.gov/recalls</a> — a recall may apply only to some vehicles of a given year.</p>
+<div class="chips" role="group" aria-label="Filter by model year"><button type="button" data-year-chip="" aria-pressed="true">All years</button><button type="button" data-year-chip="2022" aria-pressed="false">2022</button><button type="button" data-year-chip="2023" aria-pressed="false">2023</button><button type="button" data-year-chip="2024" aria-pressed="false">2024</button></div>
+<p id="year-count" class="meta" role="status"></p>
 
-<article class="card">
+<article class="card" data-years="2022 2023 2024">
 <h2><a href="/recall/26v340000/">Ford Bronco Sport and Maverick Suspension Can Come Apart</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2026-05-27 · Campaign 26V340000 · Model years: 2022, 2023, 2024</p>
@@ -27,7 +31,7 @@
 <p class="warn">⚠ NHTSA advises: do not drive this vehicle until repaired. </p>
 </article>
 
-<article class="card">
+<article class="card" data-years="2022 2023 2024">
 <h2><a href="/recall/26v104000/">Ford F-Series, Expedition: Trailer Brakes and Lights May Fail</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2026-02-20 · Campaign 26V104000 · Model years: 2022, 2023, 2024</p>
@@ -35,7 +39,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2022 2023 2024">
 <h2><a href="/recall/25v685000/">Ford and Lincoln engine block heaters can catch fire</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2025-10-10 · Campaign 25V685000 · Model years: 2022, 2023, 2024</p>
@@ -43,7 +47,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2022 2023 2024">
 <h2><a href="/recall/25v442000/">Ford and Lincoln rearview camera image may go blank</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2025-06-27 · Campaign 25V442000 · Model years: 2022, 2023, 2024</p>
@@ -51,7 +55,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2022 2023">
 <h2><a href="/recall/25v345000/">Ford Escape and Maverick hybrids: bad repair leaves fire risk</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2025-05-23 · Campaign 25V345000 · Model years: 2022, 2023</p>
@@ -59,7 +63,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2022 2023">
 <h2><a href="/recall/25v158000/">Ford Bronco Sport and Maverick may lose drive power</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2025-03-14 · Campaign 25V158000 · Model years: 2022, 2023</p>
@@ -67,7 +71,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2022 2023">
 <h2><a href="/recall/25v123000/">Ford Maverick Hybrid dashboard gauges may not light up</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2025-02-28 · Campaign 25V123000 · Model years: 2022, 2023</p>
@@ -75,7 +79,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2022">
 <h2><a href="/recall/25v132000/">Ford trucks and SUVs may not brake towed trailers</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2025-02-28 · Campaign 25V132000 · Model years: 2022</p>
@@ -83,7 +87,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2022 2023 2024">
 <h2><a href="/recall/25v133000/">Ford Maverick, Escape, Lincoln Corsair can lose drive power</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2025-02-28 · Campaign 25V133000 · Model years: 2022, 2023, 2024</p>
@@ -91,7 +95,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2022">
 <h2><a href="/recall/25v127000/">Ford Maverick may miss low battery, losing power</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2025-02-28 · Campaign 25V127000 · Model years: 2022</p>
@@ -99,7 +103,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2022">
 <h2><a href="/recall/25v124000/">Ford Maverick brake lights can come on by themselves</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2025-02-28 · Campaign 25V124000 · Model years: 2022</p>
@@ -107,15 +111,7 @@
 
 </article>
 
-<article class="card">
-<h2><a href="/recall/25v095000/">Ford Maverick rear tail lights may shut off unexpectedly</a>
-<span class="sev sev-medium">medium</span></h2>
-<p class="meta">Reported 2025-02-14 · Campaign 25V095000 · Model years: 2022, 2023, 2024</p>
-<p>These trucks were in for a tail light recall before, but the repair did not stick. The body control module, the computer that runs the truck&#39;s lights and other basics, can shut off one or both rear tail lights on its own. With a tail light out, drivers behind you have a harder time seeing your truck and knowing where it is. A dealer will install corrected software for free.</p>
-
-</article>
-
-<article class="card">
+<article class="card" data-years="2022 2023 2024">
 <h2><a href="/recall/25v094000/">Ford Maverick will not warn of a failed turn signal</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2025-02-14 · Campaign 25V094000 · Model years: 2022, 2023, 2024</p>
@@ -123,7 +119,15 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2022 2023 2024">
+<h2><a href="/recall/25v095000/">Ford Maverick rear tail lights may shut off unexpectedly</a>
+<span class="sev sev-medium">medium</span></h2>
+<p class="meta">Reported 2025-02-14 · Campaign 25V095000 · Model years: 2022, 2023, 2024</p>
+<p>These trucks were in for a tail light recall before, but the repair did not stick. The body control module, the computer that runs the truck&#39;s lights and other basics, can shut off one or both rear tail lights on its own. With a tail light out, drivers behind you have a harder time seeing your truck and knowing where it is. A dealer will install corrected software for free.</p>
+
+</article>
+
+<article class="card" data-years="2022 2023">
 <h2><a href="/recall/25v019000/">Ford Bronco Sport and Maverick battery can suddenly fail</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2025-01-17 · Campaign 25V019000 · Model years: 2022, 2023</p>
@@ -131,7 +135,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2024">
 <h2><a href="/recall/24v778000/">Ford Maverick child seat tether anchors may not hold</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2024-10-18 · Campaign 24V778000 · Model years: 2024</p>
@@ -139,7 +143,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2022 2023 2024">
 <h2><a href="/recall/24v684000/">Ford Maverick backup camera image may freeze in reverse</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2024-09-13 · Campaign 24V684000 · Model years: 2022, 2023, 2024</p>
@@ -147,15 +151,7 @@
 
 </article>
 
-<article class="card">
-<h2><a href="/recall/24v594000/">Ford Bronco Sport and Maverick Windshield Wipers Can Quit</a>
-<span class="sev sev-medium">medium</span></h2>
-<p class="meta">Reported 2024-08-09 · Campaign 24V594000 · Model years: 2023, 2024</p>
-<p>The electric motor that drives the front windshield wipers can stop working. If it fails, the wipers will not move at all. In rain, snow, or road spray you could suddenly be left looking through a wet, dirty windshield with no way to clear it. A Ford dealer will check the wiper motor and install a new one if it is needed, at no cost to you. Owner letters went out in December 2024.</p>
-
-</article>
-
-<article class="card">
+<article class="card" data-years="2022">
 <h2><a href="/recall/24v590000/">Ford Maverick may not detect low battery, losing drive power</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2024-08-09 · Campaign 24V590000 · Model years: 2022</p>
@@ -163,7 +159,15 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2023 2024">
+<h2><a href="/recall/24v594000/">Ford Bronco Sport and Maverick Windshield Wipers Can Quit</a>
+<span class="sev sev-medium">medium</span></h2>
+<p class="meta">Reported 2024-08-09 · Campaign 24V594000 · Model years: 2023, 2024</p>
+<p>The electric motor that drives the front windshield wipers can stop working. If it fails, the wipers will not move at all. In rain, snow, or road spray you could suddenly be left looking through a wet, dirty windshield with no way to clear it. A Ford dealer will check the wiper motor and install a new one if it is needed, at no cost to you. Owner letters went out in December 2024.</p>
+
+</article>
+
+<article class="card" data-years="2022 2023 2024">
 <h2><a href="/recall/24v330000/">Ford Maverick, Escape and Lincoln Corsair may lose power</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2024-05-10 · Campaign 24V330000 · Model years: 2022, 2023, 2024</p>
@@ -171,7 +175,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2022 2023 2024">
 <h2><a href="/recall/24v293000/">Ford Maverick rear tail lights may shut off unexpectedly</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2024-04-26 · Campaign 24V293000 · Model years: 2022, 2023, 2024</p>
@@ -179,7 +183,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2024">
 <h2><a href="/recall/24v266000/">Ford Maverick tire and load label shows wrong numbers</a>
 <span class="sev sev-low">low</span></h2>
 <p class="meta">Reported 2024-04-12 · Campaign 24V266000 · Model years: 2024</p>
@@ -187,7 +191,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2022 2023">
 <h2><a href="/recall/24v267000/">Ford Bronco Sport and Maverick may lose drive power</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2024-04-12 · Campaign 24V267000 · Model years: 2022, 2023</p>
@@ -195,7 +199,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2023">
 <h2><a href="/recall/24v223000/">Ford Maverick and Bronco Sport tires built incorrectly</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2024-03-22 · Campaign 24V223000 · Model years: 2023</p>
@@ -203,7 +207,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2024">
 <h2><a href="/recall/24v185000/">Ford Maverick fuel tank can leak gasoline at seam</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2024-03-08 · Campaign 24V185000 · Model years: 2024</p>
@@ -211,7 +215,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2022 2023">
 <h2><a href="/recall/24v140000/">Ford Maverick Hybrid gauges may not light up</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2024-02-23 · Campaign 24V140000 · Model years: 2022, 2023</p>
@@ -219,7 +223,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2022 2023 2024">
 <h2><a href="/recall/23v848000/">Ford Maverick will not warn you of dead turn signal</a>
 <span class="sev sev-low">low</span></h2>
 <p class="meta">Reported 2023-12-15 · Campaign 23V848000 · Model years: 2022, 2023, 2024</p>
@@ -227,7 +231,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2022 2023">
 <h2><a href="/recall/23v380000/">Ford Escape, Maverick and Corsair hybrid engines can catch fire</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2023-05-26 · Campaign 23V380000 · Model years: 2022, 2023</p>
@@ -235,7 +239,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2023">
 <h2><a href="/recall/23v160000/">Ford Maverick trailer taillights may not light up</a>
 <span class="sev sev-low">low</span></h2>
 <p class="meta">Reported 2023-03-10 · Campaign 23V160000 · Model years: 2023</p>
@@ -243,7 +247,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2022">
 <h2><a href="/recall/22v730000/">Ford Maverick brake lights can turn on by themselves</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2022-09-30 · Campaign 22V730000 · Model years: 2022</p>
@@ -251,7 +255,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2022">
 <h2><a href="/recall/22v594000/">Ford Maverick side-curtain airbags may not deploy correctly</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2022-08-08 · Campaign 22V594000 · Model years: 2022</p>
@@ -259,7 +263,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2022">
 <h2><a href="/recall/22v484000/">Ford Escape, Maverick and Lincoln Corsair engine fire risk</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2022-07-07 · Campaign 22V484000 · Model years: 2022</p>
@@ -267,7 +271,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2022">
 <h2><a href="/recall/22v193000/">Ford and Lincoln trucks: trailer brakes may not work</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2022-03-25 · Campaign 22V193000 · Model years: 2022</p>
@@ -275,19 +279,19 @@
 
 </article>
 
-<article class="card">
-<h2><a href="/recall/21v979000/">Ford Maverick rear seat belt buckles may be loose</a>
-<span class="sev sev-high">high</span></h2>
-<p class="meta">Reported 2021-12-16 · Campaign 21V979000 · Model years: 2022</p>
-<p>On some 2022 Ford Mavericks, the buckles for the back seat belts may not be bolted properly to the floor of the vehicle. That attachment point is what holds a belt in place when it is pulled hard, so a loose or wrong connection means the belt may not hold a passenger the way it should. Ford says this does not meet federal safety rules for seat belts and crash protection. A dealer will fix the attachments for free.</p>
-
-</article>
-
-<article class="card">
+<article class="card" data-years="2022">
 <h2><a href="/recall/21v976000/">Ford Maverick fuel tank may be drilled and leak</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2021-12-16 · Campaign 21V976000 · Model years: 2022</p>
 <p>When the sprayed-in bed liner was installed on some 2022 Ford Mavericks, drill holes may have damaged the gas tank underneath. A damaged tank can leak fuel, and leaking gasoline raises the risk of a fire. Ford says these trucks do not meet the federal rule for fuel system safety. A dealer will inspect your tank and replace it if needed, at no charge. Ford mailed an early notice in January 2022 and the full repair letter in March.</p>
+
+</article>
+
+<article class="card" data-years="2022">
+<h2><a href="/recall/21v979000/">Ford Maverick rear seat belt buckles may be loose</a>
+<span class="sev sev-high">high</span></h2>
+<p class="meta">Reported 2021-12-16 · Campaign 21V979000 · Model years: 2022</p>
+<p>On some 2022 Ford Mavericks, the buckles for the back seat belts may not be bolted properly to the floor of the vehicle. That attachment point is what holds a belt in place when it is pulled hard, so a loose or wrong connection means the belt may not hold a passenger the way it should. Ford says this does not meet federal safety rules for seat belts and crash protection. A dealer will fix the attachments for free.</p>
 
 </article>
 

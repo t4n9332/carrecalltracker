@@ -8,6 +8,8 @@
 
 <link rel="canonical" href="https://carrecalltracker.com/dodge/durango/">
 <link rel="stylesheet" href="/static/style.css">
+<link rel="alternate" type="application/rss+xml" title="Car Recall Tracker — new recalls" href="/feed.xml">
+<script src="/static/app.js" defer></script>
 
 </head>
 <body>
@@ -18,8 +20,10 @@
 <p class="crumb"><a href="/">Home</a> › <a href="/dodge/">Dodge</a> › Durango</p>
 <h1>Dodge Durango recalls</h1>
 <p class="lead">18 recalls covering model years 2018, 2019, 2020, 2021, 2022, 2023. To check whether <em>your</em> vehicle is affected, look up your 17-character VIN at <a href="https://www.nhtsa.gov/recalls" rel="nofollow">nhtsa.gov/recalls</a> — a recall may apply only to some vehicles of a given year.</p>
+<div class="chips" role="group" aria-label="Filter by model year"><button type="button" data-year-chip="" aria-pressed="true">All years</button><button type="button" data-year-chip="2018" aria-pressed="false">2018</button><button type="button" data-year-chip="2019" aria-pressed="false">2019</button><button type="button" data-year-chip="2020" aria-pressed="false">2020</button><button type="button" data-year-chip="2021" aria-pressed="false">2021</button><button type="button" data-year-chip="2022" aria-pressed="false">2022</button><button type="button" data-year-chip="2023" aria-pressed="false">2023</button></div>
+<p id="year-count" class="meta" role="status"></p>
 
-<article class="card">
+<article class="card" data-years="2021 2022 2023">
 <h2><a href="/recall/26v528000/">Dodge Durango rear spoiler may come off in traffic</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2026-08-13 · Campaign 26V528000 · Model years: 2021, 2022, 2023</p>
@@ -27,7 +31,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018 2019">
 <h2><a href="/recall/24v838000/">Jeep Grand Cherokee, Dodge Durango brake module failure</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2024-11-07 · Campaign 24V838000 · Model years: 2018, 2019</p>
@@ -35,7 +39,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2021 2022">
 <h2><a href="/recall/24v436000/">Jeep, Ram, Chrysler backup camera may show nothing</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2024-06-13 · Campaign 24V436000 · Model years: 2021, 2022</p>
@@ -43,7 +47,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2022">
 <h2><a href="/recall/24v415000/">Dodge Durango and Ram trucks lose stability control</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2024-06-06 · Campaign 24V415000 · Model years: 2022</p>
@@ -51,7 +55,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2023">
 <h2><a href="/recall/23v640000/">Dodge Durango Pursuit shifter can slip out of gear</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2023-09-18 · Campaign 23V640000 · Model years: 2023</p>
@@ -59,7 +63,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2021 2022">
 <h2><a href="/recall/23v115000/">Dodge Durango rear spoiler can come loose</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2023-02-23 · Campaign 23V115000 · Model years: 2021, 2022</p>
@@ -67,7 +71,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2022">
 <h2><a href="/recall/22v866000/">Dodge Charger, Durango shifter may slip out of drive</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2022-11-23 · Campaign 22V866000 · Model years: 2022</p>
@@ -75,7 +79,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018 2019">
 <h2><a href="/recall/22v426000/">Jeep Grand Cherokee and Durango can roll out of Park</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2022-06-09 · Campaign 22V426000 · Model years: 2018, 2019</p>
@@ -83,7 +87,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2021">
 <h2><a href="/recall/22v284000/">Dodge Durango and Jeep Grand Cherokee can lose engine power</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2022-04-28 · Campaign 22V284000 · Model years: 2021</p>
@@ -91,7 +95,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2021 2022">
 <h2><a href="/recall/22v154000/">Dodge Durango steering may bind or fail suddenly</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2022-03-14 · Campaign 22V154000 · Model years: 2021, 2022</p>
@@ -99,7 +103,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2021 2022">
 <h2><a href="/recall/22v140000/">Ram and Durango stability control warning light may not work</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2022-03-10 · Campaign 22V140000 · Model years: 2021, 2022</p>
@@ -107,7 +111,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2021">
 <h2><a href="/recall/21v842000/">Dodge Durango rear spoiler may come loose</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2021-10-28 · Campaign 21V842000 · Model years: 2021</p>
@@ -115,7 +119,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2020 2021">
 <h2><a href="/recall/21v280000/">Dodge Durango side curtain airbag bolt loose or missing</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2021-04-22 · Campaign 21V280000 · Model years: 2020, 2021</p>
@@ -123,7 +127,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2019 2020">
 <h2><a href="/recall/20v191000/">Jeep, Ram, Chrysler backup camera image stays on screen</a>
 <span class="sev sev-low">low</span></h2>
 <p class="meta">Reported 2020-09-10 · Campaign 20V191000 · Model years: 2019, 2020</p>
@@ -131,7 +135,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2019">
 <h2><a href="/recall/20v183000/">Jeep Grand Cherokee and Dodge Durango can lose power suddenly</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2020-03-26 · Campaign 20V183000 · Model years: 2019</p>
@@ -139,7 +143,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018">
 <h2><a href="/recall/18v524000/">Jeep, Ram, Dodge, Chrysler engine computer may cause stalling</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2018-08-09 · Campaign 18V524000 · Model years: 2018</p>
@@ -147,7 +151,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018">
 <h2><a href="/recall/18v332000/">Chrysler, Dodge, Jeep and Ram cruise control may stick on</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2018-05-17 · Campaign 18V332000 · Model years: 2018</p>
@@ -155,7 +159,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018">
 <h2><a href="/recall/18v280000/">Chrysler, Dodge, Jeep, RAM may not stay in Park</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2018-05-01 · Campaign 18V280000 · Model years: 2018</p>

@@ -8,6 +8,8 @@
 
 <link rel="canonical" href="https://carrecalltracker.com/cadillac/lyriq/">
 <link rel="stylesheet" href="/static/style.css">
+<link rel="alternate" type="application/rss+xml" title="Car Recall Tracker — new recalls" href="/feed.xml">
+<script src="/static/app.js" defer></script>
 
 </head>
 <body>
@@ -18,8 +20,10 @@
 <p class="crumb"><a href="/">Home</a> › <a href="/cadillac/">Cadillac</a> › Lyriq</p>
 <h1>Cadillac Lyriq recalls</h1>
 <p class="lead">11 recalls covering model years 2023, 2024, 2025. To check whether <em>your</em> vehicle is affected, look up your 17-character VIN at <a href="https://www.nhtsa.gov/recalls" rel="nofollow">nhtsa.gov/recalls</a> — a recall may apply only to some vehicles of a given year.</p>
+<div class="chips" role="group" aria-label="Filter by model year"><button type="button" data-year-chip="" aria-pressed="true">All years</button><button type="button" data-year-chip="2023" aria-pressed="false">2023</button><button type="button" data-year-chip="2024" aria-pressed="false">2024</button><button type="button" data-year-chip="2025" aria-pressed="false">2025</button></div>
+<p id="year-count" class="meta" role="status"></p>
 
-<article class="card">
+<article class="card" data-years="2024">
 <h2><a href="/recall/26v082000/">Cadillac Lyriq backup camera screen may go gray</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2026-02-12 · Campaign 26V082000 · Model years: 2024</p>
@@ -27,7 +31,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2025">
 <h2><a href="/recall/25v483000/">Cadillac LYRIQ and VISTIQ Battery Bolts May Be Loose</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2025-07-24 · Campaign 25V483000 · Model years: 2025</p>
@@ -35,7 +39,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2023 2024">
 <h2><a href="/recall/25v356000/">Cadillac Lyriq driver display may go blank while driving</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2025-05-29 · Campaign 25V356000 · Model years: 2023, 2024</p>
@@ -43,7 +47,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2023 2024 2025">
 <h2><a href="/recall/25v232000/">Cadillac LYRIQ front sway bar bolts can loosen</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2025-04-10 · Campaign 25V232000 · Model years: 2023, 2024, 2025</p>
@@ -51,7 +55,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2025">
 <h2><a href="/recall/25v193000/">Cadillac LYRIQ owner&#39;s manual misdescribes rear head restraints</a>
 <span class="sev sev-low">low</span></h2>
 <p class="meta">Reported 2025-03-27 · Campaign 25V193000 · Model years: 2025</p>
@@ -59,7 +63,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2023 2024">
 <h2><a href="/recall/24v589000/">Cadillac LYRIQ brakes can lose pressure from ABS</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2024-08-08 · Campaign 24V589000 · Model years: 2023, 2024</p>
@@ -67,7 +71,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2024">
 <h2><a href="/recall/24v320000/">Cadillac Lyriq and Other GM EVs Can Lose Power</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2024-05-09 · Campaign 24V320000 · Model years: 2024</p>
@@ -75,7 +79,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2023 2024">
 <h2><a href="/recall/23v785000/">Cadillac Lyriq rear seat belt anchor may be weak</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2023-11-22 · Campaign 23V785000 · Model years: 2023, 2024</p>
@@ -83,7 +87,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2023">
 <h2><a href="/recall/23v682000/">Cadillac LYRIQ may not make pedestrian warning sounds</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2023-10-12 · Campaign 23V682000 · Model years: 2023</p>
@@ -91,7 +95,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2023">
 <h2><a href="/recall/23v367000/">Cadillac Lyriq battery connections may cut drive power</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2023-05-25 · Campaign 23V367000 · Model years: 2023</p>
@@ -99,7 +103,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2023">
 <h2><a href="/recall/22v710000/">Cadillac Lyriq instrument panel can go completely blank</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2022-09-22 · Campaign 22V710000 · Model years: 2023</p>

@@ -8,6 +8,8 @@
 
 <link rel="canonical" href="https://carrecalltracker.com/jeep/cherokee/">
 <link rel="stylesheet" href="/static/style.css">
+<link rel="alternate" type="application/rss+xml" title="Car Recall Tracker — new recalls" href="/feed.xml">
+<script src="/static/app.js" defer></script>
 
 </head>
 <body>
@@ -18,8 +20,10 @@
 <p class="crumb"><a href="/">Home</a> › <a href="/jeep/">Jeep</a> › Cherokee</p>
 <h1>Jeep Cherokee recalls</h1>
 <p class="lead">21 recalls covering model years 2018, 2019, 2020, 2021, 2022, 2023. To check whether <em>your</em> vehicle is affected, look up your 17-character VIN at <a href="https://www.nhtsa.gov/recalls" rel="nofollow">nhtsa.gov/recalls</a> — a recall may apply only to some vehicles of a given year.</p>
+<div class="chips" role="group" aria-label="Filter by model year"><button type="button" data-year-chip="" aria-pressed="true">All years</button><button type="button" data-year-chip="2018" aria-pressed="false">2018</button><button type="button" data-year-chip="2019" aria-pressed="false">2019</button><button type="button" data-year-chip="2020" aria-pressed="false">2020</button><button type="button" data-year-chip="2021" aria-pressed="false">2021</button><button type="button" data-year-chip="2022" aria-pressed="false">2022</button><button type="button" data-year-chip="2023" aria-pressed="false">2023</button></div>
+<p id="year-count" class="meta" role="status"></p>
 
-<article class="card">
+<article class="card" data-years="2019 2020 2021 2022 2023">
 <h2><a href="/recall/26v290000/">Jeep Cherokee power transfer unit can fail, causing rollaway</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2026-05-07 · Campaign 26V290000 · Model years: 2019, 2020, 2021, 2022, 2023</p>
@@ -27,7 +31,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018 2019">
 <h2><a href="/recall/25v011000/">Jeep Cherokee power transfer unit may fail, rollaway risk</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2025-04-29 · Campaign 25V011000 · Model years: 2018, 2019</p>
@@ -35,7 +39,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2021 2022">
 <h2><a href="/recall/24v516000/">Jeep Cherokee right curtain airbag connector not properly secured</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2024-07-08 · Campaign 24V516000 · Model years: 2021, 2022</p>
@@ -43,7 +47,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2022">
 <h2><a href="/recall/24v239000/">Jeep Cherokee turn signals may not shut off automatically</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2024-03-28 · Campaign 24V239000 · Model years: 2022</p>
@@ -51,7 +55,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2021">
 <h2><a href="/recall/21v310000/">Jeep Cherokee transmission hose can leak and cause fire</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2021-05-04 · Campaign 21V310000 · Model years: 2021</p>
@@ -59,7 +63,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2021">
 <h2><a href="/recall/20v657000/">Jeep Cherokee front control arms can break while driving</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2020-10-27 · Campaign 20V657000 · Model years: 2021</p>
@@ -67,7 +71,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2020">
 <h2><a href="/recall/20v191000/">Jeep, Ram, Chrysler backup camera image stays on screen</a>
 <span class="sev sev-low">low</span></h2>
 <p class="meta">Reported 2020-09-10 · Campaign 20V191000 · Model years: 2020</p>
@@ -75,7 +79,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2019 2020">
 <h2><a href="/recall/19v637000/">Jeep Cherokee steering gear may break, steering loss</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2019-08-29 · Campaign 19V637000 · Model years: 2019, 2020</p>
@@ -83,7 +87,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2019">
 <h2><a href="/recall/19v449000/">Jeep Cherokee crash sensors may fail, affecting airbags</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2019-06-13 · Campaign 19V449000 · Model years: 2019</p>
@@ -91,7 +95,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2019">
 <h2><a href="/recall/19v248000/">Jeep Cherokee front passenger seat bolts may be loose</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2019-03-28 · Campaign 19V248000 · Model years: 2019</p>
@@ -99,7 +103,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2019">
 <h2><a href="/recall/18v917000/">Jeep Cherokee gauges and warning chimes may stop working</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported 2018-12-20 · Campaign 18V917000 · Model years: 2019</p>
@@ -107,7 +111,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2019">
 <h2><a href="/recall/18v739000/">Jeep Cherokee transmission software can cause sudden engine stall</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2018-10-19 · Campaign 18V739000 · Model years: 2019</p>
@@ -115,7 +119,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018 2019">
 <h2><a href="/recall/18v524000/">Jeep, Ram, Dodge, Chrysler engine computer may cause stalling</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2018-08-09 · Campaign 18V524000 · Model years: 2018, 2019</p>
@@ -123,7 +127,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2019">
 <h2><a href="/recall/18v523000/">Dodge and Jeep rear brake calipers may weaken braking</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2018-08-09 · Campaign 18V523000 · Model years: 2019</p>
@@ -131,15 +135,7 @@
 
 </article>
 
-<article class="card">
-<h2><a href="/recall/18v492000/">Chrysler Pacifica and Jeep Cherokee transmission may stop working</a>
-<span class="sev sev-high">high</span></h2>
-<p class="meta">Reported 2018-07-26 · Campaign 18V492000 · Model years: 2019</p>
-<p>A part inside the automatic transmission may not have been welded properly. The transmission is what sends engine power to the wheels. If that weld breaks, the connection is lost and the vehicle simply stops moving — the engine may still be running, but the wheels get no power. Losing drive without warning, especially in traffic or at speed, raises the risk of a crash. Chrysler dealers will replace the entire transmission at no cost to you.</p>
-
-</article>
-
-<article class="card">
+<article class="card" data-years="2018">
 <h2><a href="/recall/18v494000/">Jeep Cherokee front axle shaft may break</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2018-07-26 · Campaign 18V494000 · Model years: 2018</p>
@@ -147,7 +143,15 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2019">
+<h2><a href="/recall/18v492000/">Chrysler Pacifica and Jeep Cherokee transmission may stop working</a>
+<span class="sev sev-high">high</span></h2>
+<p class="meta">Reported 2018-07-26 · Campaign 18V492000 · Model years: 2019</p>
+<p>A part inside the automatic transmission may not have been welded properly. The transmission is what sends engine power to the wheels. If that weld breaks, the connection is lost and the vehicle simply stops moving — the engine may still be running, but the wheels get no power. Losing drive without warning, especially in traffic or at speed, raises the risk of a crash. Chrysler dealers will replace the entire transmission at no cost to you.</p>
+
+</article>
+
+<article class="card" data-years="2019">
 <h2><a href="/recall/18v344000/">Jeep Cherokee 2.0-liter engine parts may cause stalling</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2018-05-25 · Campaign 18V344000 · Model years: 2019</p>
@@ -155,7 +159,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018">
 <h2><a href="/recall/18v332000/">Chrysler, Dodge, Jeep and Ram cruise control may stick on</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2018-05-17 · Campaign 18V332000 · Model years: 2018</p>
@@ -163,7 +167,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018">
 <h2><a href="/recall/18v282000/">Jeep Cherokee fuel tube may leak into engine</a>
 <span class="sev sev-critical">critical</span></h2>
 <p class="meta">Reported 2018-05-01 · Campaign 18V282000 · Model years: 2018</p>
@@ -171,7 +175,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018">
 <h2><a href="/recall/17v670000/">Jeep Cherokee and Compass oil pump may fail, stalling engine</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported 2017-10-24 · Campaign 17V670000 · Model years: 2018</p>
@@ -179,7 +183,7 @@
 
 </article>
 
-<article class="card">
+<article class="card" data-years="2018">
 <h2><a href="/recall/17v543000/">Jeep Cherokee missing tire and rim size label</a>
 <span class="sev sev-low">low</span></h2>
 <p class="meta">Reported 2017-08-31 · Campaign 17V543000 · Model years: 2018</p>
@@ -191,7 +195,9 @@
 <p>Complaints owners have filed with NHTSA about the Jeep Cherokee. These are unverified reports; better-selling years collect more.</p>
 <table class="data"><tr><th>Model year</th><th>Complaints</th><th>Crashes</th><th>Fires</th><th>Injuries</th></tr>
 <tr><td>2018</td><td>683</td><td>11</td><td>5</td><td>7</td></tr><tr><td>2019</td><td>1633</td><td>40</td><td>19</td><td>37</td></tr><tr><td>2020</td><td>292</td><td>9</td><td>5</td><td>9</td></tr><tr><td>2021</td><td>157</td><td>10</td><td>4</td><td>8</td></tr><tr><td>2022</td><td>49</td><td>3</td><td>0</td><td>5</td></tr><tr><td>2023</td><td>3</td><td>1</td><td>0</td><td>1</td></tr></table>
-
+<h2>Buying a used Cherokee?</h2>
+<p>Recalls and complaint record for one model year at a time:</p>
+<ul class="tags"><li><a href="/used/jeep/cherokee/2018/">2018 Cherokee</a></li><li><a href="/used/jeep/cherokee/2019/">2019 Cherokee</a></li><li><a href="/used/jeep/cherokee/2020/">2020 Cherokee</a></li><li><a href="/used/jeep/cherokee/2021/">2021 Cherokee</a></li><li><a href="/used/jeep/cherokee/2022/">2022 Cherokee</a></li></ul>
 
 </main>
 <footer>
