@@ -331,6 +331,7 @@
 <url><loc>https://carrecalltracker.com/jeep/grand-cherokee-4xe/</loc></url>
 <url><loc>https://carrecalltracker.com/jeep/grand-cherokee-l/</loc></url>
 <url><loc>https://carrecalltracker.com/jeep/grand-wagoneer/</loc></url>
+<url><loc>https://carrecalltracker.com/jeep/grand-wagoneer-l/</loc></url>
 <url><loc>https://carrecalltracker.com/jeep/renegade/</loc></url>
 <url><loc>https://carrecalltracker.com/jeep/wagoneer/</loc></url>
 <url><loc>https://carrecalltracker.com/jeep/wagoneer-l/</loc></url>
@@ -2897,6 +2898,8 @@
 <url><loc>https://carrecalltracker.com/recall/26v444000/</loc></url>
 <url><loc>https://carrecalltracker.com/recall/26v513000/</loc></url>
 <url><loc>https://carrecalltracker.com/recall/25v415000/</loc></url>
+<url><loc>https://carrecalltracker.com/recall/26v584000/</loc></url>
+<url><loc>https://carrecalltracker.com/recall/26v539000/</loc></url>
 <url><loc>https://carrecalltracker.com/guides/acura-back-over-prevention-recalls/</loc></url>
 <url><loc>https://carrecalltracker.com/guides/acura-fuel-system-gasoline-recalls/</loc></url>
 <url><loc>https://carrecalltracker.com/guides/acura-seats-recalls/</loc></url>
@@ -2944,6 +2947,7 @@
 <url><loc>https://carrecalltracker.com/guides/cadillac-suspension-recalls/</loc></url>
 <url><loc>https://carrecalltracker.com/guides/cadillac-tires-recalls/</loc></url>
 <url><loc>https://carrecalltracker.com/guides/chevrolet-air-bags-recalls/</loc></url>
+<url><loc>https://carrecalltracker.com/guides/chevrolet-back-over-prevention-recalls/</loc></url>
 <url><loc>https://carrecalltracker.com/guides/chevrolet-electrical-system-recalls/</loc></url>
 <url><loc>https://carrecalltracker.com/guides/chevrolet-equipment-recalls/</loc></url>
 <url><loc>https://carrecalltracker.com/guides/chevrolet-exterior-lighting-recalls/</loc></url>
@@ -3417,9 +3421,11 @@
 <url><loc>https://carrecalltracker.com/used/buick/enclave/2021/</loc></url>
 <url><loc>https://carrecalltracker.com/used/buick/encore-gx/2020/</loc></url>
 <url><loc>https://carrecalltracker.com/used/buick/encore-gx/2021/</loc></url>
+<url><loc>https://carrecalltracker.com/used/buick/encore-gx/2024/</loc></url>
 <url><loc>https://carrecalltracker.com/used/buick/encore/2019/</loc></url>
 <url><loc>https://carrecalltracker.com/used/buick/encore/2020/</loc></url>
 <url><loc>https://carrecalltracker.com/used/buick/envision/2021/</loc></url>
+<url><loc>https://carrecalltracker.com/used/buick/envista/2024/</loc></url>
 <url><loc>https://carrecalltracker.com/used/buick/lacrosse/2018/</loc></url>
 <url><loc>https://carrecalltracker.com/used/buick/lacrosse/2019/</loc></url>
 <url><loc>https://carrecalltracker.com/used/buick/regal/2018/</loc></url>
@@ -4001,6 +4007,8 @@
 <url><loc>https://carrecalltracker.com/used/jeep/renegade/2021/</loc></url>
 <url><loc>https://carrecalltracker.com/used/jeep/renegade/2022/</loc></url>
 <url><loc>https://carrecalltracker.com/used/jeep/renegade/2023/</loc></url>
+<url><loc>https://carrecalltracker.com/used/jeep/wagoneer-l/2024/</loc></url>
+<url><loc>https://carrecalltracker.com/used/jeep/wagoneer-l/2025/</loc></url>
 <url><loc>https://carrecalltracker.com/used/jeep/wagoneer-s/2024/</loc></url>
 <url><loc>https://carrecalltracker.com/used/jeep/wagoneer-s/2025/</loc></url>
 <url><loc>https://carrecalltracker.com/used/jeep/wagoneer/2022/</loc></url>
