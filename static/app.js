@@ -70,7 +70,19 @@
   vform.addEventListener("submit", function (e) {
     e.preventDefault();
     var vin = $("vin").value.trim().toUpperCase(), out = $("vin-msg");
-    if (!/^[A-HJ-NPR-Z0-9]{17}$/.test(vin)) { out.textContent = "A VIN is 17 characters and never contains the letters I, O or Q."; return; }
+    // 리콜 통지서의 NHTSA 번호(24V-744, 24V744, 24V744000)면 그 리콜 페이지로 바로 간다
+    var camp = /^(\d{2}[VETC])-?(\d{3})(\d{3})?$/.exec(vin.replace(/\s+/g, ""));
+    if (camp) {
+      var id = (camp[1] + camp[2] + (camp[3] || "000")).toLowerCase();
+      out.textContent = "Looking up recall " + id.toUpperCase() + "…";
+      fetch("/recall/" + id + "/", { method: "HEAD" }).then(function (r) {
+        if (r.ok) { location.href = "/recall/" + id + "/"; return; }
+        out.innerHTML = ""; out.append("We don't have recall " + id.toUpperCase() + " — we cover 2018 and newer passenger vehicles from 32 makes. ");
+        var a = document.createElement("a"); a.href = "https://www.nhtsa.gov/recalls?nhtsaId=" + id.toUpperCase(); a.rel = "nofollow"; a.textContent = "Look it up at NHTSA"; out.append(a, ".");
+      }).catch(function () { out.textContent = "Couldn't look that up right now."; });
+      return;
+    }
+    if (!/^[A-HJ-NPR-Z0-9]{17}$/.test(vin)) { out.textContent = "Enter a 17-character VIN (never contains I, O or Q) or an NHTSA recall number such as 24V744."; return; }
     out.textContent = "Decoding…";
     fetch("https://vpic.nhtsa.dot.gov/api/vehicles/DecodeVinValues/" + vin + "?format=json")
       .then(function (r) { return r.json(); })

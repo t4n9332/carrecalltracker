@@ -24,7 +24,7 @@
 </head>
 <body>
 <header class="top"><a class="brand" href="/"><svg class="logo" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="7" fill="currentColor"/><path d="M16 5 7 8.5v7c0 5.6 3.8 10.4 9 12 5.2-1.6 9-6.400 9-12v-7z" fill="var(--bg)"/><path d="m11.5 16 3.2 3.2 5.8-6.400" fill="none" stroke="currentColor" stroke-width="2.600" stroke-linecap="round" stroke-linejoin="round"/></svg>Car Recall Tracker</a>
-<nav><a href="/#makes">Makes</a> <a href="/guides/">Guides</a> <a href="/do-not-drive/">Do not drive</a> <a href="/about/">About</a></nav></header>
+<nav><a href="/#makes">Makes</a> <a href="/guides/">Guides</a> <a href="/latest/">Latest</a> <a href="/do-not-drive/">Do not drive</a> <a href="/recall-help/">Help</a></nav></header>
 <main>
 
 <div class="hero">
@@ -36,87 +36,91 @@
 <label class="sr" for="f-model">Model</label><select id="f-model" disabled><option>Model</option></select>
 <button type="submit">Show recalls</button></form>
 <p id="f-msg" class="meta" role="status"></p>
-<form id="vin-form"><label for="vin">Or enter your VIN</label>
-<input id="vin" name="vin" maxlength="17" autocomplete="off" spellcheck="false" placeholder="17 characters">
-<button type="submit">Find my vehicle</button></form>
+<form id="vin-form"><label for="vin">Or enter your VIN or recall number</label>
+<input id="vin" name="vin" maxlength="17" autocomplete="off" spellcheck="false" placeholder="VIN, or NHTSA number e.g. 24V744">
+<button type="submit">Find</button></form>
 <p id="vin-msg" class="meta" role="status"></p>
-<details class="meta"><summary>We never see your VIN — how this works</summary>Your VIN goes straight from your browser to NHTSA's public decoder to identify the year, make and model; we never receive or store it. We then show the recalls for that model year. To see which are still <em>unrepaired</em> on your exact car, use the <a href="https://www.nhtsa.gov/recalls" rel="nofollow">official NHTSA VIN lookup</a>.</details>
+<details class="meta"><summary>Where is my VIN? Is it private?</summary>Your VIN is the 17-character code on the lower left of the windshield, on your registration and usually on your insurance card. The NHTSA recall number is printed on your recall letter (for example 24V-744). Your VIN goes straight from your browser to NHTSA's public decoder to identify the year, make and model; we never receive or store it. We then show the recalls for that model year. To see which are still <em>unrepaired</em> on your exact car, use the <a href="https://www.nhtsa.gov/recalls" rel="nofollow">official NHTSA VIN lookup</a>.</details>
 </section>
 </div>
 <ul class="grid hub"><li class="hub-stop"><a href="/do-not-drive/">Do-not-drive recalls</a> <small>26 advisories — stop driving until repaired</small></li>
 <li class="hub-fire"><a href="/park-outside/">Park-outside recalls</a> <small>59 advisories — fire risk while parked</small></li>
 <li class="hub-guide"><a href="/guides/">Problem guides</a> <small>313 guides: is it safe to drive, what gets fixed</small></li>
-<li class="hub-watch"><a href="/watchlist/">No-recall watchlist</a> <small>Most-complained problems without a recall</small></li></ul>
+<li class="hub-watch"><a href="/watchlist/">No-recall watchlist</a> <small>Most-complained problems without a recall</small></li>
+<li class="hub-watch"><a href="/recall-help/">Got a recall letter?</a> <small>How the free repair works, step by step</small></li></ul>
 <h2 id="makes">Browse by make</h2>
 <ul class="grid"><li><a href="/acura/">Acura</a> <small>10 models</small></li><li><a href="/audi/">Audi</a> <small>37 models</small></li><li><a href="/bmw/">BMW</a> <small>57 models</small></li><li><a href="/buick/">Buick</a> <small>7 models</small></li><li><a href="/cadillac/">Cadillac</a> <small>15 models</small></li><li><a href="/chevrolet/">Chevrolet</a> <small>37 models</small></li><li><a href="/chrysler/">Chrysler</a> <small>4 models</small></li><li><a href="/dodge/">Dodge</a> <small>7 models</small></li><li><a href="/ford/">Ford</a> <small>39 models</small></li><li><a href="/genesis/">Genesis</a> <small>6 models</small></li><li><a href="/gmc/">GMC</a> <small>13 models</small></li><li><a href="/honda/">Honda</a> <small>38 models</small></li><li><a href="/hyundai/">Hyundai</a> <small>29 models</small></li><li><a href="/infiniti/">Infiniti</a> <small>9 models</small></li><li><a href="/jeep/">Jeep</a> <small>13 models</small></li><li><a href="/kia/">Kia</a> <small>25 models</small></li><li><a href="/lexus/">Lexus</a> <small>16 models</small></li><li><a href="/lincoln/">Lincoln</a> <small>11 models</small></li><li><a href="/mazda/">Mazda</a> <small>10 models</small></li><li><a href="/mercedes-benz/">Mercedes-Benz</a> <small>48 models</small></li><li><a href="/mini/">MINI</a> <small>7 models</small></li><li><a href="/mitsubishi/">Mitsubishi</a> <small>6 models</small></li><li><a href="/nissan/">Nissan</a> <small>19 models</small></li><li><a href="/polestar/">Polestar</a> <small>2 models</small></li><li><a href="/porsche/">Porsche</a> <small>40 models</small></li><li><a href="/ram/">RAM</a> <small>7 models</small></li><li><a href="/rivian/">Rivian</a> <small>3 models</small></li><li><a href="/subaru/">Subaru</a> <small>11 models</small></li><li><a href="/tesla/">Tesla</a> <small>4 models</small></li><li><a href="/toyota/">Toyota</a> <small>40 models</small></li><li><a href="/volkswagen/">Volkswagen</a> <small>15 models</small></li><li><a href="/volvo/">Volvo</a> <small>17 models</small></li></ul>
+<h2>Most-recalled models</h2>
+<p class="meta">Models from 2018 and newer with the most separate NHTSA recalls. Best-selling models are recalled more often simply because more versions exist.</p>
+<ol class="rank"><li><a href="/ford/explorer/">Ford Explorer</a> <small class="meta">68 recalls</small></li><li><a href="/ram/1500/">RAM 1500</a> <small class="meta">50 recalls</small></li><li><a href="/lincoln/aviator/">Lincoln Aviator</a> <small class="meta">49 recalls</small></li><li><a href="/jeep/grand-cherokee/">Jeep Grand Cherokee</a> <small class="meta">49 recalls</small></li><li><a href="/volkswagen/atlas/">Volkswagen Atlas</a> <small class="meta">46 recalls</small></li><li><a href="/ford/expedition/">Ford Expedition</a> <small class="meta">45 recalls</small></li><li><a href="/ram/3500/">RAM 3500</a> <small class="meta">43 recalls</small></li><li><a href="/bmw/x5/">BMW X5</a> <small class="meta">42 recalls</small></li><li><a href="/mercedes-benz/sprinter-4500/">Mercedes-Benz Sprinter 4500</a> <small class="meta">41 recalls</small></li><li><a href="/lincoln/navigator/">Lincoln Navigator</a> <small class="meta">41 recalls</small></li><li><a href="/ford/escape/">Ford Escape</a> <small class="meta">41 recalls</small></li><li><a href="/mercedes-benz/sprinter-1500/">Mercedes-Benz Sprinter 1500</a> <small class="meta">40 recalls</small></li></ol>
 <h2>Latest recalls</h2>
 <p class="meta"><a href="/latest/">All recalls from the last 60 days</a> · <a href="/feed.xml">RSS feed</a></p>
-<ul class="list"><li><span class="date">2026-09-10</span>
+<ul class="list"><li><span class="date">Sep 10, 2026</span>
 <a href="/recall/26v584000/">Jeep Wagoneer Roof Rack Crossbars May Come Loose</a>
-<span class="sev sev-medium">medium</span></li><li><span class="date">2026-09-10</span>
+<span class="sev sev-medium">medium</span></li><li><span class="date">Sep 10, 2026</span>
 <a href="/recall/26v587000/">Volkswagen Tiguan Software Glitch Can Stall Engine</a>
-<span class="sev sev-high">high</span></li><li><span class="date">2026-09-02</span>
+<span class="sev sev-high">high</span></li><li><span class="date">Sep 2, 2026</span>
 <a href="/recall/26v571000/">Toyota RAV4, Tundra Hybrid Weight Label Error</a>
-<span class="sev sev-high">high</span></li><li><span class="date">2026-09-01</span>
+<span class="sev sev-high">high</span></li><li><span class="date">Sep 1, 2026</span>
 <a href="/recall/26v562000/">Jeep Grand Cherokee Rear Coil Spring May Detach</a>
-<span class="sev sev-high">high</span></li><li><span class="date">2026-09-01</span>
+<span class="sev sev-high">high</span></li><li><span class="date">Sep 1, 2026</span>
 <a href="/recall/26v559000/">Jeep tire pressure warning system may miss low tires</a>
-<span class="sev sev-medium">medium</span></li><li><span class="date">2026-09-01</span>
+<span class="sev sev-medium">medium</span></li><li><span class="date">Sep 1, 2026</span>
 <a href="/recall/26v561000/">Chrysler Pacifica Sensor Crack May Disable Stability Control</a>
-<span class="sev sev-high">high</span></li><li><span class="date">2026-08-25</span>
+<span class="sev sev-high">high</span></li><li><span class="date">Aug 25, 2026</span>
 <a href="/recall/26v547000/">Ford Mustang Wiring Can Cause Power Loss</a>
-<span class="sev sev-high">high</span></li><li><span class="date">2026-08-25</span>
+<span class="sev sev-high">high</span></li><li><span class="date">Aug 25, 2026</span>
 <a href="/recall/26v549000/">Outlander Rearview Camera May Not Display</a>
-<span class="sev sev-medium">medium</span></li><li><span class="date">2026-08-21</span>
+<span class="sev sev-medium">medium</span></li><li><span class="date">Aug 21, 2026</span>
 <a href="/recall/26v545000/">Kia EV9 air bag may not detect a child</a>
-<span class="sev sev-high">high</span></li><li><span class="date">2026-08-20</span>
+<span class="sev sev-high">high</span></li><li><span class="date">Aug 20, 2026</span>
 <a href="/recall/26v568000/">Ford F-650 Liftgate Deck Pins May Break</a>
-<span class="sev sev-high">high</span></li><li><span class="date">2026-08-20</span>
+<span class="sev sev-high">high</span></li><li><span class="date">Aug 20, 2026</span>
 <a href="/recall/26v539000/">Buick and Chevrolet Rearview Camera May Show Blank Image</a>
-<span class="sev sev-medium">medium</span></li><li><span class="date">2026-08-13</span>
+<span class="sev sev-medium">medium</span></li><li><span class="date">Aug 13, 2026</span>
 <a href="/recall/26v528000/">Dodge Durango Rear Spoiler Detachment Risk</a>
-<span class="sev sev-medium">medium</span></li><li><span class="date">2026-08-13</span>
+<span class="sev sev-medium">medium</span></li><li><span class="date">Aug 13, 2026</span>
 <a href="/recall/26v530000/">Chevrolet Silverado, GMC Sierra 2500 tire pressure label wrong</a>
-<span class="sev sev-medium">medium</span></li><li><span class="date">2026-08-13</span>
+<span class="sev sev-medium">medium</span></li><li><span class="date">Aug 13, 2026</span>
 <a href="/recall/26v526000/">Nissan Altima Passenger Air Bag May Not Deploy</a>
-<span class="sev sev-high">high</span></li><li><span class="date">2026-08-12</span>
+<span class="sev sev-high">high</span></li><li><span class="date">Aug 12, 2026</span>
 <a href="/recall/26v525000/">BMW M550i Driveshaft Connection May Fail</a>
-<span class="sev sev-high">high</span></li><li><span class="date">2026-08-12</span>
+<span class="sev sev-high">high</span></li><li><span class="date">Aug 12, 2026</span>
 <a href="/recall/26v524000/">BMW X3 Steering Spindle May Be Loose</a>
-<span class="sev sev-high">high</span></li><li><span class="date">2026-08-06</span>
+<span class="sev sev-high">high</span></li><li><span class="date">Aug 6, 2026</span>
 <a href="/recall/26v510000/">Dodge Hornet, Alfa Romeo Tonale Seat Belts May Not Retract</a>
-<span class="sev sev-medium">medium</span></li><li><span class="date">2026-08-06</span>
+<span class="sev sev-medium">medium</span></li><li><span class="date">Aug 6, 2026</span>
 <a href="/recall/26v514000/">Toyota Tacoma Shock Absorber Reservoir Can Detach</a>
-<span class="sev sev-high">high</span></li><li><span class="date">2026-08-06</span>
+<span class="sev sev-high">high</span></li><li><span class="date">Aug 6, 2026</span>
 <a href="/recall/26v511000/">Camry Hybrid Cluster Failure Disables Warning Lights</a>
-<span class="sev sev-high">high</span></li><li><span class="date">2026-08-06</span>
+<span class="sev sev-high">high</span></li><li><span class="date">Aug 6, 2026</span>
 <a href="/recall/26v508000/">Rivian R1S and R1T Front Turn Signals May Fail</a>
-<span class="sev sev-high">high</span></li><li><span class="date">2026-08-06</span>
+<span class="sev sev-high">high</span></li><li><span class="date">Aug 6, 2026</span>
 <a href="/recall/26v513000/">Volvo VNL and VNR trucks may lose roof marker lights</a>
-<span class="sev sev-medium">medium</span></li><li><span class="date">2026-08-05</span>
+<span class="sev sev-medium">medium</span></li><li><span class="date">Aug 5, 2026</span>
 <a href="/recall/26v507000/">Tesla Model 3 and Model Y Headlights Too Bright</a>
-<span class="sev sev-high">high</span></li><li><span class="date">2026-07-30</span>
+<span class="sev sev-high">high</span></li><li><span class="date">Jul 30, 2026</span>
 <a href="/recall/26v500000/">Honda CMX300, CMX500 Handlebar Lock Screw May Loosen</a>
-<span class="sev sev-high">high</span></li><li><span class="date">2026-07-30</span>
+<span class="sev sev-high">high</span></li><li><span class="date">Jul 30, 2026</span>
 <a href="/recall/26v495000/">Ram 1500 Rear Seat Belt Anchor Problem</a>
-<span class="sev sev-high">high</span></li><li><span class="date">2026-07-30</span>
+<span class="sev sev-high">high</span></li><li><span class="date">Jul 30, 2026</span>
 <a href="/recall/26v494000/">Cadillac Escalade IQ, Hummer EV Battery Fire Risk</a>
-<span class="sev sev-critical">critical</span></li><li><span class="date">2026-07-24</span>
+<span class="sev sev-critical">critical</span></li><li><span class="date">Jul 24, 2026</span>
 <a href="/recall/26v481000/">Mercedes-Benz Door Lock Defect May Cause Rollaway</a>
-<span class="sev sev-high">high</span></li><li><span class="date">2026-07-23</span>
+<span class="sev sev-high">high</span></li><li><span class="date">Jul 23, 2026</span>
 <a href="/recall/26v478000/">BMW S 1000 RR Ignition Lock May Fail</a>
-<span class="sev sev-high">high</span></li><li><span class="date">2026-07-22</span>
+<span class="sev sev-high">high</span></li><li><span class="date">Jul 22, 2026</span>
 <a href="/recall/26v473000/">VW Atlas rearview camera image may not display</a>
-<span class="sev sev-medium">medium</span></li><li><span class="date">2026-07-21</span>
+<span class="sev sev-medium">medium</span></li><li><span class="date">Jul 21, 2026</span>
 <a href="/recall/26v470000/">Ford Explorer, Lincoln Aviator Seats May Recline</a>
-<span class="sev sev-medium">medium</span></li><li><span class="date">2026-07-20</span>
+<span class="sev sev-medium">medium</span></li><li><span class="date">Jul 20, 2026</span>
 <a href="/recall/26v468000/">Ford Bronco Engine Wiring Can Short Circuit</a>
 <span class="sev sev-critical">critical</span></li></ul>
 
 </main>
 <footer>
 <p>Recall data is published by the U.S. National Highway Traffic Safety Administration (NHTSA). Plain-English explanations are generated automatically and may contain errors — always confirm with the official notice and your dealer.</p>
-<p><a href="/about/">About</a> · <a href="/privacy/">Privacy</a> · <a href="https://www.nhtsa.gov/recalls" rel="nofollow">Official NHTSA recall search</a></p>
+<p><a href="/recall-help/">How recalls work</a> · <a href="/watchlist/">Watchlist</a> · <a href="/about/">About</a> · <a href="/privacy/">Privacy</a> · <a href="https://www.nhtsa.gov/recalls" rel="nofollow">Official NHTSA recall search</a></p>
 </footer>
 </body>
 </html>
