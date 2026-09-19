@@ -16,11 +16,13 @@
 <meta name="twitter:card" content="summary">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://carrecalltracker.com/"},{"@type":"ListItem","position":2,"name":"Hyundai","item":"https://carrecalltracker.com/hyundai/"},{"@type":"ListItem","position":3,"name":"Ioniq 6","item":"https://carrecalltracker.com/hyundai/ioniq-6/"}]}</script>
 <link rel="icon" href="/static/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/static/icon-180.png">
+<link rel="manifest" href="/static/site.webmanifest">
 <meta name="theme-color" content="#0b5cad">
 <link rel="stylesheet" href="/static/style.css">
 <link rel="alternate" type="application/rss+xml" title="Car Recall Tracker — new recalls" href="/feed.xml">
 <script src="/static/app.js" defer></script>
-
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How many recalls does the Hyundai Ioniq 6 have?","acceptedAnswer":{"@type":"Answer","text":"NHTSA lists 6 safety recalls covering the 2023\u20132025 Hyundai Ioniq 6. 5 of them are rated high or critical on this site. The most recent is \"Genesis and Hyundai Seat Belt Anchors May Detach\" (NHTSA campaign 26V218000), reported Apr 6, 2026."}},{"@type":"Question","name":"Which Hyundai Ioniq 6 model year has the most recalls?","acceptedAnswer":{"@type":"Answer","text":"The 2023 Hyundai Ioniq 6 has the most, with 5 recalls. The 2025 model year has the fewest of the years we cover, with 3. Newer model years have had less time to collect recalls, so a low count on a recent year is not a guarantee."}},{"@type":"Question","name":"Is there a do-not-drive or park-outside recall on the Hyundai Ioniq 6?","acceptedAnswer":{"@type":"Answer","text":"No. None of the 6 Hyundai Ioniq 6 recalls on file carries a do-not-drive or park-outside advisory from NHTSA."}},{"@type":"Question","name":"How do I check whether my Hyundai Ioniq 6 has an open recall?","acceptedAnswer":{"@type":"Answer","text":"Enter your 17-character VIN at nhtsa.gov/recalls. A recall often applies to only some vehicles of a model year, and the VIN lookup shows the ones still unrepaired on your car. Recall repairs are free at any franchised Hyundai dealer, including for second owners."}}]}</script>
 </head>
 <body>
 <header class="top"><a class="brand" href="/"><svg class="logo" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="7" fill="currentColor"/><path d="M16 5 7 8.5v7c0 5.6 3.8 10.4 9 12 5.2-1.6 9-6.400 9-12v-7z" fill="var(--bg)"/><path d="m11.5 16 3.2 3.2 5.8-6.400" fill="none" stroke="currentColor" stroke-width="2.600" stroke-linecap="round" stroke-linejoin="round"/></svg>Car Recall Tracker</a>
@@ -30,6 +32,7 @@
 <p class="crumb"><a href="/">Home</a> › <a href="/hyundai/">Hyundai</a> › Ioniq 6</p>
 <h1>Hyundai Ioniq 6 recalls</h1>
 <p class="lead">6 recalls covering model years 2023, 2024, 2025. To check whether <em>your</em> vehicle is affected, look up your 17-character VIN at <a href="https://www.nhtsa.gov/recalls" rel="nofollow">nhtsa.gov/recalls</a> — a recall may apply only to some vehicles of a given year.</p>
+<p><button type="button" class="save" id="garage-save" data-mk="HYUNDAI" data-mo="IONIQ 6" data-n="6" hidden>☆ Save to My Garage</button> <small class="meta" id="garage-note"></small></p>
 <ul class="stats"><li><strong>6</strong> recalls</li><li><strong>5</strong> rated high or critical</li><li><strong>128</strong> owner complaints</li><li><strong>Apr 6, 2026</strong> newest recall</li></ul>
 <div class="chips" role="group" aria-label="Filter by model year"><button type="button" data-year-chip="" aria-pressed="true">All years</button><button type="button" data-year-chip="2023" aria-pressed="false">2023 <small>5</small></button><button type="button" data-year-chip="2024" aria-pressed="false">2024 <small>5</small></button><button type="button" data-year-chip="2025" aria-pressed="false">2025 <small>3</small></button></div>
 <p id="year-count" class="meta" role="status"></p>
@@ -84,10 +87,13 @@
 
 <h2>Hyundai problem guides that cover the Ioniq 6</h2>
 <ul class="list"><li><svg class="ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M13 2 4 14h7l-1 8 9-12h-7z"/></svg><a href="/guides/hyundai-electrical-system-recalls/">Which Hyundai electrical recalls involve battery fire and power loss?</a> <small class="meta">· 23 recalls</small></li><li><svg class="ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 3l12 18M15 3v7M12.5 12.5h4v4h-4zM6 21h12"/></svg><a href="/guides/hyundai-seat-belts-recalls/">Hyundai seat belt recalls: exploding pretensioners and buckles that fail to latch</a> <small class="meta">· 12 recalls</small></li><li><svg class="ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 8.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7zM12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9 7 7M17 17l2.1 2.1M4.9 19.1 7 17M17 7l2.1-2.1"/></svg><a href="/guides/hyundai-power-train-recalls/">Hyundai power train recalls: oil pump fires and lost drive power</a> <small class="meta">· 6 recalls</small></li></ul>
-<h2>Owner complaints by model year</h2>
-<p>Complaints owners have filed with NHTSA about the Hyundai Ioniq 6. These are unverified reports; better-selling years collect more.</p>
-<table class="data"><tr><th>Model year</th><th>Complaints</th><th>Crashes</th><th>Fires</th><th>Injuries</th></tr>
-<tr><td>2023</td><td>56</td><td>0</td><td>0</td><td>1</td></tr><tr><td>2024</td><td>38</td><td>2</td><td>0</td><td>0</td></tr><tr><td>2025</td><td>34</td><td>2</td><td>0</td><td>0</td></tr></table>
+<h2>Ioniq 6 model years compared</h2>
+<p>Recalls and NHTSA owner complaints for each model year, side by side. Complaints are unverified owner reports, and better-selling or older years naturally collect more — read this as a record, not a ranking.</p>
+<div class="scroll"><table class="data"><tr><th>Model year</th><th>Recalls</th><th>High / critical</th><th>Do-not-drive / park-outside</th><th>Complaints</th><th>Crashes</th><th>Fires</th><th>Injuries</th></tr>
+<tr><td><a href="/used/hyundai/ioniq-6/2023/">2023</a></td><td>5</td><td>4</td><td>0</td><td>56</td><td>0</td><td>0</td><td>1</td></tr><tr><td><a href="/used/hyundai/ioniq-6/2024/">2024</a></td><td>5</td><td>4</td><td>0</td><td>38</td><td>2</td><td>0</td><td>0</td></tr><tr><td><a href="/used/hyundai/ioniq-6/2025/">2025</a></td><td>3</td><td>2</td><td>0</td><td>34</td><td>2</td><td>0</td><td>0</td></tr></table></div>
+
+<h2>Hyundai Ioniq 6 recall questions</h2>
+<h3>How many recalls does the Hyundai Ioniq 6 have?</h3><p>NHTSA lists 6 safety recalls covering the 2023–2025 Hyundai Ioniq 6. 5 of them are rated high or critical on this site. The most recent is &#34;Genesis and Hyundai Seat Belt Anchors May Detach&#34; (NHTSA campaign 26V218000), reported Apr 6, 2026.</p><h3>Which Hyundai Ioniq 6 model year has the most recalls?</h3><p>The 2023 Hyundai Ioniq 6 has the most, with 5 recalls. The 2025 model year has the fewest of the years we cover, with 3. Newer model years have had less time to collect recalls, so a low count on a recent year is not a guarantee.</p><h3>Is there a do-not-drive or park-outside recall on the Hyundai Ioniq 6?</h3><p>No. None of the 6 Hyundai Ioniq 6 recalls on file carries a do-not-drive or park-outside advisory from NHTSA.</p><h3>How do I check whether my Hyundai Ioniq 6 has an open recall?</h3><p>Enter your 17-character VIN at nhtsa.gov/recalls. A recall often applies to only some vehicles of a model year, and the VIN lookup shows the ones still unrepaired on your car. Recall repairs are free at any franchised Hyundai dealer, including for second owners.</p>
 <h2>Buying a used Ioniq 6?</h2>
 <p>Recalls and complaint record for one model year at a time:</p>
 <ul class="tags"><li><a href="/used/hyundai/ioniq-6/2023/">2023 Ioniq 6</a></li><li><a href="/used/hyundai/ioniq-6/2024/">2024 Ioniq 6</a></li><li><a href="/used/hyundai/ioniq-6/2025/">2025 Ioniq 6</a></li></ul>

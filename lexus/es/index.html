@@ -16,11 +16,13 @@
 <meta name="twitter:card" content="summary">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://carrecalltracker.com/"},{"@type":"ListItem","position":2,"name":"Lexus","item":"https://carrecalltracker.com/lexus/"},{"@type":"ListItem","position":3,"name":"ES","item":"https://carrecalltracker.com/lexus/es/"}]}</script>
 <link rel="icon" href="/static/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/static/icon-180.png">
+<link rel="manifest" href="/static/site.webmanifest">
 <meta name="theme-color" content="#0b5cad">
 <link rel="stylesheet" href="/static/style.css">
 <link rel="alternate" type="application/rss+xml" title="Car Recall Tracker — new recalls" href="/feed.xml">
 <script src="/static/app.js" defer></script>
-
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How many recalls does the Lexus ES have?","acceptedAnswer":{"@type":"Answer","text":"NHTSA lists 1 safety recall covering the 2020\u20132021 Lexus ES. 1 of them is rated high or critical on this site. The most recent is \"Toyota, Lexus airbag sensor may block deployment\" (NHTSA campaign 23V865000), reported Dec 20, 2023."}},{"@type":"Question","name":"Which Lexus ES model year has the most recalls?","acceptedAnswer":{"@type":"Answer","text":"The 2020 Lexus ES has the most, with 1 recall. The 2020 model year has the fewest of the years we cover, with 1. Newer model years have had less time to collect recalls, so a low count on a recent year is not a guarantee."}},{"@type":"Question","name":"Is there a do-not-drive or park-outside recall on the Lexus ES?","acceptedAnswer":{"@type":"Answer","text":"No. None of the 1 Lexus ES recall on file carries a do-not-drive or park-outside advisory from NHTSA."}},{"@type":"Question","name":"How do I check whether my Lexus ES has an open recall?","acceptedAnswer":{"@type":"Answer","text":"Enter your 17-character VIN at nhtsa.gov/recalls. A recall often applies to only some vehicles of a model year, and the VIN lookup shows the ones still unrepaired on your car. Recall repairs are free at any franchised Lexus dealer, including for second owners."}}]}</script>
 </head>
 <body>
 <header class="top"><a class="brand" href="/"><svg class="logo" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="7" fill="currentColor"/><path d="M16 5 7 8.5v7c0 5.6 3.8 10.4 9 12 5.2-1.6 9-6.400 9-12v-7z" fill="var(--bg)"/><path d="m11.5 16 3.2 3.2 5.8-6.400" fill="none" stroke="currentColor" stroke-width="2.600" stroke-linecap="round" stroke-linejoin="round"/></svg>Car Recall Tracker</a>
@@ -30,6 +32,7 @@
 <p class="crumb"><a href="/">Home</a> › <a href="/lexus/">Lexus</a> › ES</p>
 <h1>Lexus ES recalls</h1>
 <p class="lead">1 recall covering model years 2020, 2021. To check whether <em>your</em> vehicle is affected, look up your 17-character VIN at <a href="https://www.nhtsa.gov/recalls" rel="nofollow">nhtsa.gov/recalls</a> — a recall may apply only to some vehicles of a given year.</p>
+<p><button type="button" class="save" id="garage-save" data-mk="LEXUS" data-mo="ES" data-n="1" hidden>☆ Save to My Garage</button> <small class="meta" id="garage-note"></small></p>
 <ul class="stats"><li><strong>1</strong> recalls</li><li><strong>1</strong> rated high or critical</li><li><strong>46</strong> owner complaints</li><li><strong>Dec 20, 2023</strong> newest recall</li></ul>
 <div class="chips" role="group" aria-label="Filter by model year"><button type="button" data-year-chip="" aria-pressed="true">All years</button><button type="button" data-year-chip="2020" aria-pressed="false">2020 <small>1</small></button><button type="button" data-year-chip="2021" aria-pressed="false">2021 <small>1</small></button></div>
 <p id="year-count" class="meta" role="status"></p>
@@ -44,10 +47,13 @@
 
 <h2>Lexus problem guides that cover the ES</h2>
 <ul class="list"><li><svg class="ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 3a2 2 0 1 0 0 4 2 2 0 0 0 0-4zM5 21v-6l-1-5h4l3 3M16 8a4 4 0 1 0 0 8 4 4 0 0 0 0-8z"/></svg><a href="/guides/lexus-air-bags-recalls/">Which Lexus models have air bag recalls, and what&#39;s wrong?</a> <small class="meta">· 4 recalls</small></li></ul>
-<h2>Owner complaints by model year</h2>
-<p>Complaints owners have filed with NHTSA about the Lexus ES. These are unverified reports; better-selling years collect more.</p>
-<table class="data"><tr><th>Model year</th><th>Complaints</th><th>Crashes</th><th>Fires</th><th>Injuries</th></tr>
-<tr><td>2020</td><td>18</td><td>3</td><td>0</td><td>4</td></tr><tr><td>2021</td><td>28</td><td>1</td><td>0</td><td>1</td></tr></table>
+<h2>ES model years compared</h2>
+<p>Recalls and NHTSA owner complaints for each model year, side by side. Complaints are unverified owner reports, and better-selling or older years naturally collect more — read this as a record, not a ranking.</p>
+<div class="scroll"><table class="data"><tr><th>Model year</th><th>Recalls</th><th>High / critical</th><th>Do-not-drive / park-outside</th><th>Complaints</th><th>Crashes</th><th>Fires</th><th>Injuries</th></tr>
+<tr><td>2020</td><td>1</td><td>1</td><td>0</td><td>18</td><td>3</td><td>0</td><td>4</td></tr><tr><td>2021</td><td>1</td><td>1</td><td>0</td><td>28</td><td>1</td><td>0</td><td>1</td></tr></table></div>
+
+<h2>Lexus ES recall questions</h2>
+<h3>How many recalls does the Lexus ES have?</h3><p>NHTSA lists 1 safety recall covering the 2020–2021 Lexus ES. 1 of them is rated high or critical on this site. The most recent is &#34;Toyota, Lexus airbag sensor may block deployment&#34; (NHTSA campaign 23V865000), reported Dec 20, 2023.</p><h3>Which Lexus ES model year has the most recalls?</h3><p>The 2020 Lexus ES has the most, with 1 recall. The 2020 model year has the fewest of the years we cover, with 1. Newer model years have had less time to collect recalls, so a low count on a recent year is not a guarantee.</p><h3>Is there a do-not-drive or park-outside recall on the Lexus ES?</h3><p>No. None of the 1 Lexus ES recall on file carries a do-not-drive or park-outside advisory from NHTSA.</p><h3>How do I check whether my Lexus ES has an open recall?</h3><p>Enter your 17-character VIN at nhtsa.gov/recalls. A recall often applies to only some vehicles of a model year, and the VIN lookup shows the ones still unrepaired on your car. Recall repairs are free at any franchised Lexus dealer, including for second owners.</p>
 
 
 </main>

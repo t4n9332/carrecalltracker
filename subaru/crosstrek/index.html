@@ -16,11 +16,13 @@
 <meta name="twitter:card" content="summary">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://carrecalltracker.com/"},{"@type":"ListItem","position":2,"name":"Subaru","item":"https://carrecalltracker.com/subaru/"},{"@type":"ListItem","position":3,"name":"Crosstrek","item":"https://carrecalltracker.com/subaru/crosstrek/"}]}</script>
 <link rel="icon" href="/static/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/static/icon-180.png">
+<link rel="manifest" href="/static/site.webmanifest">
 <meta name="theme-color" content="#0b5cad">
 <link rel="stylesheet" href="/static/style.css">
 <link rel="alternate" type="application/rss+xml" title="Car Recall Tracker — new recalls" href="/feed.xml">
 <script src="/static/app.js" defer></script>
-
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How many recalls does the Subaru Crosstrek have?","acceptedAnswer":{"@type":"Answer","text":"NHTSA lists 12 safety recalls covering the 2018\u20132024 Subaru Crosstrek. 9 of them are rated high or critical on this site. The most recent is \"Subaru Front Driveshafts May Crack and Break\" (NHTSA campaign 23V754000), reported Nov 9, 2023."}},{"@type":"Question","name":"Which Subaru Crosstrek model year has the most recalls?","acceptedAnswer":{"@type":"Answer","text":"The 2019 Subaru Crosstrek has the most, with 7 recalls. The 2021 model year has the fewest of the years we cover, with 1. Newer model years have had less time to collect recalls, so a low count on a recent year is not a guarantee."}},{"@type":"Question","name":"Is there a do-not-drive or park-outside recall on the Subaru Crosstrek?","acceptedAnswer":{"@type":"Answer","text":"No. None of the 12 Subaru Crosstrek recalls on file carries a do-not-drive or park-outside advisory from NHTSA."}},{"@type":"Question","name":"How do I check whether my Subaru Crosstrek has an open recall?","acceptedAnswer":{"@type":"Answer","text":"Enter your 17-character VIN at nhtsa.gov/recalls. A recall often applies to only some vehicles of a model year, and the VIN lookup shows the ones still unrepaired on your car. Recall repairs are free at any franchised Subaru dealer, including for second owners."}}]}</script>
 </head>
 <body>
 <header class="top"><a class="brand" href="/"><svg class="logo" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="7" fill="currentColor"/><path d="M16 5 7 8.5v7c0 5.6 3.8 10.4 9 12 5.2-1.6 9-6.400 9-12v-7z" fill="var(--bg)"/><path d="m11.5 16 3.2 3.2 5.8-6.400" fill="none" stroke="currentColor" stroke-width="2.600" stroke-linecap="round" stroke-linejoin="round"/></svg>Car Recall Tracker</a>
@@ -30,23 +32,24 @@
 <p class="crumb"><a href="/">Home</a> › <a href="/subaru/">Subaru</a> › Crosstrek</p>
 <h1>Subaru Crosstrek recalls</h1>
 <p class="lead">12 recalls covering model years 2018, 2019, 2021, 2024. To check whether <em>your</em> vehicle is affected, look up your 17-character VIN at <a href="https://www.nhtsa.gov/recalls" rel="nofollow">nhtsa.gov/recalls</a> — a recall may apply only to some vehicles of a given year.</p>
+<p><button type="button" class="save" id="garage-save" data-mk="SUBARU" data-mo="CROSSTREK" data-n="12" hidden>☆ Save to My Garage</button> <small class="meta" id="garage-note"></small></p>
 <ul class="stats"><li><strong>12</strong> recalls</li><li><strong>9</strong> rated high or critical</li><li><strong>708</strong> owner complaints</li><li><strong>Nov 9, 2023</strong> newest recall</li></ul>
 <div class="chips" role="group" aria-label="Filter by model year"><button type="button" data-year-chip="" aria-pressed="true">All years</button><button type="button" data-year-chip="2018" aria-pressed="false">2018 <small>5</small></button><button type="button" data-year-chip="2019" aria-pressed="false">2019 <small>7</small></button><button type="button" data-year-chip="2021" aria-pressed="false">2021 <small>1</small></button><button type="button" data-year-chip="2024" aria-pressed="false">2024 <small>2</small></button></div>
 <p id="year-count" class="meta" role="status"></p>
-
-<article class="card card-medium" data-years="2021">
-<h2><svg class="ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 8.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7zM12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9 7 7M17 17l2.1 2.1M4.9 19.1 7 17M17 7l2.1-2.1"/></svg><a href="/recall/23v755000/">Subaru Outback, Forester switch failure disables reverse lights, camera</a>
-<span class="sev sev-medium">medium</span></h2>
-<p class="meta">Reported Nov 9, 2023 · Campaign 23V755000 · Model years: 2021</p>
-<p>Subaru is recalling certain Crosstrek, Forester, Legacy and Outback vehicles. A weld that was not strong enough can let water get into the inhibitor switch, the switch that tells the car which gear the transmission is in, and the water can make that switch fail. If it does, the reverse lights may not come on and the rearview camera image may not appear. Dealers will replace the switch free of charge.</p>
-
-</article>
 
 <article class="card card-high" data-years="2024">
 <h2><svg class="ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 8.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7zM12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9 7 7M17 17l2.1 2.1M4.9 19.1 7 17M17 7l2.1-2.1"/></svg><a href="/recall/23v754000/">Subaru Front Driveshafts May Crack and Break</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported Nov 9, 2023 · Campaign 23V754000 · Model years: 2024</p>
 <p>On some Subaru Crosstrek, Forester, Impreza, and WRX vehicles, the outer race on the front driveshaft assemblies may develop cracks and break. This can cause a loss of drive power while driving, or cause the vehicle to roll away if it&#39;s parked without the parking brake set.</p>
+
+</article>
+
+<article class="card card-medium" data-years="2021">
+<h2><svg class="ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 8.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7zM12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9 7 7M17 17l2.1 2.1M4.9 19.1 7 17M17 7l2.1-2.1"/></svg><a href="/recall/23v755000/">Subaru Outback, Forester switch failure disables reverse lights, camera</a>
+<span class="sev sev-medium">medium</span></h2>
+<p class="meta">Reported Nov 9, 2023 · Campaign 23V755000 · Model years: 2021</p>
+<p>Subaru is recalling certain Crosstrek, Forester, Legacy and Outback vehicles. A weld that was not strong enough can let water get into the inhibitor switch, the switch that tells the car which gear the transmission is in, and the water can make that switch fail. If it does, the reverse lights may not come on and the rearview camera image may not appear. Dealers will replace the switch free of charge.</p>
 
 </article>
 
@@ -59,18 +62,18 @@
 </article>
 
 <article class="card card-high" data-years="2018 2019">
-<h2><svg class="ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M8 3h8M8 21h8M8 6l8 2-8 3 8 3-8 3 8 1"/></svg><a href="/recall/21v263000/">Subaru Crosstrek and Forester Loose Suspension Bolts</a>
-<span class="sev sev-high">high</span></h2>
-<p class="meta">Reported Apr 15, 2021 · Campaign 21V263000 · Model years: 2018, 2019</p>
-<p>On some Subaru Crosstrek and Forester vehicles, the bolts holding the rear stabilizer bracket may loosen and come out. If the bracket isn&#39;t held in place, it could shift out of position. A shifted bracket increases the risk of a crash.</p>
-
-</article>
-
-<article class="card card-high" data-years="2018 2019">
 <h2><svg class="ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M13 2 4 14h7l-1 8 9-12h-7z"/></svg><a href="/recall/21v264000/">Subaru Impreza and Crosstrek Risk Ignition Coil Short Circuit</a>
 <span class="sev sev-high">high</span></h2>
 <p class="meta">Reported Apr 15, 2021 · Campaign 21V264000 · Model years: 2018, 2019</p>
 <p>Certain Subaru Impreza and Crosstrek vehicles have an engine control module that may keep sending power to the ignition coil even after the engine is turned off. This can cause a short circuit in the ignition coils, which may make the engine stall. Dealers will update the engine control module software, replace the ignition coils, and, if needed, replace the front exhaust pipe.</p>
+
+</article>
+
+<article class="card card-high" data-years="2018 2019">
+<h2><svg class="ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M8 3h8M8 21h8M8 6l8 2-8 3 8 3-8 3 8 1"/></svg><a href="/recall/21v263000/">Subaru Crosstrek and Forester Loose Suspension Bolts</a>
+<span class="sev sev-high">high</span></h2>
+<p class="meta">Reported Apr 15, 2021 · Campaign 21V263000 · Model years: 2018, 2019</p>
+<p>On some Subaru Crosstrek and Forester vehicles, the bolts holding the rear stabilizer bracket may loosen and come out. If the bracket isn&#39;t held in place, it could shift out of position. A shifted bracket increases the risk of a crash.</p>
 
 </article>
 
@@ -132,10 +135,13 @@
 
 <h2>Subaru problem guides that cover the Crosstrek</h2>
 <ul class="list"><li><svg class="ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 8.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7zM12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9 7 7M17 17l2.1 2.1M4.9 19.1 7 17M17 7l2.1-2.1"/></svg><a href="/guides/subaru-power-train-recalls/">What Subaru transmission and driveshaft recalls should owners know about?</a> <small class="meta">· 8 recalls</small></li><li><svg class="ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M13 2 4 14h7l-1 8 9-12h-7z"/></svg><a href="/guides/subaru-electrical-system-recalls/">Subaru electrical recalls: stalling, lost power and a heater fire risk</a> <small class="meta">· 6 recalls</small></li><li><svg class="ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 8h8l2 3h3v6h-3l-2 2H8l-2-2H4v-5h2zM9 8V5h4v3"/></svg><a href="/guides/subaru-engine-and-engine-cooling-recalls/">Subaru engine recalls: PCV valves, coolant leaks and stalling risks</a> <small class="meta">· 4 recalls</small></li><li><svg class="ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M3 17a14 14 0 0 1 18 0M3 17h18M12 17 7 8"/></svg><a href="/guides/subaru-visibility-recalls/">Subaru recalls affecting windshields, rear cameras and defrosters explained</a> <small class="meta">· 4 recalls</small></li><li><svg class="ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M8 3h8M8 21h8M8 6l8 2-8 3 8 3-8 3 8 1"/></svg><a href="/guides/subaru-suspension-recalls/">Why Subaru control arms and suspension bolts keep getting recalled</a> <small class="meta">· 3 recalls</small></li></ul>
-<h2>Owner complaints by model year</h2>
-<p>Complaints owners have filed with NHTSA about the Subaru Crosstrek. These are unverified reports; better-selling years collect more.</p>
-<table class="data"><tr><th>Model year</th><th>Complaints</th><th>Crashes</th><th>Fires</th><th>Injuries</th></tr>
-<tr><td>2018</td><td>194</td><td>10</td><td>1</td><td>1</td></tr><tr><td>2019</td><td>284</td><td>6</td><td>3</td><td>5</td></tr><tr><td>2021</td><td>115</td><td>8</td><td>2</td><td>6</td></tr><tr><td>2024</td><td>115</td><td>8</td><td>2</td><td>3</td></tr></table>
+<h2>Crosstrek model years compared</h2>
+<p>Recalls and NHTSA owner complaints for each model year, side by side. Complaints are unverified owner reports, and better-selling or older years naturally collect more — read this as a record, not a ranking.</p>
+<div class="scroll"><table class="data"><tr><th>Model year</th><th>Recalls</th><th>High / critical</th><th>Do-not-drive / park-outside</th><th>Complaints</th><th>Crashes</th><th>Fires</th><th>Injuries</th></tr>
+<tr><td><a href="/used/subaru/crosstrek/2018/">2018</a></td><td>5</td><td>5</td><td>0</td><td>194</td><td>10</td><td>1</td><td>1</td></tr><tr><td><a href="/used/subaru/crosstrek/2019/">2019</a></td><td>7</td><td>5</td><td>0</td><td>284</td><td>6</td><td>3</td><td>5</td></tr><tr><td>2021</td><td>1</td><td>0</td><td>0</td><td>115</td><td>8</td><td>2</td><td>6</td></tr><tr><td><a href="/used/subaru/crosstrek/2024/">2024</a></td><td>2</td><td>2</td><td>0</td><td>115</td><td>8</td><td>2</td><td>3</td></tr></table></div>
+
+<h2>Subaru Crosstrek recall questions</h2>
+<h3>How many recalls does the Subaru Crosstrek have?</h3><p>NHTSA lists 12 safety recalls covering the 2018–2024 Subaru Crosstrek. 9 of them are rated high or critical on this site. The most recent is &#34;Subaru Front Driveshafts May Crack and Break&#34; (NHTSA campaign 23V754000), reported Nov 9, 2023.</p><h3>Which Subaru Crosstrek model year has the most recalls?</h3><p>The 2019 Subaru Crosstrek has the most, with 7 recalls. The 2021 model year has the fewest of the years we cover, with 1. Newer model years have had less time to collect recalls, so a low count on a recent year is not a guarantee.</p><h3>Is there a do-not-drive or park-outside recall on the Subaru Crosstrek?</h3><p>No. None of the 12 Subaru Crosstrek recalls on file carries a do-not-drive or park-outside advisory from NHTSA.</p><h3>How do I check whether my Subaru Crosstrek has an open recall?</h3><p>Enter your 17-character VIN at nhtsa.gov/recalls. A recall often applies to only some vehicles of a model year, and the VIN lookup shows the ones still unrepaired on your car. Recall repairs are free at any franchised Subaru dealer, including for second owners.</p>
 <h2>Buying a used Crosstrek?</h2>
 <p>Recalls and complaint record for one model year at a time:</p>
 <ul class="tags"><li><a href="/used/subaru/crosstrek/2018/">2018 Crosstrek</a></li><li><a href="/used/subaru/crosstrek/2019/">2019 Crosstrek</a></li><li><a href="/used/subaru/crosstrek/2024/">2024 Crosstrek</a></li></ul>

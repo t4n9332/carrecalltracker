@@ -16,11 +16,13 @@
 <meta name="twitter:card" content="summary">
 
 <link rel="icon" href="/static/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/static/icon-180.png">
+<link rel="manifest" href="/static/site.webmanifest">
 <meta name="theme-color" content="#0b5cad">
 <link rel="stylesheet" href="/static/style.css">
 <link rel="alternate" type="application/rss+xml" title="Car Recall Tracker — new recalls" href="/feed.xml">
 <script src="/static/app.js" defer></script>
-
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://carrecalltracker.com/#website","url":"https://carrecalltracker.com/","name":"Car Recall Tracker","description":"U.S. vehicle safety recalls from NHTSA, explained in plain English.","inLanguage":"en-US","publisher":{"@id":"https://carrecalltracker.com/#org"}},{"@type":"Organization","@id":"https://carrecalltracker.com/#org","name":"Car Recall Tracker","url":"https://carrecalltracker.com/","logo":"https://carrecalltracker.com/static/icon-512.png","email":"t4n0321@gmail.com"}]}</script>
 </head>
 <body>
 <header class="top"><a class="brand" href="/"><svg class="logo" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="7" fill="currentColor"/><path d="M16 5 7 8.5v7c0 5.6 3.8 10.4 9 12 5.2-1.6 9-6.400 9-12v-7z" fill="var(--bg)"/><path d="m11.5 16 3.2 3.2 5.8-6.400" fill="none" stroke="currentColor" stroke-width="2.600" stroke-linecap="round" stroke-linejoin="round"/></svg>Car Recall Tracker</a>
@@ -29,7 +31,7 @@
 
 <div class="hero">
 <h1>Is your car under recall?</h1>
-<p class="lead">2,266 safety recalls from NHTSA, sorted by make and model and explained in everyday language. Recall repairs are always free at a franchised dealer. Checked against NHTSA daily — last update 2026-09-19.</p>
+<p class="lead">2,266 safety recalls from NHTSA, sorted by make and model and explained in everyday language. Recall repairs are always free at a franchised dealer. Checked against NHTSA daily — last update Sep 20, 2026.</p>
 <section class="finder">
 <form id="finder"><label class="sr" for="f-year">Model year</label><select id="f-year" disabled><option>Any year</option></select>
 <label class="sr" for="f-make">Make</label><select id="f-make" disabled><option>Make</option></select>
@@ -43,6 +45,9 @@
 <details class="meta"><summary>Where is my VIN? Is it private?</summary>Your VIN is the 17-character code on the lower left of the windshield, on your registration and usually on your insurance card. The NHTSA recall number is printed on your recall letter (for example 24V-744). Your VIN goes straight from your browser to NHTSA's public decoder to identify the year, make and model; we never receive or store it. We then show the recalls for that model year. To see which are still <em>unrepaired</em> on your exact car, use the <a href="https://www.nhtsa.gov/recalls" rel="nofollow">official NHTSA VIN lookup</a>.</details>
 </section>
 </div>
+<section id="garage" hidden><h2>My Garage</h2>
+<p class="meta">Vehicles you saved on this device. Bookmark this page and check back — new recalls are flagged here.</p>
+<ul class="list" id="garage-list"></ul></section>
 <ul class="grid hub"><li class="hub-stop"><a href="/do-not-drive/">Do-not-drive recalls</a> <small>26 advisories — stop driving until repaired</small></li>
 <li class="hub-fire"><a href="/park-outside/">Park-outside recalls</a> <small>59 advisories — fire risk while parked</small></li>
 <li class="hub-guide"><a href="/guides/">Problem guides</a> <small>313 guides: is it safe to drive, what gets fixed</small></li>

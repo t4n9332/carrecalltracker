@@ -1,0 +1,49 @@
+# Car Recall Tracker
+
+> Car Recall Tracker (https://carrecalltracker.com) explains U.S. vehicle safety recalls in plain English. It covers 2266 NHTSA recalls for model years 2018–2026 across 32 makes, and is refreshed daily from the public API of the U.S. National Highway Traffic Safety Administration (NHTSA). The site is independent and is not affiliated with NHTSA or any manufacturer.
+
+Every recall page shows the official NHTSA notice text (component, summary, safety risk, remedy) next to a short plain-English explanation, a severity label (critical, high, medium, low — our own ranking, not an NHTSA rating), what the owner should do, and the manufacturer's recall phone number. Explanations are generated automatically from the notice text and spot-checked against it; the official notice on each page is the authoritative source. Owner complaint figures are counts from NHTSA's complaints database; complaints are unverified owner reports.
+
+Recall repairs in the United States are free of charge at any franchised dealer of the brand, including for second owners. To see whether a specific car still has an unrepaired recall, the owner must check the 17-character VIN at https://www.nhtsa.gov/recalls — this site lists recalls by model and model year, not by individual vehicle.
+
+## URL patterns
+
+- `/recall/{nhtsa-campaign-number}/` — one recall, e.g. https://carrecalltracker.com/recall/24v744000/ (campaign number in lower case, 9 characters)
+- `/{make}/` and `/{make}/{model}/` — all recalls for a make or model, with a model-year comparison table and FAQ, e.g. https://carrecalltracker.com/honda/cr-v/
+- `/used/{make}/{model}/{year}/` — what to check before buying that model year used: recalls, complaint counts by problem area, inspection points (1372 pages)
+- `/guides/{make}-{component}-recalls/` — problem guides that pull together every recall a make has had in one area, e.g. air bags or fuel system (313 guides)
+
+## Key pages
+
+- [Do-not-drive recalls](https://carrecalltracker.com/do-not-drive/): every recall where NHTSA tells owners to stop driving until repaired
+- [Park-outside recalls](https://carrecalltracker.com/park-outside/): every recall with a fire risk while parked
+- [Latest recalls](https://carrecalltracker.com/latest/): recalls from the last 60 days, by week
+- [How recalls work](https://carrecalltracker.com/recall-help/): the free repair step by step, recall letters, used cars, reimbursement
+- [Problem guides](https://carrecalltracker.com/guides/): index of all guides by make
+- [No-recall watchlist](https://carrecalltracker.com/watchlist/): model years with many owner complaints in an area that has no recall
+- [About and severity labels](https://carrecalltracker.com/about/): method, data sources, what the labels mean
+
+## Most-recalled models (2018 and newer)
+
+- [Ford Explorer](https://carrecalltracker.com/ford/explorer/): 68 recalls
+- [RAM 1500](https://carrecalltracker.com/ram/1500/): 50 recalls
+- [Lincoln Aviator](https://carrecalltracker.com/lincoln/aviator/): 49 recalls
+- [Jeep Grand Cherokee](https://carrecalltracker.com/jeep/grand-cherokee/): 49 recalls
+- [Volkswagen Atlas](https://carrecalltracker.com/volkswagen/atlas/): 46 recalls
+- [Ford Expedition](https://carrecalltracker.com/ford/expedition/): 45 recalls
+- [RAM 3500](https://carrecalltracker.com/ram/3500/): 43 recalls
+- [BMW X5](https://carrecalltracker.com/bmw/x5/): 42 recalls
+- [Mercedes-Benz Sprinter 4500](https://carrecalltracker.com/mercedes-benz/sprinter-4500/): 41 recalls
+- [Lincoln Navigator](https://carrecalltracker.com/lincoln/navigator/): 41 recalls
+- [Ford Escape](https://carrecalltracker.com/ford/escape/): 41 recalls
+- [Mercedes-Benz Sprinter 1500](https://carrecalltracker.com/mercedes-benz/sprinter-1500/): 40 recalls
+
+## Feeds and machine-readable files
+
+- [RSS feed of new recalls](https://carrecalltracker.com/feed.xml)
+- [Sitemap](https://carrecalltracker.com/sitemap.xml)
+- [Make → model → model-year index (JSON)](https://carrecalltracker.com/static/index.json)
+
+## Citing
+
+Please cite the specific recall page and the NHTSA campaign number. Contact: t4n0321@gmail.com

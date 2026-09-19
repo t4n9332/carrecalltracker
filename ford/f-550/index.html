@@ -16,11 +16,13 @@
 <meta name="twitter:card" content="summary">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://carrecalltracker.com/"},{"@type":"ListItem","position":2,"name":"Ford","item":"https://carrecalltracker.com/ford/"},{"@type":"ListItem","position":3,"name":"F-550","item":"https://carrecalltracker.com/ford/f-550/"}]}</script>
 <link rel="icon" href="/static/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/static/icon-180.png">
+<link rel="manifest" href="/static/site.webmanifest">
 <meta name="theme-color" content="#0b5cad">
 <link rel="stylesheet" href="/static/style.css">
 <link rel="alternate" type="application/rss+xml" title="Car Recall Tracker — new recalls" href="/feed.xml">
 <script src="/static/app.js" defer></script>
-
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"How many recalls does the Ford F-550 have?","acceptedAnswer":{"@type":"Answer","text":"NHTSA lists 13 safety recalls covering the 2018\u20132020 Ford F-550. 3 of them are rated high or critical on this site. The most recent is \"Ford Trucks May Have Rear Axle, Driveshaft Failure\" (NHTSA campaign 20V099000), reported Feb 21, 2020."}},{"@type":"Question","name":"Which Ford F-550 model year has the most recalls?","acceptedAnswer":{"@type":"Answer","text":"The 2018 Ford F-550 has the most, with 10 recalls. The 2020 model year has the fewest of the years we cover, with 2. Newer model years have had less time to collect recalls, so a low count on a recent year is not a guarantee."}},{"@type":"Question","name":"Is there a do-not-drive or park-outside recall on the Ford F-550?","acceptedAnswer":{"@type":"Answer","text":"No. None of the 13 Ford F-550 recalls on file carries a do-not-drive or park-outside advisory from NHTSA."}},{"@type":"Question","name":"How do I check whether my Ford F-550 has an open recall?","acceptedAnswer":{"@type":"Answer","text":"Enter your 17-character VIN at nhtsa.gov/recalls. A recall often applies to only some vehicles of a model year, and the VIN lookup shows the ones still unrepaired on your car. Recall repairs are free at any franchised Ford dealer, including for second owners."}}]}</script>
 </head>
 <body>
 <header class="top"><a class="brand" href="/"><svg class="logo" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="7" fill="currentColor"/><path d="M16 5 7 8.5v7c0 5.6 3.8 10.4 9 12 5.2-1.6 9-6.400 9-12v-7z" fill="var(--bg)"/><path d="m11.5 16 3.2 3.2 5.8-6.400" fill="none" stroke="currentColor" stroke-width="2.600" stroke-linecap="round" stroke-linejoin="round"/></svg>Car Recall Tracker</a>
@@ -30,6 +32,7 @@
 <p class="crumb"><a href="/">Home</a> › <a href="/ford/">Ford</a> › F-550</p>
 <h1>Ford F-550 recalls</h1>
 <p class="lead">13 recalls covering model years 2018, 2019, 2020. To check whether <em>your</em> vehicle is affected, look up your 17-character VIN at <a href="https://www.nhtsa.gov/recalls" rel="nofollow">nhtsa.gov/recalls</a> — a recall may apply only to some vehicles of a given year.</p>
+<p><button type="button" class="save" id="garage-save" data-mk="FORD" data-mo="F-550" data-n="13" hidden>☆ Save to My Garage</button> <small class="meta" id="garage-note"></small></p>
 <ul class="stats"><li><strong>13</strong> recalls</li><li><strong>3</strong> rated high or critical</li><li><strong>39</strong> owner complaints</li><li><strong>Feb 21, 2020</strong> newest recall</li></ul>
 <div class="chips" role="group" aria-label="Filter by model year"><button type="button" data-year-chip="" aria-pressed="true">All years</button><button type="button" data-year-chip="2018" aria-pressed="false">2018 <small>10</small></button><button type="button" data-year-chip="2019" aria-pressed="false">2019 <small>4</small></button><button type="button" data-year-chip="2020" aria-pressed="false">2020 <small>2</small></button></div>
 <p id="year-count" class="meta" role="status"></p>
@@ -58,19 +61,19 @@
 
 </article>
 
-<article class="card card-medium" data-years="2018">
-<h2><svg class="ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 3 2 20h20zM12 10v5M12 17.5v.5"/></svg><a href="/recall/19v401000/">Ford F-550 Ambulance Backup Camera May Show Reversed Image</a>
-<span class="sev sev-medium">medium</span></h2>
-<p class="meta">Reported May 29, 2019 · Campaign 19V401000 · Model years: 2018</p>
-<p>Some Ford F-550-based ambulances, along with similar E-Series and Chevrolet C4500-based ambulances, use an ASA Electronics Voyager monitor to show the back-up camera picture. This monitor may unexpectedly revert to its factory default settings, which can cause the camera image to display reversed—left and right flipped—so the picture no longer matches which way you&#39;re actually turning.</p>
-
-</article>
-
 <article class="card card-medium" data-years="2018 2019">
 <h2><svg class="ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 3 2 20h20zM12 10v5M12 17.5v.5"/></svg><a href="/recall/19v398000/">Ford F-450 and F-550 Backup Camera May Reverse</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported May 29, 2019 · Campaign 19V398000 · Model years: 2018, 2019</p>
 <p>Some Ford F-450 and F-550 trucks have a back-up camera display that can suddenly reset itself to the factory default settings. When this happens, the image on the screen may appear reversed, showing the opposite of what is actually behind the vehicle. A driver relying on that screen while backing up would be looking at a mirror-image view instead of the correct one.</p>
+
+</article>
+
+<article class="card card-medium" data-years="2018">
+<h2><svg class="ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 3 2 20h20zM12 10v5M12 17.5v.5"/></svg><a href="/recall/19v401000/">Ford F-550 Ambulance Backup Camera May Show Reversed Image</a>
+<span class="sev sev-medium">medium</span></h2>
+<p class="meta">Reported May 29, 2019 · Campaign 19V401000 · Model years: 2018</p>
+<p>Some Ford F-550-based ambulances, along with similar E-Series and Chevrolet C4500-based ambulances, use an ASA Electronics Voyager monitor to show the back-up camera picture. This monitor may unexpectedly revert to its factory default settings, which can cause the camera image to display reversed—left and right flipped—so the picture no longer matches which way you&#39;re actually turning.</p>
 
 </article>
 
@@ -99,18 +102,18 @@
 </article>
 
 <article class="card card-medium" data-years="2018">
-<h2><svg class="ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18zM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6zM12 5.5v1M12 17.5v1M5.5 12h1M17.5 12h1"/></svg><a href="/recall/19v251000/">Fire Truck Brake Lights May Turn On Unexpectedly</a>
-<span class="sev sev-medium">medium</span></h2>
-<p class="meta">Reported Mar 28, 2019 · Campaign 19V251000 · Model years: 2018</p>
-<p>Fire Equipment Sales &amp; Service is recalling one Super C Brush truck and one Tanker truck fitted with Whelen brake lights that were already subject to an earlier recall. Depending on how the vehicle is wired, these brake lights may light up even when the brake pedal hasn&#39;t been pressed.</p>
-
-</article>
-
-<article class="card card-medium" data-years="2018">
 <h2><svg class="ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18zM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6zM12 5.5v1M12 17.5v1M5.5 12h1M17.5 12h1"/></svg><a href="/recall/19v254000/">Minuteman Fire Truck Brake Lights May Activate Unexpectedly</a>
 <span class="sev sev-medium">medium</span></h2>
 <p class="meta">Reported Mar 28, 2019 · Campaign 19V254000 · Model years: 2018</p>
 <p>Blanchat Mfg. is recalling one 2018 B-27 Minuteman vehicle built on a Ford F-550 chassis and fitted with Whelen brake lights. Depending on how the vehicle is wired, these brake lights may light up even when the brake pedal hasn&#39;t been pressed.</p>
+
+</article>
+
+<article class="card card-medium" data-years="2018">
+<h2><svg class="ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18zM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6zM12 5.5v1M12 17.5v1M5.5 12h1M17.5 12h1"/></svg><a href="/recall/19v251000/">Fire Truck Brake Lights May Turn On Unexpectedly</a>
+<span class="sev sev-medium">medium</span></h2>
+<p class="meta">Reported Mar 28, 2019 · Campaign 19V251000 · Model years: 2018</p>
+<p>Fire Equipment Sales &amp; Service is recalling one Super C Brush truck and one Tanker truck fitted with Whelen brake lights that were already subject to an earlier recall. Depending on how the vehicle is wired, these brake lights may light up even when the brake pedal hasn&#39;t been pressed.</p>
 
 </article>
 
@@ -140,10 +143,13 @@
 
 <h2>Ford problem guides that cover the F-550</h2>
 <ul class="list"><li><svg class="ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 8.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7zM12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9 7 7M17 17l2.1 2.1M4.9 19.1 7 17M17 7l2.1-2.1"/></svg><a href="/guides/ford-power-train-recalls/">Ford powertrain recalls: wheels, driveshafts, clutches and transmission fluid leaks</a> <small class="meta">· 55 recalls</small></li><li><svg class="ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-4 10.5c.7.7 1 1.5 1 2.5h6c0-1 .3-1.8 1-2.5A6 6 0 0 0 12 3z"/></svg><a href="/guides/ford-exterior-lighting-recalls/">Why do Ford exterior lighting recalls keep covering brake lights and headlights?</a> <small class="meta">· 26 recalls</small></li><li><svg class="ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 3h4v10h7v3H7zM7 16v5M17 16v5"/></svg><a href="/guides/ford-seats-recalls/">Which Ford seat recalls involve seats that move or unlock?</a> <small class="meta">· 21 recalls</small></li><li><svg class="ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 3 2 20h20zM12 10v5M12 17.5v.5"/></svg><a href="/guides/ford-equipment-recalls/">What are Ford&#39;s block heater, label and backup camera recalls about?</a> <small class="meta">· 15 recalls</small></li><li><svg class="ico" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M7 8h8l2 3h3v6h-3l-2 2H8l-2-2H4v-5h2zM9 8V5h4v3"/></svg><a href="/guides/ford-engine-recalls/">Ford engine recalls: fire risk from oil, wiring and block heaters</a> <small class="meta">· 13 recalls</small></li></ul>
-<h2>Owner complaints by model year</h2>
-<p>Complaints owners have filed with NHTSA about the Ford F-550. These are unverified reports; better-selling years collect more.</p>
-<table class="data"><tr><th>Model year</th><th>Complaints</th><th>Crashes</th><th>Fires</th><th>Injuries</th></tr>
-<tr><td>2018</td><td>8</td><td>0</td><td>0</td><td>0</td></tr><tr><td>2019</td><td>14</td><td>1</td><td>3</td><td>0</td></tr><tr><td>2020</td><td>17</td><td>0</td><td>1</td><td>0</td></tr></table>
+<h2>F-550 model years compared</h2>
+<p>Recalls and NHTSA owner complaints for each model year, side by side. Complaints are unverified owner reports, and better-selling or older years naturally collect more — read this as a record, not a ranking.</p>
+<div class="scroll"><table class="data"><tr><th>Model year</th><th>Recalls</th><th>High / critical</th><th>Do-not-drive / park-outside</th><th>Complaints</th><th>Crashes</th><th>Fires</th><th>Injuries</th></tr>
+<tr><td><a href="/used/ford/f-550/2018/">2018</a></td><td>10</td><td>1</td><td>0</td><td>8</td><td>0</td><td>0</td><td>0</td></tr><tr><td><a href="/used/ford/f-550/2019/">2019</a></td><td>4</td><td>2</td><td>0</td><td>14</td><td>1</td><td>3</td><td>0</td></tr><tr><td><a href="/used/ford/f-550/2020/">2020</a></td><td>2</td><td>2</td><td>0</td><td>17</td><td>0</td><td>1</td><td>0</td></tr></table></div>
+
+<h2>Ford F-550 recall questions</h2>
+<h3>How many recalls does the Ford F-550 have?</h3><p>NHTSA lists 13 safety recalls covering the 2018–2020 Ford F-550. 3 of them are rated high or critical on this site. The most recent is &#34;Ford Trucks May Have Rear Axle, Driveshaft Failure&#34; (NHTSA campaign 20V099000), reported Feb 21, 2020.</p><h3>Which Ford F-550 model year has the most recalls?</h3><p>The 2018 Ford F-550 has the most, with 10 recalls. The 2020 model year has the fewest of the years we cover, with 2. Newer model years have had less time to collect recalls, so a low count on a recent year is not a guarantee.</p><h3>Is there a do-not-drive or park-outside recall on the Ford F-550?</h3><p>No. None of the 13 Ford F-550 recalls on file carries a do-not-drive or park-outside advisory from NHTSA.</p><h3>How do I check whether my Ford F-550 has an open recall?</h3><p>Enter your 17-character VIN at nhtsa.gov/recalls. A recall often applies to only some vehicles of a model year, and the VIN lookup shows the ones still unrepaired on your car. Recall repairs are free at any franchised Ford dealer, including for second owners.</p>
 <h2>Buying a used F-550?</h2>
 <p>Recalls and complaint record for one model year at a time:</p>
 <ul class="tags"><li><a href="/used/ford/f-550/2018/">2018 F-550</a></li><li><a href="/used/ford/f-550/2019/">2019 F-550</a></li><li><a href="/used/ford/f-550/2020/">2020 F-550</a></li></ul>

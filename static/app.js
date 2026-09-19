@@ -27,6 +27,45 @@
     if (m) pick(m[1]);
   }
 
+  // ---- My Garage: 저장한 차종(localStorage, 이 기기에만). n = 마지막으로 본 리콜 수 → 홈에서 새 리콜 표시 ----
+  var gLoad = function () { try { return JSON.parse(localStorage.getItem("garage") || "[]"); } catch (e) { return []; } };
+  var gSave = function (g) { try { localStorage.setItem("garage", JSON.stringify(g)); } catch (e) {} };
+  var sb = $("garage-save");
+  if (sb) {
+    var mk0 = sb.dataset.mk, mo0 = sb.dataset.mo, n0 = +sb.dataset.n;
+    var paint = function () {
+      var on = gLoad().some(function (v) { return v.mk === mk0 && v.mo === mo0; });
+      sb.setAttribute("aria-pressed", on ? "true" : "false");
+      sb.textContent = on ? "★ Saved in My Garage" : "☆ Save to My Garage";
+      $("garage-note").textContent = on ? "New recalls for this model will be flagged on the home page. Saved on this device only." : "";
+    };
+    // 저장된 차종 페이지를 열면 "봤음" 처리
+    if (!sb.dataset.keep) gSave(gLoad().map(function (v) { if (v.mk === mk0 && v.mo === mo0) v.n = n0; return v; }));
+    sb.hidden = false; paint();
+    sb.addEventListener("click", function () {
+      var g = gLoad(), had = g.length;
+      g = g.filter(function (v) { return !(v.mk === mk0 && v.mo === mo0); });
+      if (g.length === had) g.push({ mk: mk0, mo: mo0, n: n0 });
+      gSave(g); paint();
+    });
+  }
+  var gRender = function () {
+    var box = $("garage"), ul = $("garage-list"), g = gLoad().filter(function (v) { return idx[v.mk] && idx[v.mk].m[v.mo] && idx[v.mk].m[v.mo].n; });
+    if (!box) return;
+    box.hidden = !g.length; ul.innerHTML = "";
+    g.forEach(function (v) {
+      var a = idx[v.mk], b = a.m[v.mo], li = document.createElement("li"), l = document.createElement("a");
+      l.href = "/" + a.s + "/" + b.s + "/"; l.textContent = a.t + " " + b.t; li.append(l);
+      var s = document.createElement("small"); s.className = "meta";
+      s.textContent = b.n + " recall" + (b.n === 1 ? "" : "s") + " · newest " + new Date(b.d + "T12:00:00").toLocaleDateString("en-US", { year: "numeric", month: "short", day: "numeric" });
+      li.append(s);
+      if (b.n > v.n) { var nw = document.createElement("span"); nw.className = "new"; nw.textContent = (b.n - v.n) + " new since your last visit"; li.append(nw); }
+      var x = document.createElement("button"); x.type = "button"; x.textContent = "Remove"; x.setAttribute("aria-label", "Remove " + a.t + " " + b.t);
+      x.addEventListener("click", function () { gSave(gLoad().filter(function (w) { return !(w.mk === v.mk && w.mo === v.mo); })); gRender(); });
+      li.append(x); ul.append(li);
+    });
+  };
+
   // ---- 홈: 찾기 ----
   var form = $("finder");
   if (!form) return;
@@ -54,6 +93,7 @@
     fill(selY, j.years.slice().reverse().map(function (y) { return [y, y]; }), "Any year");
     fill(selMk, Object.keys(idx).map(function (k) { return [k, idx[k].t]; }), "Make");
     fill(selMo, [], "Model");
+    gRender();
   });
   var refresh = function () { fill(selMo, selMk.value ? modelsFor(selMk.value, selY.value) : [], "Model"); };
   selMk.addEventListener("change", refresh);
