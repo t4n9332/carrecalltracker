@@ -1,6 +1,6 @@
 # Car Recall Tracker
 
-> Car Recall Tracker (https://carrecalltracker.com) explains U.S. vehicle safety recalls in plain English. It covers 2266 NHTSA recalls for model years 2018–2026 across 32 makes, and is refreshed daily from the public API of the U.S. National Highway Traffic Safety Administration (NHTSA). The site is independent and is not affiliated with NHTSA or any manufacturer.
+> Car Recall Tracker (https://carrecalltracker.com) explains U.S. vehicle safety recalls in plain English. It covers 2267 NHTSA recalls for model years 2018–2026 across 32 makes, and is refreshed daily from the public API of the U.S. National Highway Traffic Safety Administration (NHTSA). The site is independent and is not affiliated with NHTSA or any manufacturer.
 
 Every recall page shows the official NHTSA notice text (component, summary, safety risk, remedy) next to a short plain-English explanation, a severity label (critical, high, medium, low — our own ranking, not an NHTSA rating), what the owner should do, and the manufacturer's recall phone number. Explanations are generated automatically from the notice text and spot-checked against it; the official notice on each page is the authoritative source. Owner complaint figures are counts from NHTSA's complaints database; complaints are unverified owner reports.
 
