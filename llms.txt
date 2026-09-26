@@ -1,6 +1,6 @@
 # Car Recall Tracker
 
-> Car Recall Tracker (https://carrecalltracker.com) explains U.S. vehicle safety recalls in plain English. It covers 2270 NHTSA recalls for model years 2018–2027 across 32 makes, and is refreshed daily from the public API of the U.S. National Highway Traffic Safety Administration (NHTSA). The site is independent and is not affiliated with NHTSA or any manufacturer.
+> Car Recall Tracker (https://carrecalltracker.com) explains U.S. vehicle safety recalls in plain English. It covers 2271 NHTSA recalls for model years 2018–2027 across 32 makes, and is refreshed daily from the public API of the U.S. National Highway Traffic Safety Administration (NHTSA). The site is independent and is not affiliated with NHTSA or any manufacturer.
 
 Every recall page shows the official NHTSA notice text (component, summary, safety risk, remedy) next to a short plain-English explanation, a severity label (critical, high, medium, low — our own ranking, not an NHTSA rating), what the owner should do, and the manufacturer's recall phone number. Explanations are generated automatically from the notice text and spot-checked against it; the official notice on each page is the authoritative source. Owner complaint figures are counts from NHTSA's complaints database; complaints are unverified owner reports.
 
@@ -10,7 +10,7 @@ Recall repairs in the United States are free of charge at any franchised dealer 
 
 - `/recall/{nhtsa-campaign-number}/` — one recall, e.g. https://carrecalltracker.com/recall/24v744000/ (campaign number in lower case, 9 characters)
 - `/{make}/` and `/{make}/{model}/` — all recalls for a make or model, with a model-year comparison table and FAQ, e.g. https://carrecalltracker.com/honda/cr-v/
-- `/used/{make}/{model}/{year}/` — what to check before buying that model year used: recalls, complaint counts by problem area, inspection points (1372 pages)
+- `/used/{make}/{model}/{year}/` — what to check before buying that model year used: recalls, complaint counts by problem area, inspection points (1376 pages)
 - `/guides/{make}-{component}-recalls/` — problem guides that pull together every recall a make has had in one area, e.g. air bags or fuel system (313 guides)
 
 ## Key pages
@@ -29,7 +29,7 @@ Recall repairs in the United States are free of charge at any franchised dealer 
 - [RAM 1500](https://carrecalltracker.com/ram/1500/): 50 recalls
 - [Lincoln Aviator](https://carrecalltracker.com/lincoln/aviator/): 49 recalls
 - [Jeep Grand Cherokee](https://carrecalltracker.com/jeep/grand-cherokee/): 49 recalls
-- [Volkswagen Atlas](https://carrecalltracker.com/volkswagen/atlas/): 46 recalls
+- [Volkswagen Atlas](https://carrecalltracker.com/volkswagen/atlas/): 47 recalls
 - [Ford Expedition](https://carrecalltracker.com/ford/expedition/): 45 recalls
 - [RAM 3500](https://carrecalltracker.com/ram/3500/): 43 recalls
 - [BMW X5](https://carrecalltracker.com/bmw/x5/): 42 recalls

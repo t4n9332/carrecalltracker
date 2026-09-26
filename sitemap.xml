@@ -607,7 +607,7 @@
 <url><loc>https://carrecalltracker.com/toyota/redundant-venza/</loc><lastmod>2025-09-11</lastmod></url>
 <url><loc>https://carrecalltracker.com/volkswagen/</loc></url>
 <url><loc>https://carrecalltracker.com/volkswagen/arteon/</loc><lastmod>2020-03-06</lastmod></url>
-<url><loc>https://carrecalltracker.com/volkswagen/atlas/</loc><lastmod>2026-07-22</lastmod></url>
+<url><loc>https://carrecalltracker.com/volkswagen/atlas/</loc><lastmod>2026-09-11</lastmod></url>
 <url><loc>https://carrecalltracker.com/volkswagen/atlas-cross-sport/</loc><lastmod>2026-07-22</lastmod></url>
 <url><loc>https://carrecalltracker.com/volkswagen/beetle/</loc><lastmod>2024-10-30</lastmod></url>
 <url><loc>https://carrecalltracker.com/volkswagen/e-golf/</loc><lastmod>2018-11-14</lastmod></url>
@@ -620,7 +620,7 @@
 <url><loc>https://carrecalltracker.com/volkswagen/jetta/</loc><lastmod>2026-03-25</lastmod></url>
 <url><loc>https://carrecalltracker.com/volkswagen/passat/</loc><lastmod>2021-10-15</lastmod></url>
 <url><loc>https://carrecalltracker.com/volkswagen/taos/</loc><lastmod>2026-04-22</lastmod></url>
-<url><loc>https://carrecalltracker.com/volkswagen/tiguan/</loc><lastmod>2026-09-10</lastmod></url>
+<url><loc>https://carrecalltracker.com/volkswagen/tiguan/</loc><lastmod>2026-09-11</lastmod></url>
 <url><loc>https://carrecalltracker.com/volvo/</loc></url>
 <url><loc>https://carrecalltracker.com/volvo/ex30/</loc><lastmod>2026-03-11</lastmod></url>
 <url><loc>https://carrecalltracker.com/volvo/ex30cc/</loc><lastmod>2026-03-11</lastmod></url>
@@ -2906,6 +2906,10 @@
 <url><loc>https://carrecalltracker.com/recall/26v539000/</loc><lastmod>2026-08-20</lastmod></url>
 <url><loc>https://carrecalltracker.com/recall/26v587000/</loc><lastmod>2026-09-10</lastmod></url>
 <url><loc>https://carrecalltracker.com/recall/26v597000/</loc><lastmod>2026-09-16</lastmod></url>
+<url><loc>https://carrecalltracker.com/recall/26v135000/</loc><lastmod>2026-03-06</lastmod></url>
+<url><loc>https://carrecalltracker.com/recall/26v356000/</loc><lastmod>2026-06-02</lastmod></url>
+<url><loc>https://carrecalltracker.com/recall/26v173000/</loc><lastmod>2026-03-20</lastmod></url>
+<url><loc>https://carrecalltracker.com/recall/26v590000/</loc><lastmod>2026-09-11</lastmod></url>
 <url><loc>https://carrecalltracker.com/guides/acura-back-over-prevention-recalls/</loc><lastmod>2026-05-14</lastmod></url>
 <url><loc>https://carrecalltracker.com/guides/acura-fuel-system-gasoline-recalls/</loc><lastmod>2025-01-23</lastmod></url>
 <url><loc>https://carrecalltracker.com/guides/acura-seats-recalls/</loc><lastmod>2026-01-29</lastmod></url>
@@ -3203,7 +3207,7 @@
 <url><loc>https://carrecalltracker.com/guides/volkswagen-seat-belts-recalls/</loc><lastmod>2021-08-05</lastmod></url>
 <url><loc>https://carrecalltracker.com/guides/volkswagen-seats-recalls/</loc><lastmod>2021-02-01</lastmod></url>
 <url><loc>https://carrecalltracker.com/guides/volkswagen-service-brakes-hydraulic-recalls/</loc><lastmod>2024-09-27</lastmod></url>
-<url><loc>https://carrecalltracker.com/guides/volkswagen-steering-recalls/</loc><lastmod>2025-08-13</lastmod></url>
+<url><loc>https://carrecalltracker.com/guides/volkswagen-steering-recalls/</loc><lastmod>2026-09-11</lastmod></url>
 <url><loc>https://carrecalltracker.com/guides/volkswagen-structure-recalls/</loc><lastmod>2024-09-04</lastmod></url>
 <url><loc>https://carrecalltracker.com/guides/volkswagen-suspension-recalls/</loc><lastmod>2023-06-21</lastmod></url>
 <url><loc>https://carrecalltracker.com/guides/volkswagen-tires-recalls/</loc><lastmod>2022-10-31</lastmod></url>
@@ -3375,6 +3379,7 @@
 <url><loc>https://carrecalltracker.com/used/bmw/s-1000-rr/2023/</loc><lastmod>2026-07-23</lastmod></url>
 <url><loc>https://carrecalltracker.com/used/bmw/s-1000-rr/2025/</loc><lastmod>2026-07-23</lastmod></url>
 <url><loc>https://carrecalltracker.com/used/bmw/s-1000-xr/2020/</loc><lastmod>2023-02-03</lastmod></url>
+<url><loc>https://carrecalltracker.com/used/bmw/s-1000-xr/2022/</loc><lastmod>2023-02-03</lastmod></url>
 <url><loc>https://carrecalltracker.com/used/bmw/s1000-rr/2020/</loc><lastmod>2020-03-12</lastmod></url>
 <url><loc>https://carrecalltracker.com/used/bmw/x1/2018/</loc><lastmod>2019-08-14</lastmod></url>
 <url><loc>https://carrecalltracker.com/used/bmw/x1/2019/</loc><lastmod>2019-08-14</lastmod></url>
@@ -3486,6 +3491,7 @@
 <url><loc>https://carrecalltracker.com/used/chevrolet/blazer/2020/</loc><lastmod>2021-02-25</lastmod></url>
 <url><loc>https://carrecalltracker.com/used/chevrolet/blazer/2023/</loc><lastmod>2023-03-16</lastmod></url>
 <url><loc>https://carrecalltracker.com/used/chevrolet/bolt-euv/2022/</loc><lastmod>2024-10-31</lastmod></url>
+<url><loc>https://carrecalltracker.com/used/chevrolet/bolt-ev/2018/</loc><lastmod>2023-12-14</lastmod></url>
 <url><loc>https://carrecalltracker.com/used/chevrolet/bolt-ev/2019/</loc><lastmod>2023-12-14</lastmod></url>
 <url><loc>https://carrecalltracker.com/used/chevrolet/bolt-ev/2020/</loc><lastmod>2024-10-31</lastmod></url>
 <url><loc>https://carrecalltracker.com/used/chevrolet/bolt-ev/2021/</loc><lastmod>2024-10-31</lastmod></url>
@@ -4082,12 +4088,14 @@
 <url><loc>https://carrecalltracker.com/used/kia/stinger/2019/</loc><lastmod>2024-03-01</lastmod></url>
 <url><loc>https://carrecalltracker.com/used/kia/stinger/2020/</loc><lastmod>2024-03-01</lastmod></url>
 <url><loc>https://carrecalltracker.com/used/kia/stinger/2021/</loc><lastmod>2024-03-01</lastmod></url>
+<url><loc>https://carrecalltracker.com/used/kia/telluride-hybrid/2027/</loc><lastmod>2026-06-02</lastmod></url>
 <url><loc>https://carrecalltracker.com/used/kia/telluride/2020/</loc><lastmod>2026-07-02</lastmod></url>
 <url><loc>https://carrecalltracker.com/used/kia/telluride/2021/</loc><lastmod>2026-07-02</lastmod></url>
 <url><loc>https://carrecalltracker.com/used/kia/telluride/2022/</loc><lastmod>2026-07-02</lastmod></url>
 <url><loc>https://carrecalltracker.com/used/kia/telluride/2023/</loc><lastmod>2026-07-02</lastmod></url>
 <url><loc>https://carrecalltracker.com/used/kia/telluride/2024/</loc><lastmod>2026-07-02</lastmod></url>
 <url><loc>https://carrecalltracker.com/used/kia/telluride/2025/</loc><lastmod>2026-02-23</lastmod></url>
+<url><loc>https://carrecalltracker.com/used/kia/telluride/2027/</loc><lastmod>2026-06-02</lastmod></url>
 <url><loc>https://carrecalltracker.com/used/lexus/es350/2018/</loc><lastmod>2020-11-04</lastmod></url>
 <url><loc>https://carrecalltracker.com/used/lexus/gx460/2018/</loc><lastmod>2020-11-04</lastmod></url>
 <url><loc>https://carrecalltracker.com/used/lexus/ls500/2018/</loc><lastmod>2020-11-04</lastmod></url>
@@ -4531,7 +4539,7 @@
 <url><loc>https://carrecalltracker.com/used/volkswagen/atlas-cross-sport/2023/</loc><lastmod>2025-06-30</lastmod></url>
 <url><loc>https://carrecalltracker.com/used/volkswagen/atlas-cross-sport/2024/</loc><lastmod>2026-07-22</lastmod></url>
 <url><loc>https://carrecalltracker.com/used/volkswagen/atlas-cross-sport/2025/</loc><lastmod>2026-07-22</lastmod></url>
-<url><loc>https://carrecalltracker.com/used/volkswagen/atlas/2018/</loc><lastmod>2023-03-29</lastmod></url>
+<url><loc>https://carrecalltracker.com/used/volkswagen/atlas/2018/</loc><lastmod>2026-09-11</lastmod></url>
 <url><loc>https://carrecalltracker.com/used/volkswagen/atlas/2019/</loc><lastmod>2023-10-04</lastmod></url>
 <url><loc>https://carrecalltracker.com/used/volkswagen/atlas/2020/</loc><lastmod>2023-03-29</lastmod></url>
 <url><loc>https://carrecalltracker.com/used/volkswagen/atlas/2021/</loc><lastmod>2024-06-20</lastmod></url>
@@ -4565,7 +4573,7 @@
 <url><loc>https://carrecalltracker.com/used/volkswagen/passat/2020/</loc><lastmod>2020-09-02</lastmod></url>
 <url><loc>https://carrecalltracker.com/used/volkswagen/taos/2022/</loc><lastmod>2023-03-29</lastmod></url>
 <url><loc>https://carrecalltracker.com/used/volkswagen/taos/2025/</loc><lastmod>2026-04-22</lastmod></url>
-<url><loc>https://carrecalltracker.com/used/volkswagen/tiguan/2018/</loc><lastmod>2022-04-06</lastmod></url>
+<url><loc>https://carrecalltracker.com/used/volkswagen/tiguan/2018/</loc><lastmod>2026-09-11</lastmod></url>
 <url><loc>https://carrecalltracker.com/used/volkswagen/tiguan/2019/</loc><lastmod>2022-10-31</lastmod></url>
 <url><loc>https://carrecalltracker.com/used/volkswagen/tiguan/2020/</loc><lastmod>2022-04-06</lastmod></url>
 <url><loc>https://carrecalltracker.com/used/volkswagen/tiguan/2021/</loc><lastmod>2022-07-20</lastmod></url>
