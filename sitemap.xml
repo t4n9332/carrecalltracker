@@ -140,7 +140,7 @@
 <url><loc>https://carrecalltracker.com/chevrolet/blazer/</loc><lastmod>2024-10-02</lastmod></url>
 <url><loc>https://carrecalltracker.com/chevrolet/blazer-ev/</loc><lastmod>2026-01-22</lastmod></url>
 <url><loc>https://carrecalltracker.com/chevrolet/bolt-euv/</loc><lastmod>2024-10-31</lastmod></url>
-<url><loc>https://carrecalltracker.com/chevrolet/bolt-ev/</loc><lastmod>2024-10-31</lastmod></url>
+<url><loc>https://carrecalltracker.com/chevrolet/bolt-ev/</loc><lastmod>2026-02-26</lastmod></url>
 <url><loc>https://carrecalltracker.com/chevrolet/camaro/</loc><lastmod>2025-03-20</lastmod></url>
 <url><loc>https://carrecalltracker.com/chevrolet/city-express/</loc><lastmod>2025-10-09</lastmod></url>
 <url><loc>https://carrecalltracker.com/chevrolet/colorado/</loc><lastmod>2026-02-26</lastmod></url>
@@ -363,6 +363,7 @@
 <url><loc>https://carrecalltracker.com/kia/sportage-phev/</loc><lastmod>2025-12-17</lastmod></url>
 <url><loc>https://carrecalltracker.com/kia/stinger/</loc><lastmod>2024-03-01</lastmod></url>
 <url><loc>https://carrecalltracker.com/kia/telluride/</loc><lastmod>2026-07-02</lastmod></url>
+<url><loc>https://carrecalltracker.com/kia/telluride-hybrid/</loc><lastmod>2026-06-02</lastmod></url>
 <url><loc>https://carrecalltracker.com/lexus/</loc></url>
 <url><loc>https://carrecalltracker.com/lexus/es/</loc><lastmod>2023-12-20</lastmod></url>
 <url><loc>https://carrecalltracker.com/lexus/es350/</loc><lastmod>2020-11-04</lastmod></url>
@@ -404,6 +405,7 @@
 <url><loc>https://carrecalltracker.com/mazda/mazda6/</loc><lastmod>2021-11-12</lastmod></url>
 <url><loc>https://carrecalltracker.com/mazda/mx-5/</loc><lastmod>2025-05-22</lastmod></url>
 <url><loc>https://carrecalltracker.com/mercedes-benz/</loc></url>
+<url><loc>https://carrecalltracker.com/mercedes-benz/a-220-4matic/</loc><lastmod>2026-07-24</lastmod></url>
 <url><loc>https://carrecalltracker.com/mercedes-benz/amg-a35/</loc><lastmod>2026-07-24</lastmod></url>
 <url><loc>https://carrecalltracker.com/mercedes-benz/amg-c43/</loc><lastmod>2023-06-26</lastmod></url>
 <url><loc>https://carrecalltracker.com/mercedes-benz/amg-c63-s/</loc><lastmod>2023-06-26</lastmod></url>
@@ -434,6 +436,7 @@
 <url><loc>https://carrecalltracker.com/mercedes-benz/eqs-suv-580-4matic/</loc><lastmod>2025-06-05</lastmod></url>
 <url><loc>https://carrecalltracker.com/mercedes-benz/g-580-ev/</loc><lastmod>2026-03-27</lastmod></url>
 <url><loc>https://carrecalltracker.com/mercedes-benz/gla-250/</loc><lastmod>2026-07-24</lastmod></url>
+<url><loc>https://carrecalltracker.com/mercedes-benz/gla-250-4matic/</loc><lastmod>2026-07-24</lastmod></url>
 <url><loc>https://carrecalltracker.com/mercedes-benz/glb-250/</loc><lastmod>2026-07-24</lastmod></url>
 <url><loc>https://carrecalltracker.com/mercedes-benz/glb-250-4matic/</loc><lastmod>2026-07-24</lastmod></url>
 <url><loc>https://carrecalltracker.com/mercedes-benz/glc-300/</loc><lastmod>2026-05-01</lastmod></url>
@@ -543,6 +546,7 @@
 <url><loc>https://carrecalltracker.com/rivian/edv/</loc><lastmod>2025-11-25</lastmod></url>
 <url><loc>https://carrecalltracker.com/rivian/r1s/</loc><lastmod>2026-09-16</lastmod></url>
 <url><loc>https://carrecalltracker.com/rivian/r1t/</loc><lastmod>2026-09-16</lastmod></url>
+<url><loc>https://carrecalltracker.com/rivian/r2/</loc><lastmod>2026-09-16</lastmod></url>
 <url><loc>https://carrecalltracker.com/subaru/</loc></url>
 <url><loc>https://carrecalltracker.com/subaru/ascent/</loc><lastmod>2026-07-07</lastmod></url>
 <url><loc>https://carrecalltracker.com/subaru/brz/</loc><lastmod>2023-08-31</lastmod></url>
@@ -3066,7 +3070,7 @@
 <url><loc>https://carrecalltracker.com/guides/kia-fuel-system-gasoline-recalls/</loc><lastmod>2026-04-10</lastmod></url>
 <url><loc>https://carrecalltracker.com/guides/kia-latches-locks-linkages-recalls/</loc><lastmod>2023-08-24</lastmod></url>
 <url><loc>https://carrecalltracker.com/guides/kia-power-train-recalls/</loc><lastmod>2024-04-16</lastmod></url>
-<url><loc>https://carrecalltracker.com/guides/kia-seat-belts-recalls/</loc><lastmod>2024-05-14</lastmod></url>
+<url><loc>https://carrecalltracker.com/guides/kia-seat-belts-recalls/</loc><lastmod>2026-06-02</lastmod></url>
 <url><loc>https://carrecalltracker.com/guides/kia-seats-recalls/</loc><lastmod>2026-07-02</lastmod></url>
 <url><loc>https://carrecalltracker.com/guides/kia-service-brakes-hydraulic-recalls/</loc><lastmod>2023-06-07</lastmod></url>
 <url><loc>https://carrecalltracker.com/guides/kia-steering-recalls/</loc><lastmod>2024-06-07</lastmod></url>
@@ -3999,7 +4003,7 @@
 <url><loc>https://carrecalltracker.com/used/jeep/grand-cherokee/2023/</loc><lastmod>2026-09-01</lastmod></url>
 <url><loc>https://carrecalltracker.com/used/jeep/grand-cherokee/2024/</loc><lastmod>2026-09-01</lastmod></url>
 <url><loc>https://carrecalltracker.com/used/jeep/grand-cherokee/2025/</loc><lastmod>2026-09-01</lastmod></url>
-<url><loc>https://carrecalltracker.com/used/jeep/grand-wagoneer/2022/</loc><lastmod>2025-09-25</lastmod></url>
+<url><loc>https://carrecalltracker.com/used/jeep/grand-wagoneer/2022/</loc><lastmod>2026-09-10</lastmod></url>
 <url><loc>https://carrecalltracker.com/used/jeep/grand-wagoneer/2023/</loc><lastmod>2026-09-10</lastmod></url>
 <url><loc>https://carrecalltracker.com/used/jeep/grand-wagoneer/2024/</loc><lastmod>2026-09-10</lastmod></url>
 <url><loc>https://carrecalltracker.com/used/jeep/grand-wagoneer/2025/</loc><lastmod>2026-09-10</lastmod></url>
@@ -4013,7 +4017,7 @@
 <url><loc>https://carrecalltracker.com/used/jeep/wagoneer-l/2025/</loc><lastmod>2026-09-10</lastmod></url>
 <url><loc>https://carrecalltracker.com/used/jeep/wagoneer-s/2024/</loc><lastmod>2026-04-23</lastmod></url>
 <url><loc>https://carrecalltracker.com/used/jeep/wagoneer-s/2025/</loc><lastmod>2026-04-23</lastmod></url>
-<url><loc>https://carrecalltracker.com/used/jeep/wagoneer/2022/</loc><lastmod>2025-09-25</lastmod></url>
+<url><loc>https://carrecalltracker.com/used/jeep/wagoneer/2022/</loc><lastmod>2026-09-10</lastmod></url>
 <url><loc>https://carrecalltracker.com/used/jeep/wagoneer/2023/</loc><lastmod>2026-09-10</lastmod></url>
 <url><loc>https://carrecalltracker.com/used/jeep/wagoneer/2024/</loc><lastmod>2026-09-10</lastmod></url>
 <url><loc>https://carrecalltracker.com/used/jeep/wagoneer/2025/</loc><lastmod>2026-09-10</lastmod></url>
@@ -4351,11 +4355,11 @@
 <url><loc>https://carrecalltracker.com/used/ram/promaster/2024/</loc><lastmod>2025-12-17</lastmod></url>
 <url><loc>https://carrecalltracker.com/used/ram/promaster/2025/</loc><lastmod>2025-12-17</lastmod></url>
 <url><loc>https://carrecalltracker.com/used/rivian/edv/2022/</loc><lastmod>2025-11-25</lastmod></url>
-<url><loc>https://carrecalltracker.com/used/rivian/r1s/2022/</loc><lastmod>2026-01-15</lastmod></url>
+<url><loc>https://carrecalltracker.com/used/rivian/r1s/2022/</loc><lastmod>2026-09-16</lastmod></url>
 <url><loc>https://carrecalltracker.com/used/rivian/r1s/2023/</loc><lastmod>2026-09-16</lastmod></url>
 <url><loc>https://carrecalltracker.com/used/rivian/r1s/2024/</loc><lastmod>2026-09-16</lastmod></url>
 <url><loc>https://carrecalltracker.com/used/rivian/r1s/2025/</loc><lastmod>2026-09-16</lastmod></url>
-<url><loc>https://carrecalltracker.com/used/rivian/r1t/2022/</loc><lastmod>2026-01-15</lastmod></url>
+<url><loc>https://carrecalltracker.com/used/rivian/r1t/2022/</loc><lastmod>2026-09-16</lastmod></url>
 <url><loc>https://carrecalltracker.com/used/rivian/r1t/2023/</loc><lastmod>2026-09-16</lastmod></url>
 <url><loc>https://carrecalltracker.com/used/rivian/r1t/2024/</loc><lastmod>2026-09-16</lastmod></url>
 <url><loc>https://carrecalltracker.com/used/rivian/r1t/2025/</loc><lastmod>2026-09-16</lastmod></url>
@@ -4594,5 +4598,7 @@
 <url><loc>https://carrecalltracker.com/latest/</loc></url>
 <url><loc>https://carrecalltracker.com/about/</loc></url>
 <url><loc>https://carrecalltracker.com/privacy/</loc></url>
+<url><loc>https://carrecalltracker.com/terms/</loc></url>
+<url><loc>https://carrecalltracker.com/contact/</loc></url>
 <url><loc>https://carrecalltracker.com/recall-help/</loc></url>
 </urlset>
