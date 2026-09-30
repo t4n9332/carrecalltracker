@@ -127,7 +127,7 @@
 <url><loc>https://carrecalltracker.com/cadillac/escalade-iq/</loc><lastmod>2026-07-30</lastmod></url>
 <url><loc>https://carrecalltracker.com/cadillac/escalade-iql/</loc><lastmod>2026-07-30</lastmod></url>
 <url><loc>https://carrecalltracker.com/cadillac/lyriq/</loc><lastmod>2026-02-12</lastmod></url>
-<url><loc>https://carrecalltracker.com/cadillac/optiq/</loc><lastmod>2026-02-26</lastmod></url>
+<url><loc>https://carrecalltracker.com/cadillac/optiq/</loc><lastmod>2026-09-24</lastmod></url>
 <url><loc>https://carrecalltracker.com/cadillac/xt4/</loc><lastmod>2024-10-24</lastmod></url>
 <url><loc>https://carrecalltracker.com/cadillac/xt5/</loc><lastmod>2024-06-20</lastmod></url>
 <url><loc>https://carrecalltracker.com/cadillac/xt6/</loc><lastmod>2024-06-20</lastmod></url>
@@ -194,17 +194,17 @@
 <url><loc>https://carrecalltracker.com/ford/escape/</loc><lastmod>2026-03-03</lastmod></url>
 <url><loc>https://carrecalltracker.com/ford/escape-hybrid/</loc><lastmod>2022-02-24</lastmod></url>
 <url><loc>https://carrecalltracker.com/ford/escape-phev/</loc><lastmod>2026-02-17</lastmod></url>
-<url><loc>https://carrecalltracker.com/ford/expedition/</loc><lastmod>2026-06-24</lastmod></url>
+<url><loc>https://carrecalltracker.com/ford/expedition/</loc><lastmod>2026-09-22</lastmod></url>
 <url><loc>https://carrecalltracker.com/ford/explorer/</loc><lastmod>2026-07-21</lastmod></url>
 <url><loc>https://carrecalltracker.com/ford/explorer-police-intercept/</loc><lastmod>2022-04-14</lastmod></url>
 <url><loc>https://carrecalltracker.com/ford/f-150/</loc><lastmod>2026-06-09</lastmod></url>
 <url><loc>https://carrecalltracker.com/ford/f-250-sd/</loc><lastmod>2026-03-31</lastmod></url>
-<url><loc>https://carrecalltracker.com/ford/f-350-sd/</loc><lastmod>2026-03-17</lastmod></url>
+<url><loc>https://carrecalltracker.com/ford/f-350-sd/</loc><lastmod>2026-09-22</lastmod></url>
 <url><loc>https://carrecalltracker.com/ford/f-450/</loc><lastmod>2021-02-25</lastmod></url>
-<url><loc>https://carrecalltracker.com/ford/f-450-sd/</loc><lastmod>2026-03-31</lastmod></url>
+<url><loc>https://carrecalltracker.com/ford/f-450-sd/</loc><lastmod>2026-09-22</lastmod></url>
 <url><loc>https://carrecalltracker.com/ford/f-53/</loc><lastmod>2026-04-14</lastmod></url>
 <url><loc>https://carrecalltracker.com/ford/f-550/</loc><lastmod>2020-02-21</lastmod></url>
-<url><loc>https://carrecalltracker.com/ford/f-550-sd/</loc><lastmod>2026-03-31</lastmod></url>
+<url><loc>https://carrecalltracker.com/ford/f-550-sd/</loc><lastmod>2026-09-22</lastmod></url>
 <url><loc>https://carrecalltracker.com/ford/f-59/</loc><lastmod>2026-04-14</lastmod></url>
 <url><loc>https://carrecalltracker.com/ford/f-600-sd/</loc><lastmod>2026-03-31</lastmod></url>
 <url><loc>https://carrecalltracker.com/ford/f-650/</loc><lastmod>2024-12-20</lastmod></url>
@@ -2910,6 +2910,9 @@
 <url><loc>https://carrecalltracker.com/recall/26v356000/</loc><lastmod>2026-06-02</lastmod></url>
 <url><loc>https://carrecalltracker.com/recall/26v173000/</loc><lastmod>2026-03-20</lastmod></url>
 <url><loc>https://carrecalltracker.com/recall/26v590000/</loc><lastmod>2026-09-11</lastmod></url>
+<url><loc>https://carrecalltracker.com/recall/26v531000/</loc><lastmod>2026-08-13</lastmod></url>
+<url><loc>https://carrecalltracker.com/recall/26v612000/</loc><lastmod>2026-09-24</lastmod></url>
+<url><loc>https://carrecalltracker.com/recall/26v606000/</loc><lastmod>2026-09-22</lastmod></url>
 <url><loc>https://carrecalltracker.com/guides/acura-back-over-prevention-recalls/</loc><lastmod>2026-05-14</lastmod></url>
 <url><loc>https://carrecalltracker.com/guides/acura-fuel-system-gasoline-recalls/</loc><lastmod>2025-01-23</lastmod></url>
 <url><loc>https://carrecalltracker.com/guides/acura-seats-recalls/</loc><lastmod>2026-01-29</lastmod></url>
@@ -2992,7 +2995,7 @@
 <url><loc>https://carrecalltracker.com/guides/ford-engine-recalls/</loc><lastmod>2026-07-20</lastmod></url>
 <url><loc>https://carrecalltracker.com/guides/ford-engine-and-engine-cooling-recalls/</loc><lastmod>2026-05-27</lastmod></url>
 <url><loc>https://carrecalltracker.com/guides/ford-equipment-recalls/</loc><lastmod>2026-01-15</lastmod></url>
-<url><loc>https://carrecalltracker.com/guides/ford-exterior-lighting-recalls/</loc><lastmod>2026-06-09</lastmod></url>
+<url><loc>https://carrecalltracker.com/guides/ford-exterior-lighting-recalls/</loc><lastmod>2026-09-22</lastmod></url>
 <url><loc>https://carrecalltracker.com/guides/ford-forward-collision-avoidance-recalls/</loc><lastmod>2024-06-14</lastmod></url>
 <url><loc>https://carrecalltracker.com/guides/ford-fuel-system-diesel-recalls/</loc><lastmod>2026-03-17</lastmod></url>
 <url><loc>https://carrecalltracker.com/guides/ford-fuel-system-gasoline-recalls/</loc><lastmod>2026-06-09</lastmod></url>
@@ -3444,7 +3447,7 @@
 <url><loc>https://carrecalltracker.com/used/ford/expedition/2022/</loc><lastmod>2026-06-09</lastmod></url>
 <url><loc>https://carrecalltracker.com/used/ford/expedition/2023/</loc><lastmod>2026-06-09</lastmod></url>
 <url><loc>https://carrecalltracker.com/used/ford/expedition/2024/</loc><lastmod>2026-06-09</lastmod></url>
-<url><loc>https://carrecalltracker.com/used/ford/expedition/2025/</loc><lastmod>2026-02-20</lastmod></url>
+<url><loc>https://carrecalltracker.com/used/ford/expedition/2025/</loc><lastmod>2026-09-22</lastmod></url>
 <url><loc>https://carrecalltracker.com/used/ford/explorer/2018/</loc><lastmod>2026-07-14</lastmod></url>
 <url><loc>https://carrecalltracker.com/used/ford/explorer/2019/</loc><lastmod>2026-07-14</lastmod></url>
 <url><loc>https://carrecalltracker.com/used/ford/explorer/2020/</loc><lastmod>2026-07-14</lastmod></url>
@@ -3462,7 +3465,7 @@
 <url><loc>https://carrecalltracker.com/used/ford/f-350-sd/2019/</loc><lastmod>2025-09-04</lastmod></url>
 <url><loc>https://carrecalltracker.com/used/ford/f-350-sd/2020/</loc><lastmod>2026-03-17</lastmod></url>
 <url><loc>https://carrecalltracker.com/used/ford/f-350-sd/2021/</loc><lastmod>2026-03-17</lastmod></url>
-<url><loc>https://carrecalltracker.com/used/ford/f-350-sd/2026/</loc><lastmod>2026-03-03</lastmod></url>
+<url><loc>https://carrecalltracker.com/used/ford/f-350-sd/2026/</loc><lastmod>2026-09-22</lastmod></url>
 <url><loc>https://carrecalltracker.com/used/ford/f-450-sd/2019/</loc><lastmod>2025-09-04</lastmod></url>
 <url><loc>https://carrecalltracker.com/used/ford/f-450-sd/2021/</loc><lastmod>2026-03-17</lastmod></url>
 <url><loc>https://carrecalltracker.com/used/ford/f-450-sd/2022/</loc><lastmod>2026-03-31</lastmod></url>
