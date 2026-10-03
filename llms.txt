@@ -10,7 +10,7 @@ Recall repairs in the United States are free of charge at any franchised dealer 
 
 - `/recall/{nhtsa-campaign-number}/` — one recall, e.g. https://carrecalltracker.com/recall/24v744000/ (campaign number in lower case, 9 characters)
 - `/{make}/` and `/{make}/{model}/` — all recalls for a make or model, with a model-year comparison table and FAQ, e.g. https://carrecalltracker.com/honda/cr-v/
-- `/used/{make}/{model}/{year}/` — what to check before buying that model year used: recalls, complaint counts by problem area, inspection points (1376 pages)
+- `/used/{make}/{model}/{year}/` — what to check before buying that model year used: recalls, complaint counts by problem area, inspection points (1377 pages)
 - `/guides/{make}-{component}-recalls/` — problem guides that pull together every recall a make has had in one area, e.g. air bags or fuel system (314 guides)
 
 ## Key pages
