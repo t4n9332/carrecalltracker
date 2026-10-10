@@ -27,7 +27,7 @@
 </head>
 <body>
 <header class="top"><a class="brand" href="/"><svg class="logo" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="7" fill="currentColor"/><path d="M16 5 7 8.5v7c0 5.6 3.8 10.4 9 12 5.2-1.6 9-6.400 9-12v-7z" fill="var(--bg)"/><path d="m11.5 16 3.2 3.2 5.8-6.400" fill="none" stroke="currentColor" stroke-width="2.600" stroke-linecap="round" stroke-linejoin="round"/></svg>Car Recall Tracker</a>
-<nav><a href="/#makes">Makes</a> <a href="/guides/">Guides</a> <a href="/latest/">Latest</a> <a href="/do-not-drive/">Do not drive</a> <a href="/recall-help/">Help</a></nav></header>
+<nav><a href="/#makes">Makes</a> <a href="/guides/">Guides</a> <a href="/articles/">Articles</a> <a href="/latest/">Latest</a> <a href="/do-not-drive/">Do not drive</a> <a href="/recall-help/">Help</a></nav></header>
 <main>
 
 <h1>About Car Recall Tracker</h1>
@@ -41,12 +41,33 @@
 <tr><td><span class="sev sev-medium">medium</span></td><td>A real safety risk, but one that usually gives warning or matters only in particular conditions, such as a rear camera image that fails to display.</td></tr>
 <tr><td><span class="sev sev-low">low</span></td><td>Labelling, documentation or minor compliance problems with little direct effect on how the vehicle drives.</td></tr></table>
 <p>Owner complaint figures come from NHTSA's public complaints database. We publish counts only. Complaints are unverified reports from owners, and models that sell in larger numbers naturally collect more of them, so a high count is not proof of a defect. The <a href="/watchlist/">watchlist</a> compares complaint areas with recall areas by broad category and can miss a recall filed under a different label.</p>
+<h2 id="why">Why this site exists</h2>
+<p>Many recalled vehicles never get their free repair. Letters go to old addresses, cars change hands, and the notices themselves are written in regulatory language that is hard to act on. The aim here is simple: make it quick to find every recall for a specific vehicle, understand what it means in a minute, and know exactly what to do next. Each make and model page also lists the manufacturer's official recall lookup and customer service number, so owners can go straight to the source.</p>
+
+<h2 id="method">How the data is built</h2>
+<ul>
+<li><strong>Recalls</strong> are collected every day from NHTSA's public recall API for every make and model, model years 2018 and newer. Each record keeps the official summary, consequence and remedy text unchanged.</li>
+<li><strong>Complaint counts</strong> come from NHTSA's public complaints API. We store and publish totals by problem area and year only, never the text of individual complaints.</li>
+<li><strong>Problem guides</strong> group a make's recalls in one problem area (for example fuel system or air bags) once there are at least three of them.</li>
+<li><strong>Used-car pages</strong> combine a model year's recalls and complaint counts into a pre-purchase checklist.</li>
+<li><strong>Manufacturer contacts</strong> are checked by hand against the phone numbers printed in NHTSA owner notices.</li>
+</ul>
+
+<h2 id="editorial">Editorial process and use of AI</h2>
+<p>The short plain-English explanations on recall pages, the problem guides and the used-car notes are drafted by an AI language model working only from the official notice text, under fixed rules: describe only what the notice says, never tell owners a vehicle is safe to keep driving, and always point to the official remedy. They are clearly accompanied by the original notice on every page.</p>
+<p>Because automated text can be wrong, we check it. Random samples of explanations are regularly compared line by line against the official notices, and the instructions are tightened whenever a pattern of mistakes shows up; affected pages are then rewritten. Recall pages that do not have an explanation yet, and used-car pages with too little data to say anything useful, are kept out of search engines.</p>
+<p>The <a href="/articles/">articles</a> section — on topics like <a href="/articles/how-a-car-recall-happens/">how recalls happen</a>, <a href="/articles/recall-reimbursement/">reimbursement</a> and <a href="/articles/buying-used-car-open-recall/">buying a used car with an open recall</a> — is written and reviewed by the editor, based on NHTSA's published guidance and federal regulations.</p>
+
+<h2 id="corrections">Corrections</h2>
+<p>If you find an error — a wrong model listed, an explanation that does not match the notice, an outdated phone number — email <a href="mailto:t4n0321@gmail.com">t4n0321@gmail.com</a> with the page address. We fix confirmed errors promptly, usually in the next daily update.</p>
+
+<h2 id="independence">Independence and advertising</h2>
 <p>We cover model years 2018 and newer. Data is refreshed daily. This site is independent, run by a single publisher, and is not affiliated with NHTSA or any vehicle manufacturer. It is supported by advertising, which never influences what is published. See our <a href="/terms/">terms and disclaimer</a>, <a href="/privacy/">privacy policy</a> and <a href="/contact/">contact page</a>.</p>
 
 </main>
 <footer>
 <p>Recall data is published by the U.S. National Highway Traffic Safety Administration (NHTSA). Plain-English explanations are generated automatically and may contain errors — always confirm with the official notice and your dealer.</p>
-<p><a href="/recall-help/">How recalls work</a> · <a href="/watchlist/">Watchlist</a> · <a href="/about/">About</a> · <a href="/contact/">Contact</a> · <a href="/privacy/">Privacy</a> · <a href="/terms/">Terms</a> · <a href="https://www.nhtsa.gov/recalls" rel="nofollow">Official NHTSA recall search</a></p>
+<p><a href="/recall-help/">How recalls work</a> · <a href="/articles/">Articles</a> · <a href="/articles/recall-data/">Recall data</a> · <a href="/watchlist/">Watchlist</a> · <a href="/about/">About</a> · <a href="/contact/">Contact</a> · <a href="/privacy/">Privacy</a> · <a href="/terms/">Terms</a> · <a href="https://www.nhtsa.gov/recalls" rel="nofollow">Official NHTSA recall search</a></p>
 </footer>
 </body>
 </html>

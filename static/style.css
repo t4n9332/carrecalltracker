@@ -106,3 +106,4 @@ footer{margin-top:56px;padding-block:24px 32px;line-height:1.7}footer a{color:va
 @media(max-width:560px){.hero{padding:6px 16px 16px}.hero h1{font-size:1.75rem}h1{font-size:1.55rem}body>header.top{position:static}nav a{padding:4px 6px;margin:0}}
 @media print{body>header.top{position:static}.card,.hero,ul.grid li{box-shadow:none}.bars{display:none}}
 table.facts th{width:38%;text-transform:none;font-size:.9rem;background:var(--soft);border-right:1px solid var(--line)}table.facts{max-width:640px}
+.tablewrap{overflow-x:auto;margin:10px 0}
